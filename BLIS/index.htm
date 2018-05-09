@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="author" content="Fredrick Mwasekaga" />
+		<meta name="description" content="Kaga Connect is a software+services company" />
+		<meta name="keywords" content="kaga,connect" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Required at the beginning-->
+		<script src="include/scripts/jquery-3.2.1.js"></script>	
+		
+		<!-- Optional-->
+		<script src="include/thirdparty/Blob.js/Blob.js" type="text/javascript" ></script>
+		<script src="include/thirdparty/FileSaver.js/src/FileSaver.min.js" type="text/javascript" ></script>		
+		<script src="include/thirdparty/Stuk-jszip/dist/2.6.1/jszip.min.js" type="text/javascript" ></script>
+		<script src="include/thirdparty/js-xlsx/dist/xlsx.js" type="text/javascript" ></script>		
+		<script src="include/thirdparty/DialogEffects/js/modernizr.custom.js"></script>
+		<script src="include/thirdparty/DialogEffects/js/classie.js"></script>
+		<script src="include/thirdparty/DialogEffects/js/dialogFx.js"></script>
+		<script src="include/thirdparty/jsPDF/dist/jspdf.debug.js" type="text/javascript" ></script>
+		<script src="include/thirdparty/isotope/isotope.pkgd.min.js" type="text/javascript" ></script>
+		<script src="include/thirdparty/air-datepicker/dist/js/datepicker.min.js"></script>
+		<script src="include/thirdparty/air-datepicker/dist/js/i18n/datepicker.en.js"></script>
+		<script src="include/thirdparty/masonry/masonry.pkgd.min.js"></script>
+		
+		<link  href="include/thirdparty/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">		
+		<link  href="include/styles/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+		<link  href="include/styles/tpage.css"  rel="stylesheet" type="text/css" />	
+		<link  href="include/styles/switches.css"  rel="stylesheet" type="text/css" />	
+		<link  href="include/styles/tooltips.css"  rel="stylesheet" type="text/css" />
+		<link  href="include/thirdparty/DialogEffects/css/dialog.css"  rel="stylesheet" type="text/css" />	
+		<link  href="include/thirdparty/DialogEffects/css/dialog-don.css"  rel="stylesheet" type="text/css" />		
+		<link  href="include/styles/styles.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Required at the end-->
+		<script src="include/scripts/require.js"></script>
+		
+		<title>Basic Laboratory Information System : Pro-Edition</title>	
+</head>
+<body data-transition="2" class="Overflow-Hidden" style="position:relative; ">
+	<div id="appHolder" class="FlexDisplay Animation-3ms" style="width:100%; height:100%;  position:relative;">
+		<div id="content" class="FlexDisplay FlexColumn Animation-3ms Blue-Dark" style="width:100%; height:100%; position:relative;"></div>
+	</div>
+</body>
+</html>
+
+<script>
+var cancelStream 		= false;
+var currentPage 		= null;
+var loadingTimer 		= null;
+var mainPageAnimation 	= null;
+window.app 				= null;
+
+function ShowErrorDialog(errorMessage){
+	var content = '';
+		content += '<div class="FlexDisplay FlexRow scroll scroll2" style="width:100%; max-height:100px;  margin:8px 0px 4px 0px;" >';
+		content += '	<span class="DialogTitle" style="white-space: wrap; margin:auto auto; font-weight:bolder; color:gray; font-size:14px;">'+errorMessage+'</span>';
+		content += '</div>';
+		content += '<div class="FlexDisplay FlexRow" style="width:100%; height:auto; margin:4px 0px 8px 0px;" >';
+		content += '	<div class="FlexDisplay FlexRow" style="margin:auto auto; height:auto;" >';
+		content += '		<div class="OkButton FlexDisplay NonStandard Button Directional Submit Round" class="trigger" style="margin:4px; min-width:80px; max-width:80px;"><span class="text" style="text-align:center; margin: 8px 0px 8px 0px;"><span style="display:block; margin: 0px 0px 0px 0px;">OK</span></span></div>';
+		content += '	</div>';
+		content += '</div>';
+		
+		var dlg = app.showDialog('<i class="mdi mdi-alert-circle-outline"></i>', 'Error', content);
+		$(dlg.el).find(".OkButton").unbind( "click" );
+		$(dlg.el).find(".OkButton").click(function() {
+			$(dlg.el).find(".OkButton").unbind( "click" );
+			dlg.toggle();
+		});
+		
+	return dlg;
+}
+
+function NaviageTo(page){
+	cancelStream = true;
+	if(currentPage != page){
+		currentPage = page;
+		clearTimeout(loadingTimer);		
+		if(app != undefined && mainPageAnimation == undefined || mainPageAnimation == null){
+			mainPageAnimation = app.pageAnimation("#202529","#ececec","#ffffff");
+			mainPageAnimation.el.style.position = "absolute";
+			$('#appHolder').append(mainPageAnimation.el);	
+		}		
+		mainPageAnimation.show(function(){
+			mainPageAnimation.text("Loading : "+page);
+			
+			loadingTimer = setTimeout(function(){
+				cancelStream = false;
+				app.loader.get(page, {'Content-Type': 'application/x-www-form-urlencoded'},
+					function(stream, bytesReceived, completed){
+						console.log({Stream:stream, BytesReceived:bytesReceived, Completed:completed});
+						if(cancelStream == true && stream != undefined && stream != null){
+							stream.cancel();
+						}					
+					})
+					.then(page=>page.text())
+					.then(page=>{
+						if(cancelStream == false){
+							mainPageAnimation.text("");
+							$("#content").html(page);
+						}
+					})
+					.catch(error=>{
+						mainPageAnimation.close(function(){
+							mainPageAnimation.text("");
+						});
+						//ShowErrorDialog(JSON.stringify(app.exception(new Error(error))));
+						ShowErrorDialog(error);
+					});
+			}, 2000);
+		});	
+	}
+}
+
+$(document).ready(function(){ 
+	require(['scripts/app'], function(app) {
+		window.app = app;
+				
+		NaviageTo("views/index.htm");
+		
+		//console.log(app);
+	});	
+});
+</script>

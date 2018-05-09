@@ -1,0 +1,190 @@
+
+.switch{
+  --uiSwitchSize: var(--switchSize, 64px);
+  --uiSwitchWidthSize: var(--switchWidthSize, 64px);
+  --uiSwitchHeightSize: var(--switchHeightSize, 64px);
+  
+  --uiSwitchBgColor: var(--switchBgColor, #f1f1f1);
+  --uiSwitchBgColorActive: var(--switchBgColorActive, #4FC2E5);
+  --uiSwitchBorderColorActive: var(--switchBorderColorActive, #fff);
+  --uiSwitchBorderColorFocus: var(--switchBgColorFocus, #43b556);
+  --uiSwitchButtonBgColor: var(--switchButtonBgColor, #fff);  
+  
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;    
+}
+
+.switch__label{
+  display: block;
+  width: 100%;
+  height: 100%;  
+}
+
+.switch__toggle{
+  width: 0;
+  height: 0;
+  opacity: 0;
+  
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+
+.switch__toggle:focus ~ .switch__label{
+  -webkit-box-shadow: 0 0 0 var(--uiSwitchThickFocus, 4px) var(--uiSwitchBorderColorFocus);
+          box-shadow: 0 0 0 var(--uiSwitchThickFocus, 4px) var(--uiSwitchBorderColorFocus);
+}
+
+.switch__toggle:checked:focus ~ .switch__label{
+  -webkit-box-shadow: 0 0 0 var(--uiSwitchThickFocus, 4px) var(--uiSwitchBorderColorActive);
+          box-shadow: 0 0 0 var(--uiSwitchThickFocus, 4px) var(--uiSwitchBorderColorActive);
+}
+
+.switch__label:before, .switch__label:after{
+  content: "";
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.switch__label:before{
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: var(--uiSwitchBgColor);
+}
+
+.switch__label:after{
+  top: 50%;
+  z-index: 3;
+  -webkit-transition: -webkit-transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+  transition: -webkit-transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+  transition: transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+  transition: transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15), -webkit-transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+}
+
+/* type 1 */
+
+.switch_type1{  
+  -webkit-box-shadow: 0 0 0 var(--uiSwitchBorderThick, 1px) var(--uiSwitchBorderColor, rgba(0,0,0,0.3));
+          box-shadow: 0 0 0 var(--uiSwitchBorderThick, 1px) var(--uiSwitchBorderColor, rgba(0,0,0,0.3));
+  
+  width: var(--uiSwitchWidthSize);
+  height: calc(var(--uiSwitchHeightSize) / 2);
+  border-radius: var(--uiSwitchBorderRadius);    
+  background-color: var(--uiSwitchBgColorActive);
+}
+
+.switch_type1 .switch__label{
+  border-radius: var(--uiSwitchBorderRadius);    
+}
+
+.switch_type1 .switch__label:before{
+  border-radius: var(--uiSwitchBorderRadius);
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  background-color: var(--uiSwitchBgColor);
+}
+
+.switch_type1 .switch__toggle:checked ~ .switch__label:before{
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  background-color: var(--uiSwitchBgColorActive);
+}
+
+.switch_type1 .switch__label:after{	
+  width: calc(var(--uiSwitchWidthSize) / 2);
+  height: calc(var(--uiSwitchHeightSize) / 2);
+  -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+  
+  background-color: var(--uiSwitchButtonBgColor);
+  border-radius: 0%;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, .3);  
+}
+
+.switch_type1 .switch__toggle:checked ~ .switch__label:after{
+  -webkit-transform: translate3d(100%, -50%, 0);
+          transform: translate3d(100%, -50%, 0);
+}
+
+/* type 2 */
+
+.switch_type2{
+  --uiSwitchIndent: var(--switchIndent, 8px);
+  --uiSwitchBorderRadius: var(--switchBorderRadius, 60px);
+  
+  width: var(--uiSwitchWidthSize);
+  height: calc(var(--uiSwitchHeightSize) / 2);
+  border-radius: var(--uiSwitchBorderRadius);    
+  background-color: var(--uiSwitchBgColorActive);
+}
+
+.switch_type2 .switch__label{
+  border-radius: var(--uiSwitchBorderRadius);    
+}
+
+.switch_type2 .switch__label:before{
+  border-radius: var(--uiSwitchBorderRadius);    
+  -webkit-transition: opacity .2s ease-out .1s, -webkit-transform .2s ease-out .1s;    
+  transition: opacity .2s ease-out .1s, -webkit-transform .2s ease-out .1s;    
+  transition: opacity .2s ease-out .1s, transform .2s ease-out .1s;    
+  transition: opacity .2s ease-out .1s, transform .2s ease-out .1s, -webkit-transform .2s ease-out .1s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;  
+}
+
+.switch_type2 .switch__toggle:checked ~ .switch__label:before{
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: .7;
+}
+
+.switch_type2 .switch__toggle ~ .switch__label:after{
+  width: calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2));
+  height: calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2));
+  -webkit-transform: translate3d(var(--uiSwitchIndent), -50%, 0);
+          transform: translate3d(var(--uiSwitchIndent), -50%, 0);
+  
+  background-color: var(--uiSwitchButtonBgColor);
+  border-radius: 100%;
+}
+
+.switch_type2 .switch__toggle:checked ~ .switch__label:after{
+  -webkit-transform: translate3d(calc(var(--uiSwitchWidthSize) - calc((var(--uiSwitchHeightSize) / 2) - calc(var(--uiSwitchIndent) * 2)) - var(--uiSwitchIndent)), -50%, 0);
+          transform: translate3d(calc(var(--uiSwitchWidthSize) - calc((var(--uiSwitchHeightSize) / 2) - calc(var(--uiSwitchIndent) * 2)) - var(--uiSwitchIndent)), -50%, 0);
+}
+
+/* type 3 */
+
+.switch_type3{
+  --uiSwitchIndent: var(--switchIndent, 8px);
+  
+  width: var(--uiSwitchSize);
+  height: calc((var(--uiSwitchSize) / 2));
+  background-color: var(--uiSwitchBgColorActive);
+}
+
+.switch_type3 .switch__toggle:checked ~ .switch__label:before{
+  background-color: var(--uiSwitchBgColorActive);
+}
+
+.switch_type3 .switch__label:after{
+  width: calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2));
+  height: calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2));
+  -webkit-transform: translate3d(var(--uiSwitchIndent), -50%, 0);
+          transform: translate3d(var(--uiSwitchIndent), -50%, 0);
+  background-color: var(--uiSwitchButtonBgColor);
+}
+
+.switch_type3 .switch__toggle:checked ~ .switch__label:after{
+  -webkit-transform: translate3d(calc(var(--uiSwitchSize) - calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2)) - var(--uiSwitchIndent)), -50%, 0);
+          transform: translate3d(calc(var(--uiSwitchSize) - calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2)) - var(--uiSwitchIndent)), -50%, 0);
+}

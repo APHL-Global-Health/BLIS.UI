@@ -1,0 +1,251 @@
+<div class="FlexDisplay White Shadow-Navigation FlexRow" style="width:100%; ">
+	<div class="FlexDisplay  FlexRow Shadow White" style="margin:0px 0px 1px 0px; width:100%; height:100%;">
+		
+		<div class='Menu FlexDisplay Divider-Right '>
+			<ul class='Selection select--generic filter_gender' >
+				<li data-selected='true' data-value='title'>Gender</li>
+				<li data-value='male'  >Male</li>
+				<li data-value='female'>Female</li>
+				<li data-value='other' >Other</li>
+			</ul>
+		</div>		
+		<div class='FlexDisplay Divider-Right '>
+			<div style="cursor:default; color:gray; width:150px;">
+				<input type="text" id="searchMessage" maxlength="14"  style="height:30px; font-weight:normal; font-size:16px; background:transparent; margin: 11px 0px 8px 16px; width:130px;" placeholder="Search">
+			</div>
+			<div id="searchBtn" class="FlexDisplay NonStandard Button Directional"><i class="mdi mdi-magnify" style="margin-top:16px;"></i></div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox Padding" style="width:100%; height:100%; padding-bottom:16px;">	
+	<div id="boxer" class="FlexDisplay Flex FlexRow Shadow White Round" style="width:100%; height:100%;">
+		
+		<div id="patientBox" class="FlexDisplay FlexColumn Overflow-Hidden Animation-3ms Grayish-Light" style="min-width:0px;">
+			<div id="innerPatientBox" class="scroll scroll2"  style="width:100%; overflow-y:auto; overflow-x:hidden; display:none;">
+				<div class="FlexDisplay Divider-Bottom FlexRow Blue-Dark" style="width:100%; height: 48.5px;">
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:100%;">
+						<div class="Header" style="font-size:12px; margin: 0px 0px 0px 16px; cursor:default; color:white;"><div style="margin:20px 0px  0px  0px;">DETAILS</div></div>
+					</div>	
+					<div id="progBr" class="FlexHidden Button Directional" style="margin-right:8px; margin-top:6px;">
+						<div class="spinner" style="margin-top:10px;">
+						  <div class="rect1" style="background-color: #616161"></div>
+						  <div class="rect2" style="background-color: #616161"></div>
+						  <div class="rect3" style="background-color: #616161"></div>
+						  <div class="rect4" style="background-color: #616161"></div>
+						  <div class="rect5" style="background-color: #616161"></div>
+						</div>
+					</div>					
+					<div id="addTestBtn" class="FlexHidden Button Directional Divider-Left"><i class="mdi mdi-test-tube" style="color:white;"></i></div>
+					<div id="saveBtn" class="FlexDisplay NonStandard Button Directional Divider-Left"><i class="mdi mdi-content-save" style="color:white;"></i></div>
+					<div id="closeBtn" class="FlexDisplay NonStandard Button Directional Divider-Left"><i class="mdi mdi-close" style="color:white;"></i></div>
+				</div>
+				<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%;">
+					<label class="input" style="width:100%; display:block;">
+						<input type="text" id="patient_no" class="Grayish-Light" style="color:white; height:30px; margin: 8px 0px 8px 24px; width:252px; font-weight:normal;" placeholder="Patient Number">
+					</label>
+				</div>	
+				<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%;">
+					<label class="input" style="width:100%; display:block;">
+						<input type="text" id="patient_names"  class="Grayish-Light"  style="color:white; height:30px; margin: 8px 0px 8px 24px; width:252px; font-weight:normal;" placeholder="Names">
+					</label>
+				</div>
+				<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%;">
+					<label class="input" style="width:100%; display:block;">
+						<input type="text" id="patient_dob"  class="Grayish-Light"  style="color:white; height:30px; margin: 8px 0px 8px 24px; width:252px; font-weight:normal;" placeholder="Date Of Birth">
+					</label>
+				</div>
+				<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%;">
+					<div class='Menu3 FlexDisplay Flex Grayish-Light' style='height:50px; z-index:2;'>
+						<ul class='Selection select--generic patient_gender'>
+							<li data-selected='true' data-value='title' style="color:#C7C7CD;">Gender</li>
+							<li data-value='male' style="color:white;">Male</li>
+							<li data-value='female' style="color:white;">Female</li>
+							<li data-value='other' style="color:white;">Other</li>
+						</ul>
+					</div>
+				</div>
+				<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%;">
+					<label class="input" style="width:100%; display:block;">
+						<input type="text" id="patient_phone"  class="Grayish-Light"  style="color:white; height:30px; margin: 8px 0px 8px 24px; width:252px; font-weight:normal;" placeholder="Phone Number">
+					</label>
+				</div>
+				<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%;">
+					<label class="input" style="width:100%; display:block;">
+						<input type="text" id="patient_email" class="Grayish-Light"   style="color:white; height:30px; margin: 8px 0px 8px 24px; width:252px; font-weight:normal;" placeholder="Email">
+					</label>
+				</div>			
+				<div class="FlexDisplay Flex FlexRow">	
+				<label class="textarea FlexDisplay Flex FlexRow"> 
+					<textarea id="patient_address" class="Grayish-Light" placeholder="Physical Address" style="color:white; font-size:14px; font-weight:normal;"></textarea>
+				</label>
+			</div>	
+			</div>
+		</div>
+		
+		<div id="innerBox" class="FlexDisplay FlexColumn Divider-Left Overflow-Hidden" style="width:100%; height:100%;">
+			<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%; height: 48.5px;">
+				<div class="FlexDisplay Flex FlexRow" style="width:100%; height:100%;">
+					<!--<div id="leftBtn" class="FlexDisplay NonStandard Button Directional Divider-Right"><i class="mdi mdi-chevron-left"></i></div>
+					<div id="rightBtn" class="FlexDisplay NonStandard Button Directional Divider-Right"><i class="mdi mdi-chevron-right"></i></div>-->
+					<div id="patientTitle" class="Header" style="font-size:12px; margin: 0px 0px 0px 16px; cursor:default; color:gray;"><div style="margin:20px 0px  0px  0px;">0 - 0 of 0 Patients</div></div>
+				</div>
+				
+				<div id="newPatientBtn" class="FlexDisplay NonStandard Button Directional Divider-Left"><i class="mdi mdi-account-plus"></i></div>
+				<div id="leftBtn" class="FlexDisplay NonStandard Button Directional Divider-Left"><i class="mdi mdi-chevron-left"></i></div>
+				<div id="rightBtn" class="FlexDisplay NonStandard Button Directional Divider-Left"><i class="mdi mdi-chevron-right"></i></div>
+				
+				<!--<div id="printBtn" class="FlexHidden NonStandard Button Directional "><i class="mdi mdi-printer"></i></div>				
+				<div id="downloadBtn" class="FlexHidden NonStandard Button Directional "><i class="mdi mdi-download"></i></div>-->
+			</div>
+			<div class="FlexDisplay FlexColumn"  style="width:100%; min-height: 30px; max-height: 30px;">
+				<div class="FlexDisplay FlexRow Divider-Bottom Overflow-Hidden" style="width:100%; padding:0px; border-bottom: 1px solid rgba(0,0,0,.2);">
+					<div class="FlexDisplay Divider-Right" style="min-width:100px; max-width:100px; min-height: 30px; max-height: 30px; padding:12px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">PATIENT NUMBER</span></div>
+					<div class="FlexDisplay Divider-Right" style="min-width:40px; max-width:40px; min-height: 30px; max-height: 30px; overflow:hidden; padding:12px 8px 0px 8px; font-size:9px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">GENDER</span></div>
+					<div class="FlexDisplay Divider-Right" style="min-width:70px; max-width:70px; min-height: 30px; max-height: 30px; overflow:hidden; padding:12px 8px 0px 8px; font-size:9px;"><span style="text-align:center; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">DATE OF BIRTH</span></div>
+					<div class="FlexDisplay Divider-Right" style="min-width:80px; max-width:80px; min-height: 30px; max-height: 30px; overflow:hidden; padding:12px 8px 0px 8px; font-size:9px;"><span style="text-align:center; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">PHONE NUMBER</span></div>
+					<div class="FlexDisplay" style="width:100%; min-height: 30px; max-height: 30px; overflow:hidden; padding:12px 8px 0px 8px; font-size:9px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">NAME</span></div>				
+				</div>
+			</div>	
+			<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox "  style="width:100%; height:100%;">
+				<div id="patientListBox" class="scroll scroll2"  style="width:100%; overflow-y:auto;">
+				</div>
+			</div>	
+		</div>
+		
+			
+	</div>
+</div>
+
+<script>
+function CreateFakePatientes()
+{
+	var msgs = ''; 
+		for(x=0;x<100;x++)
+		{
+			var id = x+1;
+			var msg = '<div id="'+id+'" class="FlexDisplay FlexRow Divider-Bottom Overflow-Hidden CheckBoxBold" style="width:100%; min-width:100%; min-height: 28px; max-height: 28px;" onclick="SelectedPatient(this, \''+id+'\',\''+(x%3==0 ? 'male' : 'female')+'\',\''+'01-12-1985'+'\',\''+'255757735767'+'\',\''+'fmwasekaga@gmail.com'+'\',\''+'Fredrick Lusako Mwasekaga'+'\',\''+'P.O.Box 70375'+'\')">'; //onclick="SelectedItem(this,\''+recepients+'\',\''+message1+'\',\''+message1SentOn+'\',\''+message2+'\',\''+message2SentOn+'\')"
+				//msg += '	<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; height:100%; padding:8px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%;"><i class="mdi '+messageOneStatus+'"></i></span></div>';
+				//msg += '	<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; height:100%; padding:8px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%;"><i class="mdi '+messageTwoStatus+'"></i></span></div>';
+				msg += '	<div class="FlexDisplay Divider-Right" style="min-width:100px; max-width:100px; height:100%; padding:8px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:11px;">'+id+'</span></div>';
+				msg += '	<div class="FlexDisplay Divider-Right" style="min-width:40px; max-width:40px; width:100%; height:100%; overflow:hidden; padding:8px 8px 0px 8px; font-size:11px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1.3;">'+(x%3==0 ? 'Male' : 'Female')+'</span></div>';
+				msg += '	<div class="FlexDisplay Divider-Right" style="min-width:70px; max-width:70px; width:100%; height:100%; overflow:hidden; padding:8px 8px 0px 8px; font-size:11px;"><span style="text-align:center; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1.3;">01-12-2195</span></div>';
+				msg += '	<div class="FlexDisplay Divider-Right" style="min-width:80px; max-width:80px; width:100%; height:100%; overflow:hidden; padding:8px 8px 0px 8px; font-size:11px;"><span style="text-align:center; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1.3;">255757735767</span></div>';
+				//msg += '	<div class="FlexDisplay Divider-Right" style="min-width:200px; max-width:200px; width:100%; height:100%; overflow:hidden; padding:8px 8px 0px 8px; font-size:11px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1.3;">'+item.FacilityName+'</span></div>';
+				msg += '	<div class="FlexDisplay" style="width:100%; height:100%; overflow:hidden; padding:8px 8px 0px 8px; font-size:11px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1.3;">Fredrick Lusako Mwasekaga</span></div>';						
+				msg += '</div>';
+				msgs += msg;
+		}
+		
+		$('#patientListBox').html(msgs);
+		$('#patientTitle').html('<div style="margin:20px 0px;">1 - 100 of 100 Patients</div>');
+		
+}
+
+
+function EditPatientBox(patient_no, patient_gender, patient_dob, patient_phone, patient_email, patient_names, patient_address)
+{
+	$('#patient_address').val(patient_address);
+	$('#patient_email').val(patient_email);
+	$('#patient_phone').val(patient_phone);
+	$('#patient_dob').val(patient_dob);
+	$('#patient_names').val(patient_names);
+	$('#patient_no').val(patient_no);
+	SelectItemByValue($(".Selection.patient_gender"),patient_gender);
+}
+
+function SelectedPatient(item, patient_no, patient_gender, patient_dob, patient_phone, patient_email, patient_names, patient_address)//
+{
+	//if($("#sendBtn").hasClass('Disabled') == false)
+	{
+		$(item).parent().children().each(function(){
+			$(this).removeClass('Selected');
+		});
+		$(item).addClass('Selected');
+	
+		$('#addTestBtn').addClass("FlexDisplay");
+		$('#addTestBtn').addClass("NonStandard");
+	
+		EditPatientBox(patient_no, patient_gender, patient_dob, patient_phone, patient_email, patient_names, patient_address);
+		$('#patientBox').css({"min-width":"300px","height":$('#innerBox').css("height")}).delay(300).queue(function()
+		{
+			$( this ).dequeue();
+			$('#innerPatientBox').show();	
+		});
+	}	
+}
+
+function SelectedItem(item)
+{
+	$(item).parent().children().each(function(){
+		$(this).removeClass('Selected');
+	});
+	$(item).addClass('Selected');
+}
+
+$('#addTestBtn').unbind( "click" );
+$('#addTestBtn').click(function()  
+{ 
+	$("#menuSlider").css({"top":"112px"});
+	LoadSubPage('tests/new', 'TEST - NEW', '?requestor=patient');
+});
+
+$('#newPatientBtn').unbind( "click" );
+$('#newPatientBtn').click(function() 
+{ 
+	//if($('#reportListBox').html().trim() != '')
+	{   
+
+		$('#addTestBtn').removeClass("FlexDisplay");
+		$('#addTestBtn').removeClass("NonStandard");
+		
+		EditPatientBox('','title','','','','','');
+		$('#patientListBox').children().each(function(){
+			$(this).removeClass('Selected');
+		});		
+		$('#patientBox').css({"min-width":"300px","height":$('#innerBox').css("height")}).delay(300).queue(function()
+		{
+			$( this ).dequeue();
+			$('#innerPatientBox').show();	
+		});
+	}
+});
+
+$('#closeBtn').unbind( "click" );
+$('#closeBtn').click(function()  
+{ 
+	$('#innerPatientBox').hide().delay(100).queue(function()
+	{
+		$( this ).dequeue();
+		EditPatientBox('','title','','','','','');
+		$('#patientBox').css({"min-width":"0px","height":$('#innerBox').css("height")});
+		$('#patientListBox').children().each(function(){
+			$(this).removeClass('Selected');
+		});
+	});
+	
+});
+
+function onResize(){
+	var wpx = $("#boxer").css("width").replace(/px/g,'');
+	var hpx = $("#content").css("height").replace(/px/g,'')-125;
+	$('#innerBox').css({"width":wpx+"px","max-height":hpx+"px"});
+	$('#patientBox').css({"height":$('#innerBox').css("height")});
+}
+
+//var resizeTimer;
+onResize();
+
+//$(window).off("resize");
+//$(window).resize(function (){
+//	clearTimeout(resizeTimer);
+//	onResize();
+//    resizeTimer = setTimeout(function (){
+//		
+//	}, 300);
+//});
+
+CreateFakePatientes();
+CloseTransition();
+</script>

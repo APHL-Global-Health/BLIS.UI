@@ -1,0 +1,9357 @@
+.mdie:before,
+.mdie-set {
+  display: inline-block;
+  font-size: 24px;
+  text-rendering: auto;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mdie-access-point {
+	content: url(../images/svg/access-point.svg);
+}
+
+.mdie-access-point-network {
+	content: url(../images/svg/access-point-network.svg);
+}
+
+.mdie-account {
+	content: url(../images/svg/account.svg);
+}
+
+.mdie-account-alert {
+	content: url(../images/svg/account-alert.svg);
+}
+
+.mdie-account-box {
+	content: url(../images/svg/account-box.svg);
+}
+
+.mdie-account-box-outline {
+	content: url(../images/svg/account-box-outline.svg);
+}
+
+.mdie-account-card-details {
+	content: url(../images/svg/account-card-details.svg);
+}
+
+.mdie-account-check {
+	content: url(../images/svg/account-check.svg);
+}
+
+.mdie-account-circle {
+	content: url(../images/svg/account-circle.svg);
+}
+
+.mdie-account-convert {
+	content: url(../images/svg/account-convert.svg);
+}
+
+.mdie-account-edit {
+	content: url(../images/svg/account-edit.svg);
+}
+
+.mdie-account-group {
+	content: url(../images/svg/account-group.svg);
+}
+
+.mdie-account-heart {
+	content: url(../images/svg/account-heart.svg);
+}
+
+.mdie-account-key {
+	content: url(../images/svg/account-key.svg);
+}
+
+.mdie-account-location {
+	content: url(../images/svg/account-location.svg);
+}
+
+.mdie-account-minus {
+	content: url(../images/svg/account-minus.svg);
+}
+
+.mdie-account-multiple {
+	content: url(../images/svg/account-multiple.svg);
+}
+
+.mdie-account-multiple-minus {
+	content: url(../images/svg/account-multiple-minus.svg);
+}
+
+.mdie-account-multiple-outline {
+	content: url(../images/svg/account-multiple-outline.svg);
+}
+
+.mdie-account-multiple-plus {
+	content: url(../images/svg/account-multiple-plus.svg);
+}
+
+.mdie-account-multiple-plus-outline {
+	content: url(../images/svg/account-multiple-plus-outline.svg);
+}
+
+.mdie-account-network {
+	content: url(../images/svg/account-network.svg);
+}
+
+.mdie-account-off {
+	content: url(../images/svg/account-off.svg);
+}
+
+.mdie-account-outline {
+	content: url(../images/svg/account-outline.svg);
+}
+
+.mdie-account-plus {
+	content: url(../images/svg/account-plus.svg);
+}
+
+.mdie-account-plus-outline {
+	content: url(../images/svg/account-plus-outline.svg);
+}
+
+.mdie-account-remove {
+	content: url(../images/svg/account-remove.svg);
+}
+
+.mdie-account-search {
+	content: url(../images/svg/account-search.svg);
+}
+
+.mdie-account-settings {
+	content: url(../images/svg/account-settings.svg);
+}
+
+.mdie-account-settings-variant {
+	content: url(../images/svg/account-settings-variant.svg);
+}
+
+.mdie-account-switch {
+	content: url(../images/svg/account-switch.svg);
+}
+
+.mdie-accusoft {
+	content: url(../images/svg/accusoft.svg);
+}
+
+.mdie-adjust {
+	content: url(../images/svg/adjust.svg);
+}
+
+.mdie-airballoon {
+	content: url(../images/svg/airballoon.svg);
+}
+
+.mdie-air-conditioner {
+	content: url(../images/svg/air-conditioner.svg);
+}
+
+.mdie-airplane {
+	content: url(../images/svg/airplane.svg);
+}
+
+.mdie-airplane-landing {
+	content: url(../images/svg/airplane-landing.svg);
+}
+
+.mdie-airplane-off {
+	content: url(../images/svg/airplane-off.svg);
+}
+
+.mdie-airplane-takeoff {
+	content: url(../images/svg/airplane-takeoff.svg);
+}
+
+.mdie-airplay {
+	content: url(../images/svg/airplay.svg);
+}
+
+.mdie-airport {
+	content: url(../images/svg/airport.svg);
+}
+
+.mdie-alarm {
+	content: url(../images/svg/alarm.svg);
+}
+
+.mdie-alarm-bell {
+	content: url(../images/svg/alarm-bell.svg);
+}
+
+.mdie-alarm-check {
+	content: url(../images/svg/alarm-check.svg);
+}
+
+.mdie-alarm-light {
+	content: url(../images/svg/alarm-light.svg);
+}
+
+.mdie-alarm-multiple {
+	content: url(../images/svg/alarm-multiple.svg);
+}
+
+.mdie-alarm-off {
+	content: url(../images/svg/alarm-off.svg);
+}
+
+.mdie-alarm-plus {
+	content: url(../images/svg/alarm-plus.svg);
+}
+
+.mdie-alarm-snooze {
+	content: url(../images/svg/alarm-snooze.svg);
+}
+
+.mdie-album {
+	content: url(../images/svg/album.svg);
+}
+
+.mdie-alert {
+	content: url(../images/svg/alert.svg);
+}
+
+.mdie-alert-box {
+	content: url(../images/svg/alert-box.svg);
+}
+
+.mdie-alert-circle {
+	content: url(../images/svg/alert-circle.svg);
+}
+
+.mdie-alert-circle-outline {
+	content: url(../images/svg/alert-circle-outline.svg);
+}
+
+.mdie-alert-decagram {
+	content: url(../images/svg/alert-decagram.svg);
+}
+
+.mdie-alert-octagon {
+	content: url(../images/svg/alert-octagon.svg);
+}
+
+.mdie-alert-octagram {
+	content: url(../images/svg/alert-octagram.svg);
+}
+
+.mdie-alert-outline {
+	content: url(../images/svg/alert-outline.svg);
+}
+
+.mdie-alien {
+	content: url(../images/svg/alien.svg);
+}
+
+.mdie-all-inclusive {
+	content: url(../images/svg/all-inclusive.svg);
+}
+
+.mdie-allo {
+	content: url(../images/svg/allo.svg);
+}
+
+.mdie-alpha {
+	content: url(../images/svg/alpha.svg);
+}
+
+.mdie-alphabetical {
+	content: url(../images/svg/alphabetical.svg);
+}
+
+.mdie-altimeter {
+	content: url(../images/svg/altimeter.svg);
+}
+
+.mdie-amazon {
+	content: url(../images/svg/amazon.svg);
+}
+
+.mdie-amazon-alexa {
+	content: url(../images/svg/amazon-alexa.svg);
+}
+
+.mdie-amazon-clouddrive {
+	content: url(../images/svg/amazon-clouddrive.svg);
+}
+
+.mdie-ambulance {
+	content: url(../images/svg/ambulance.svg);
+}
+
+.mdie-amplifier {
+	content: url(../images/svg/amplifier.svg);
+}
+
+.mdie-anchor {
+	content: url(../images/svg/anchor.svg);
+}
+
+.mdie-android {
+	content: url(../images/svg/android.svg);
+}
+
+.mdie-android-debug-bridge {
+	content: url(../images/svg/android-debug-bridge.svg);
+}
+
+.mdie-android-head {
+	content: url(../images/svg/android-head.svg);
+}
+
+.mdie-android-studio {
+	content: url(../images/svg/android-studio.svg);
+}
+
+.mdie-angular {
+	content: url(../images/svg/angular.svg);
+}
+
+.mdie-angularjs {
+	content: url(../images/svg/angularjs.svg);
+}
+
+.mdie-animation {
+	content: url(../images/svg/animation.svg);
+}
+
+.mdie-anvil {
+	content: url(../images/svg/anvil.svg);
+}
+
+.mdie-apple {
+	content: url(../images/svg/apple.svg);
+}
+
+.mdie-apple-finder {
+	content: url(../images/svg/apple-finder.svg);
+}
+
+.mdie-apple-ios {
+	content: url(../images/svg/apple-ios.svg);
+}
+
+.mdie-apple-keyboard-caps {
+	content: url(../images/svg/apple-keyboard-caps.svg);
+}
+
+.mdie-apple-keyboard-command {
+	content: url(../images/svg/apple-keyboard-command.svg);
+}
+
+.mdie-apple-keyboard-control {
+	content: url(../images/svg/apple-keyboard-control.svg);
+}
+
+.mdie-apple-keyboard-option {
+	content: url(../images/svg/apple-keyboard-option.svg);
+}
+
+.mdie-apple-keyboard-shift {
+	content: url(../images/svg/apple-keyboard-shift.svg);
+}
+
+.mdie-apple-mobileme {
+	content: url(../images/svg/apple-mobileme.svg);
+}
+
+.mdie-apple-safari {
+	content: url(../images/svg/apple-safari.svg);
+}
+
+.mdie-application {
+	content: url(../images/svg/application.svg);
+}
+
+.mdie-appnet {
+	content: url(../images/svg/appnet.svg);
+}
+
+.mdie-approval {
+	content: url(../images/svg/approval.svg);
+}
+
+.mdie-apps {
+	content: url(../images/svg/apps.svg);
+}
+
+.mdie-archive {
+	content: url(../images/svg/archive.svg);
+}
+
+.mdie-arrange-bring-forward {
+	content: url(../images/svg/arrange-bring-forward.svg);
+}
+
+.mdie-arrange-bring-to-front {
+	content: url(../images/svg/arrange-bring-to-front.svg);
+}
+
+.mdie-arrange-send-backward {
+	content: url(../images/svg/arrange-send-backward.svg);
+}
+
+.mdie-arrange-send-to-back {
+	content: url(../images/svg/arrange-send-to-back.svg);
+}
+
+.mdie-arrow-all {
+	content: url(../images/svg/arrow-all.svg);
+}
+
+.mdie-arrow-bottom-left {
+	content: url(../images/svg/arrow-bottom-left.svg);
+}
+
+.mdie-arrow-bottom-right {
+	content: url(../images/svg/arrow-bottom-right.svg);
+}
+
+.mdie-arrow-collapse {
+	content: url(../images/svg/arrow-collapse.svg);
+}
+
+.mdie-arrow-collapse-all {
+	content: url(../images/svg/arrow-collapse-all.svg);
+}
+
+.mdie-arrow-collapse-down {
+	content: url(../images/svg/arrow-collapse-down.svg);
+}
+
+.mdie-arrow-collapse-horizontal {
+	content: url(../images/svg/arrow-collapse-horizontal.svg);
+}
+
+.mdie-arrow-collapse-left {
+	content: url(../images/svg/arrow-collapse-left.svg);
+}
+
+.mdie-arrow-collapse-right {
+	content: url(../images/svg/arrow-collapse-right.svg);
+}
+
+.mdie-arrow-collapse-up {
+	content: url(../images/svg/arrow-collapse-up.svg);
+}
+
+.mdie-arrow-collapse-vertical {
+	content: url(../images/svg/arrow-collapse-vertical.svg);
+}
+
+.mdie-arrow-down {
+	content: url(../images/svg/arrow-down.svg);
+}
+
+.mdie-arrow-down-bold {
+	content: url(../images/svg/arrow-down-bold.svg);
+}
+
+.mdie-arrow-down-bold-box {
+	content: url(../images/svg/arrow-down-bold-box.svg);
+}
+
+.mdie-arrow-down-bold-box-outline {
+	content: url(../images/svg/arrow-down-bold-box-outline.svg);
+}
+
+.mdie-arrow-down-bold-circle {
+	content: url(../images/svg/arrow-down-bold-circle.svg);
+}
+
+.mdie-arrow-down-bold-circle-outline {
+	content: url(../images/svg/arrow-down-bold-circle-outline.svg);
+}
+
+.mdie-arrow-down-bold-hexagon-outline {
+	content: url(../images/svg/arrow-down-bold-hexagon-outline.svg);
+}
+
+.mdie-arrow-down-box {
+	content: url(../images/svg/arrow-down-box.svg);
+}
+
+.mdie-arrow-down-drop {
+	content: url(../images/svg/arrow-down-drop.svg);
+}
+
+.mdie-arrow-down-drop-circle {
+	content: url(../images/svg/arrow-down-drop-circle.svg);
+}
+
+.mdie-arrow-down-drop-circle-outline {
+	content: url(../images/svg/arrow-down-drop-circle-outline.svg);
+}
+
+.mdie-arrow-down-thick {
+	content: url(../images/svg/arrow-down-thick.svg);
+}
+
+.mdie-arrow-expand {
+	content: url(../images/svg/arrow-expand.svg);
+}
+
+.mdie-arrow-expand-all {
+	content: url(../images/svg/arrow-expand-all.svg);
+}
+
+.mdie-arrow-expand-down {
+	content: url(../images/svg/arrow-expand-down.svg);
+}
+
+.mdie-arrow-expand-horizontal {
+	content: url(../images/svg/arrow-expand-horizontal.svg);
+}
+
+.mdie-arrow-expand-left {
+	content: url(../images/svg/arrow-expand-left.svg);
+}
+
+.mdie-arrow-expand-right {
+	content: url(../images/svg/arrow-expand-right.svg);
+}
+
+.mdie-arrow-expand-up {
+	content: url(../images/svg/arrow-expand-up.svg);
+}
+
+.mdie-arrow-expand-vertical {
+	content: url(../images/svg/arrow-expand-vertical.svg);
+}
+
+.mdie-arrow-left {
+	content: url(../images/svg/arrow-left.svg);
+}
+
+.mdie-arrow-left-bold {
+	content: url(../images/svg/arrow-left-bold.svg);
+}
+
+.mdie-arrow-left-bold-box {
+	content: url(../images/svg/arrow-left-bold-box.svg);
+}
+
+.mdie-arrow-left-bold-box-outline {
+	content: url(../images/svg/arrow-left-bold-box-outline.svg);
+}
+
+.mdie-arrow-left-bold-circle {
+	content: url(../images/svg/arrow-left-bold-circle.svg);
+}
+
+.mdie-arrow-left-bold-circle-outline {
+	content: url(../images/svg/arrow-left-bold-circle-outline.svg);
+}
+
+.mdie-arrow-left-bold-hexagon-outline {
+	content: url(../images/svg/arrow-left-bold-hexagon-outline.svg);
+}
+
+.mdie-arrow-left-box {
+	content: url(../images/svg/arrow-left-box.svg);
+}
+
+.mdie-arrow-left-drop-circle {
+	content: url(../images/svg/arrow-left-drop-circle.svg);
+}
+
+.mdie-arrow-left-drop-circle-outline {
+	content: url(../images/svg/arrow-left-drop-circle-outline.svg);
+}
+
+.mdie-arrow-left-thick {
+	content: url(../images/svg/arrow-left-thick.svg);
+}
+
+.mdie-arrow-right {
+	content: url(../images/svg/arrow-right.svg);
+}
+
+.mdie-arrow-right-bold {
+	content: url(../images/svg/arrow-right-bold.svg);
+}
+
+.mdie-arrow-right-bold-box {
+	content: url(../images/svg/arrow-right-bold-box.svg);
+}
+
+.mdie-arrow-right-bold-box-outline {
+	content: url(../images/svg/arrow-right-bold-box-outline.svg);
+}
+
+.mdie-arrow-right-bold-circle {
+	content: url(../images/svg/arrow-right-bold-circle.svg);
+}
+
+.mdie-arrow-right-bold-circle-outline {
+	content: url(../images/svg/arrow-right-bold-circle-outline.svg);
+}
+
+.mdie-arrow-right-bold-hexagon-outline {
+	content: url(../images/svg/arrow-right-bold-hexagon-outline.svg);
+}
+
+.mdie-arrow-right-box {
+	content: url(../images/svg/arrow-right-box.svg);
+}
+
+.mdie-arrow-right-drop-circle {
+	content: url(../images/svg/arrow-right-drop-circle.svg);
+}
+
+.mdie-arrow-right-drop-circle-outline {
+	content: url(../images/svg/arrow-right-drop-circle-outline.svg);
+}
+
+.mdie-arrow-right-thick {
+	content: url(../images/svg/arrow-right-thick.svg);
+}
+
+.mdie-arrow-top-left {
+	content: url(../images/svg/arrow-top-left.svg);
+}
+
+.mdie-arrow-top-right {
+	content: url(../images/svg/arrow-top-right.svg);
+}
+
+.mdie-arrow-up {
+	content: url(../images/svg/arrow-up.svg);
+}
+
+.mdie-arrow-up-bold {
+	content: url(../images/svg/arrow-up-bold.svg);
+}
+
+.mdie-arrow-up-bold-box {
+	content: url(../images/svg/arrow-up-bold-box.svg);
+}
+
+.mdie-arrow-up-bold-box-outline {
+	content: url(../images/svg/arrow-up-bold-box-outline.svg);
+}
+
+.mdie-arrow-up-bold-circle {
+	content: url(../images/svg/arrow-up-bold-circle.svg);
+}
+
+.mdie-arrow-up-bold-circle-outline {
+	content: url(../images/svg/arrow-up-bold-circle-outline.svg);
+}
+
+.mdie-arrow-up-bold-hexagon-outline {
+	content: url(../images/svg/arrow-up-bold-hexagon-outline.svg);
+}
+
+.mdie-arrow-up-box {
+	content: url(../images/svg/arrow-up-box.svg);
+}
+
+.mdie-arrow-up-drop-circle {
+	content: url(../images/svg/arrow-up-drop-circle.svg);
+}
+
+.mdie-arrow-up-drop-circle-outline {
+	content: url(../images/svg/arrow-up-drop-circle-outline.svg);
+}
+
+.mdie-arrow-up-thick {
+	content: url(../images/svg/arrow-up-thick.svg);
+}
+
+.mdie-artist {
+	content: url(../images/svg/artist.svg);
+}
+
+.mdie-assistant {
+	content: url(../images/svg/assistant.svg);
+}
+
+.mdie-asterisk {
+	content: url(../images/svg/asterisk.svg);
+}
+
+.mdie-at {
+	content: url(../images/svg/at.svg);
+}
+
+.mdie-atlassian {
+	content: url(../images/svg/atlassian.svg);
+}
+
+.mdie-atom {
+	content: url(../images/svg/atom.svg);
+}
+
+.mdie-attachment {
+	content: url(../images/svg/attachment.svg);
+}
+
+.mdie-audiobook {
+	content: url(../images/svg/audiobook.svg);
+}
+
+.mdie-augmented-reality {
+	content: url(../images/svg/augmented-reality.svg);
+}
+
+.mdie-auto-fix {
+	content: url(../images/svg/auto-fix.svg);
+}
+
+.mdie-autorenew {
+	content: url(../images/svg/autorenew.svg);
+}
+
+.mdie-auto-upload {
+	content: url(../images/svg/auto-upload.svg);
+}
+
+.mdie-av-timer {
+	content: url(../images/svg/av-timer.svg);
+}
+
+.mdie-axe {
+	content: url(../images/svg/axe.svg);
+}
+
+.mdie-azure {
+	content: url(../images/svg/azure.svg);
+}
+
+.mdie-baby {
+	content: url(../images/svg/baby.svg);
+}
+
+.mdie-baby-buggy {
+	content: url(../images/svg/baby-buggy.svg);
+}
+
+.mdie-backburger {
+	content: url(../images/svg/backburger.svg);
+}
+
+.mdie-backspace {
+	content: url(../images/svg/backspace.svg);
+}
+
+.mdie-backup-restore {
+	content: url(../images/svg/backup-restore.svg);
+}
+
+.mdie-badminton {
+	content: url(../images/svg/badminton.svg);
+}
+
+.mdie-balloon {
+	content: url(../images/svg/balloon.svg);
+}
+
+.mdie-bandcamp {
+	content: url(../images/svg/bandcamp.svg);
+}
+
+.mdie-bank {
+	content: url(../images/svg/bank.svg);
+}
+
+.mdie-barcode {
+	content: url(../images/svg/barcode.svg);
+}
+
+.mdie-barcode-scan {
+	content: url(../images/svg/barcode-scan.svg);
+}
+
+.mdie-barley {
+	content: url(../images/svg/barley.svg);
+}
+
+.mdie-barrel {
+	content: url(../images/svg/barrel.svg);
+}
+
+.mdie-baseball {
+	content: url(../images/svg/baseball.svg);
+}
+
+.mdie-baseball-bat {
+	content: url(../images/svg/baseball-bat.svg);
+}
+
+.mdie-basecamp {
+	content: url(../images/svg/basecamp.svg);
+}
+
+.mdie-basket {
+	content: url(../images/svg/basket.svg);
+}
+
+.mdie-basketball {
+	content: url(../images/svg/basketball.svg);
+}
+
+.mdie-basket-fill {
+	content: url(../images/svg/basket-fill.svg);
+}
+
+.mdie-basket-unfill {
+	content: url(../images/svg/basket-unfill.svg);
+}
+
+.mdie-battery {
+	content: url(../images/svg/battery.svg);
+}
+
+.mdie-battery-10 {
+	content: url(../images/svg/battery-10.svg);
+}
+
+.mdie-battery-20 {
+	content: url(../images/svg/battery-20.svg);
+}
+
+.mdie-battery-30 {
+	content: url(../images/svg/battery-30.svg);
+}
+
+.mdie-battery-40 {
+	content: url(../images/svg/battery-40.svg);
+}
+
+.mdie-battery-50 {
+	content: url(../images/svg/battery-50.svg);
+}
+
+.mdie-battery-60 {
+	content: url(../images/svg/battery-60.svg);
+}
+
+.mdie-battery-70 {
+	content: url(../images/svg/battery-70.svg);
+}
+
+.mdie-battery-80 {
+	content: url(../images/svg/battery-80.svg);
+}
+
+.mdie-battery-90 {
+	content: url(../images/svg/battery-90.svg);
+}
+
+.mdie-battery-alert {
+	content: url(../images/svg/battery-alert.svg);
+}
+
+.mdie-battery-charging {
+	content: url(../images/svg/battery-charging.svg);
+}
+
+.mdie-battery-charging-10 {
+	content: url(../images/svg/battery-charging-10.svg);
+}
+
+.mdie-battery-charging-20 {
+	content: url(../images/svg/battery-charging-20.svg);
+}
+
+.mdie-battery-charging-30 {
+	content: url(../images/svg/battery-charging-30.svg);
+}
+
+.mdie-battery-charging-40 {
+	content: url(../images/svg/battery-charging-40.svg);
+}
+
+.mdie-battery-charging-50 {
+	content: url(../images/svg/battery-charging-50.svg);
+}
+
+.mdie-battery-charging-60 {
+	content: url(../images/svg/battery-charging-60.svg);
+}
+
+.mdie-battery-charging-70 {
+	content: url(../images/svg/battery-charging-70.svg);
+}
+
+.mdie-battery-charging-80 {
+	content: url(../images/svg/battery-charging-80.svg);
+}
+
+.mdie-battery-charging-90 {
+	content: url(../images/svg/battery-charging-90.svg);
+}
+
+.mdie-battery-charging-100 {
+	content: url(../images/svg/battery-charging-100.svg);
+}
+
+.mdie-battery-charging-outline {
+	content: url(../images/svg/battery-charging-outline.svg);
+}
+
+.mdie-battery-charging-wireless {
+	content: url(../images/svg/battery-charging-wireless.svg);
+}
+
+.mdie-battery-charging-wireless-10 {
+	content: url(../images/svg/battery-charging-wireless-10.svg);
+}
+
+.mdie-battery-charging-wireless-20 {
+	content: url(../images/svg/battery-charging-wireless-20.svg);
+}
+
+.mdie-battery-charging-wireless-30 {
+	content: url(../images/svg/battery-charging-wireless-30.svg);
+}
+
+.mdie-battery-charging-wireless-40 {
+	content: url(../images/svg/battery-charging-wireless-40.svg);
+}
+
+.mdie-battery-charging-wireless-50 {
+	content: url(../images/svg/battery-charging-wireless-50.svg);
+}
+
+.mdie-battery-charging-wireless-60 {
+	content: url(../images/svg/battery-charging-wireless-60.svg);
+}
+
+.mdie-battery-charging-wireless-70 {
+	content: url(../images/svg/battery-charging-wireless-70.svg);
+}
+
+.mdie-battery-charging-wireless-80 {
+	content: url(../images/svg/battery-charging-wireless-80.svg);
+}
+
+.mdie-battery-charging-wireless-90 {
+	content: url(../images/svg/battery-charging-wireless-90.svg);
+}
+
+.mdie-battery-charging-wireless-alert {
+	content: url(../images/svg/battery-charging-wireless-alert.svg);
+}
+
+.mdie-battery-charging-wireless-outline {
+	content: url(../images/svg/battery-charging-wireless-outline.svg);
+}
+
+.mdie-battery-minus {
+	content: url(../images/svg/battery-minus.svg);
+}
+
+.mdie-battery-negative {
+	content: url(../images/svg/battery-negative.svg);
+}
+
+.mdie-battery-outline {
+	content: url(../images/svg/battery-outline.svg);
+}
+
+.mdie-battery-plus {
+	content: url(../images/svg/battery-plus.svg);
+}
+
+.mdie-battery-positive {
+	content: url(../images/svg/battery-positive.svg);
+}
+
+.mdie-battery-standard {
+	content: url(../images/svg/battery-standard.svg);
+}
+
+.mdie-battery-unknown {
+	content: url(../images/svg/battery-unknown.svg);
+}
+
+.mdie-beach {
+	content: url(../images/svg/beach.svg);
+}
+
+.mdie-beaker {
+	content: url(../images/svg/beaker.svg);
+}
+
+.mdie-beam {
+	content: url(../images/svg/beam.svg);
+}
+
+.mdie-beats {
+	content: url(../images/svg/beats.svg);
+}
+
+.mdie-bed-empty {
+	content: url(../images/svg/bed-empty.svg);
+}
+
+.mdie-beer {
+	content: url(../images/svg/beer.svg);
+}
+
+.mdie-behance {
+	content: url(../images/svg/behance.svg);
+}
+
+.mdie-bell {
+	content: url(../images/svg/bell.svg);
+}
+
+.mdie-bell-off {
+	content: url(../images/svg/bell-off.svg);
+}
+
+.mdie-bell-outline {
+	content: url(../images/svg/bell-outline.svg);
+}
+
+.mdie-bell-plus {
+	content: url(../images/svg/bell-plus.svg);
+}
+
+.mdie-bell-ring {
+	content: url(../images/svg/bell-ring.svg);
+}
+
+.mdie-bell-ring-outline {
+	content: url(../images/svg/bell-ring-outline.svg);
+}
+
+.mdie-bell-sleep {
+	content: url(../images/svg/bell-sleep.svg);
+}
+
+.mdie-beta {
+	content: url(../images/svg/beta.svg);
+}
+
+.mdie-bible {
+	content: url(../images/svg/bible.svg);
+}
+
+.mdie-bike {
+	content: url(../images/svg/bike.svg);
+}
+
+.mdie-bing {
+	content: url(../images/svg/bing.svg);
+}
+
+.mdie-binoculars {
+	content: url(../images/svg/binoculars.svg);
+}
+
+.mdie-bio {
+	content: url(../images/svg/bio.svg);
+}
+
+.mdie-bitbucket {
+	content: url(../images/svg/bitbucket.svg);
+}
+
+.mdie-bitcoin {
+	content: url(../images/svg/bitcoin.svg);
+}
+
+.mdie-blackberry {
+	content: url(../images/svg/blackberry.svg);
+}
+
+.mdie-black-mesa {
+	content: url(../images/svg/black-mesa.svg);
+}
+
+.mdie-blender {
+	content: url(../images/svg/blender.svg);
+}
+
+.mdie-blinds {
+	content: url(../images/svg/blinds.svg);
+}
+
+.mdie-block-helper {
+	content: url(../images/svg/block-helper.svg);
+}
+
+.mdie-blogger {
+	content: url(../images/svg/blogger.svg);
+}
+
+.mdie-bluetooth {
+	content: url(../images/svg/bluetooth.svg);
+}
+
+.mdie-bluetooth-audio {
+	content: url(../images/svg/bluetooth-audio.svg);
+}
+
+.mdie-bluetooth-connect {
+	content: url(../images/svg/bluetooth-connect.svg);
+}
+
+.mdie-bluetooth-off {
+	content: url(../images/svg/bluetooth-off.svg);
+}
+
+.mdie-bluetooth-settings {
+	content: url(../images/svg/bluetooth-settings.svg);
+}
+
+.mdie-bluetooth-transfer {
+	content: url(../images/svg/bluetooth-transfer.svg);
+}
+
+.mdie-blur {
+	content: url(../images/svg/blur.svg);
+}
+
+.mdie-blur-linear {
+	content: url(../images/svg/blur-linear.svg);
+}
+
+.mdie-blur-off {
+	content: url(../images/svg/blur-off.svg);
+}
+
+.mdie-blur-radial {
+	content: url(../images/svg/blur-radial.svg);
+}
+
+.mdie-bomb {
+	content: url(../images/svg/bomb.svg);
+}
+
+.mdie-bomb-off {
+	content: url(../images/svg/bomb-off.svg);
+}
+
+.mdie-bone {
+	content: url(../images/svg/bone.svg);
+}
+
+.mdie-book {
+	content: url(../images/svg/book.svg);
+}
+
+.mdie-bookmark {
+	content: url(../images/svg/bookmark.svg);
+}
+
+.mdie-bookmark-check {
+	content: url(../images/svg/bookmark-check.svg);
+}
+
+.mdie-bookmark-music {
+	content: url(../images/svg/bookmark-music.svg);
+}
+
+.mdie-bookmark-outline {
+	content: url(../images/svg/bookmark-outline.svg);
+}
+
+.mdie-bookmark-plus {
+	content: url(../images/svg/bookmark-plus.svg);
+}
+
+.mdie-bookmark-plus-outline {
+	content: url(../images/svg/bookmark-plus-outline.svg);
+}
+
+.mdie-bookmark-remove {
+	content: url(../images/svg/bookmark-remove.svg);
+}
+
+.mdie-book-minus {
+	content: url(../images/svg/book-minus.svg);
+}
+
+.mdie-book-multiple {
+	content: url(../images/svg/book-multiple.svg);
+}
+
+.mdie-book-multiple-variant {
+	content: url(../images/svg/book-multiple-variant.svg);
+}
+
+.mdie-book-open {
+	content: url(../images/svg/book-open.svg);
+}
+
+.mdie-book-open-page-variant {
+	content: url(../images/svg/book-open-page-variant.svg);
+}
+
+.mdie-book-open-variant {
+	content: url(../images/svg/book-open-variant.svg);
+}
+
+.mdie-book-plus {
+	content: url(../images/svg/book-plus.svg);
+}
+
+.mdie-book-secure {
+	content: url(../images/svg/book-secure.svg);
+}
+
+.mdie-book-unsecure {
+	content: url(../images/svg/book-unsecure.svg);
+}
+
+.mdie-book-variant {
+	content: url(../images/svg/book-variant.svg);
+}
+
+.mdie-boombox {
+	content: url(../images/svg/boombox.svg);
+}
+
+.mdie-bootstrap {
+	content: url(../images/svg/bootstrap.svg);
+}
+
+.mdie-border-all {
+	content: url(../images/svg/border-all.svg);
+}
+
+.mdie-border-all-variant {
+	content: url(../images/svg/border-all-variant.svg);
+}
+
+.mdie-border-bottom {
+	content: url(../images/svg/border-bottom.svg);
+}
+
+.mdie-border-bottom-variant {
+	content: url(../images/svg/border-bottom-variant.svg);
+}
+
+.mdie-border-color {
+	content: url(../images/svg/border-color.svg);
+}
+
+.mdie-border-horizontal {
+	content: url(../images/svg/border-horizontal.svg);
+}
+
+.mdie-border-inside {
+	content: url(../images/svg/border-inside.svg);
+}
+
+.mdie-border-left {
+	content: url(../images/svg/border-left.svg);
+}
+
+.mdie-border-left-variant {
+	content: url(../images/svg/border-left-variant.svg);
+}
+
+.mdie-border-none {
+	content: url(../images/svg/border-none.svg);
+}
+
+.mdie-border-none-variant {
+	content: url(../images/svg/border-none-variant.svg);
+}
+
+.mdie-border-outside {
+	content: url(../images/svg/border-outside.svg);
+}
+
+.mdie-border-right {
+	content: url(../images/svg/border-right.svg);
+}
+
+.mdie-border-right-variant {
+	content: url(../images/svg/border-right-variant.svg);
+}
+
+.mdie-border-style {
+	content: url(../images/svg/border-style.svg);
+}
+
+.mdie-border-top {
+	content: url(../images/svg/border-top.svg);
+}
+
+.mdie-border-top-variant {
+	content: url(../images/svg/border-top-variant.svg);
+}
+
+.mdie-border-vertical {
+	content: url(../images/svg/border-vertical.svg);
+}
+
+.mdie-bottle-wine {
+	content: url(../images/svg/bottle-wine.svg);
+}
+
+.mdie-bowl {
+	content: url(../images/svg/bowl.svg);
+}
+
+.mdie-bowling {
+	content: url(../images/svg/bowling.svg);
+}
+
+.mdie-bow-tie {
+	content: url(../images/svg/bow-tie.svg);
+}
+
+.mdie-box {
+	content: url(../images/svg/box.svg);
+}
+
+.mdie-box-cutter {
+	content: url(../images/svg/box-cutter.svg);
+}
+
+.mdie-box-download {
+	content: url(../images/svg/box-download.svg);
+}
+
+.mdie-box-shadow {
+	content: url(../images/svg/box-shadow.svg);
+}
+
+.mdie-box-upload {
+	content: url(../images/svg/box-upload.svg);
+}
+
+.mdie-bridge {
+	content: url(../images/svg/bridge.svg);
+}
+
+.mdie-briefcase {
+	content: url(../images/svg/briefcase.svg);
+}
+
+.mdie-briefcase-check {
+	content: url(../images/svg/briefcase-check.svg);
+}
+
+.mdie-briefcase-download {
+	content: url(../images/svg/briefcase-download.svg);
+}
+
+.mdie-briefcase-outline {
+	content: url(../images/svg/briefcase-outline.svg);
+}
+
+.mdie-briefcase-upload {
+	content: url(../images/svg/briefcase-upload.svg);
+}
+
+.mdie-brightness {
+	content: url(../images/svg/brightness.svg);
+}
+
+.mdie-brightness-1 {
+	content: url(../images/svg/brightness-1.svg);
+}
+
+.mdie-brightness-2 {
+	content: url(../images/svg/brightness-2.svg);
+}
+
+.mdie-brightness-3 {
+	content: url(../images/svg/brightness-3.svg);
+}
+
+.mdie-brightness-4 {
+	content: url(../images/svg/brightness-4.svg);
+}
+
+.mdie-brightness-5 {
+	content: url(../images/svg/brightness-5.svg);
+}
+
+.mdie-brightness-6 {
+	content: url(../images/svg/brightness-6.svg);
+}
+
+.mdie-brightness-7 {
+	content: url(../images/svg/brightness-7.svg);
+}
+
+.mdie-brightness-auto {
+	content: url(../images/svg/brightness-auto.svg);
+}
+
+.mdie-broom {
+	content: url(../images/svg/broom.svg);
+}
+
+.mdie-brush {
+	content: url(../images/svg/brush.svg);
+}
+
+.mdie-buffer {
+	content: url(../images/svg/buffer.svg);
+}
+
+.mdie-bug {
+	content: url(../images/svg/bug.svg);
+}
+
+.mdie-bulletin-board {
+	content: url(../images/svg/bulletin-board.svg);
+}
+
+.mdie-bullhorn {
+	content: url(../images/svg/bullhorn.svg);
+}
+
+.mdie-bullseye {
+	content: url(../images/svg/bullseye.svg);
+}
+
+.mdie-burst-mode {
+	content: url(../images/svg/burst-mode.svg);
+}
+
+.mdie-bus {
+	content: url(../images/svg/bus.svg);
+}
+
+.mdie-bus-articulated-end {
+	content: url(../images/svg/bus-articulated-end.svg);
+}
+
+.mdie-bus-articulated-front {
+	content: url(../images/svg/bus-articulated-front.svg);
+}
+
+.mdie-bus-double-decker {
+	content: url(../images/svg/bus-double-decker.svg);
+}
+
+.mdie-bus-school {
+	content: url(../images/svg/bus-school.svg);
+}
+
+.mdie-bus-side {
+	content: url(../images/svg/bus-side.svg);
+}
+
+.mdie-cached {
+	content: url(../images/svg/cached.svg);
+}
+
+.mdie-cake {
+	content: url(../images/svg/cake.svg);
+}
+
+.mdie-cake-layered {
+	content: url(../images/svg/cake-layered.svg);
+}
+
+.mdie-cake-variant {
+	content: url(../images/svg/cake-variant.svg);
+}
+
+.mdie-calculator {
+	content: url(../images/svg/calculator.svg);
+}
+
+.mdie-calculator-off {
+	content: url(../images/svg/calculator-off.svg);
+}
+
+.mdie-calendar {
+	content: url(../images/svg/calendar.svg);
+}
+
+.mdie-calendar-blank {
+	content: url(../images/svg/calendar-blank.svg);
+}
+
+.mdie-calendar-check {
+	content: url(../images/svg/calendar-check.svg);
+}
+
+.mdie-calendar-clock {
+	content: url(../images/svg/calendar-clock.svg);
+}
+
+.mdie-calendar-edit {
+	content: url(../images/svg/calendar-edit.svg);
+}
+
+.mdie-calendar-multiple {
+	content: url(../images/svg/calendar-multiple.svg);
+}
+
+.mdie-calendar-multiple-check {
+	content: url(../images/svg/calendar-multiple-check.svg);
+}
+
+.mdie-calendar-plus {
+	content: url(../images/svg/calendar-plus.svg);
+}
+
+.mdie-calendar-question {
+	content: url(../images/svg/calendar-question.svg);
+}
+
+.mdie-calendar-range {
+	content: url(../images/svg/calendar-range.svg);
+}
+
+.mdie-calendar-remove {
+	content: url(../images/svg/calendar-remove.svg);
+}
+
+.mdie-calendar-select {
+	content: url(../images/svg/calendar-select.svg);
+}
+
+.mdie-calendar-text {
+	content: url(../images/svg/calendar-text.svg);
+}
+
+.mdie-calendar-today {
+	content: url(../images/svg/calendar-today.svg);
+}
+
+.mdie-call-made {
+	content: url(../images/svg/call-made.svg);
+}
+
+.mdie-call-merge {
+	content: url(../images/svg/call-merge.svg);
+}
+
+.mdie-call-missed {
+	content: url(../images/svg/call-missed.svg);
+}
+
+.mdie-call-received {
+	content: url(../images/svg/call-received.svg);
+}
+
+.mdie-call-split {
+	content: url(../images/svg/call-split.svg);
+}
+
+.mdie-camcorder {
+	content: url(../images/svg/camcorder.svg);
+}
+
+.mdie-camcorder-box {
+	content: url(../images/svg/camcorder-box.svg);
+}
+
+.mdie-camcorder-box-off {
+	content: url(../images/svg/camcorder-box-off.svg);
+}
+
+.mdie-camcorder-off {
+	content: url(../images/svg/camcorder-off.svg);
+}
+
+.mdie-camera {
+	content: url(../images/svg/camera.svg);
+}
+
+.mdie-camera-burst {
+	content: url(../images/svg/camera-burst.svg);
+}
+
+.mdie-camera-enhance {
+	content: url(../images/svg/camera-enhance.svg);
+}
+
+.mdie-camera-front {
+	content: url(../images/svg/camera-front.svg);
+}
+
+.mdie-camera-front-variant {
+	content: url(../images/svg/camera-front-variant.svg);
+}
+
+.mdie-camera-gopro {
+	content: url(../images/svg/camera-gopro.svg);
+}
+
+.mdie-camera-iris {
+	content: url(../images/svg/camera-iris.svg);
+}
+
+.mdie-camera-metering-center {
+	content: url(../images/svg/camera-metering-center.svg);
+}
+
+.mdie-camera-metering-matrix {
+	content: url(../images/svg/camera-metering-matrix.svg);
+}
+
+.mdie-camera-metering-partial {
+	content: url(../images/svg/camera-metering-partial.svg);
+}
+
+.mdie-camera-metering-spot {
+	content: url(../images/svg/camera-metering-spot.svg);
+}
+
+.mdie-camera-off {
+	content: url(../images/svg/camera-off.svg);
+}
+
+.mdie-camera-party-mode {
+	content: url(../images/svg/camera-party-mode.svg);
+}
+
+.mdie-camera-rear {
+	content: url(../images/svg/camera-rear.svg);
+}
+
+.mdie-camera-rear-variant {
+	content: url(../images/svg/camera-rear-variant.svg);
+}
+
+.mdie-camera-switch {
+	content: url(../images/svg/camera-switch.svg);
+}
+
+.mdie-camera-timer {
+	content: url(../images/svg/camera-timer.svg);
+}
+
+.mdie-cancel {
+	content: url(../images/svg/cancel.svg);
+}
+
+.mdie-candle {
+	content: url(../images/svg/candle.svg);
+}
+
+.mdie-candycane {
+	content: url(../images/svg/candycane.svg);
+}
+
+.mdie-cannabis {
+	content: url(../images/svg/cannabis.svg);
+}
+
+.mdie-car {
+	content: url(../images/svg/car.svg);
+}
+
+.mdie-caravan {
+	content: url(../images/svg/caravan.svg);
+}
+
+.mdie-car-battery {
+	content: url(../images/svg/car-battery.svg);
+}
+
+.mdie-car-connected {
+	content: url(../images/svg/car-connected.svg);
+}
+
+.mdie-car-convertable {
+	content: url(../images/svg/car-convertable.svg);
+}
+
+.mdie-cards {
+	content: url(../images/svg/cards.svg);
+}
+
+.mdie-cards-club {
+	content: url(../images/svg/cards-club.svg);
+}
+
+.mdie-cards-diamond {
+	content: url(../images/svg/cards-diamond.svg);
+}
+
+.mdie-cards-heart {
+	content: url(../images/svg/cards-heart.svg);
+}
+
+.mdie-cards-outline {
+	content: url(../images/svg/cards-outline.svg);
+}
+
+.mdie-cards-playing-outline {
+	content: url(../images/svg/cards-playing-outline.svg);
+}
+
+.mdie-cards-spade {
+	content: url(../images/svg/cards-spade.svg);
+}
+
+.mdie-cards-variant {
+	content: url(../images/svg/cards-variant.svg);
+}
+
+.mdie-car-estate {
+	content: url(../images/svg/car-estate.svg);
+}
+
+.mdie-car-hatchback {
+	content: url(../images/svg/car-hatchback.svg);
+}
+
+.mdie-car-limousine {
+	content: url(../images/svg/car-limousine.svg);
+}
+
+.mdie-car-pickup {
+	content: url(../images/svg/car-pickup.svg);
+}
+
+.mdie-carrot {
+	content: url(../images/svg/carrot.svg);
+}
+
+.mdie-car-side {
+	content: url(../images/svg/car-side.svg);
+}
+
+.mdie-car-sports {
+	content: url(../images/svg/car-sports.svg);
+}
+
+.mdie-cart {
+	content: url(../images/svg/cart.svg);
+}
+
+.mdie-cart-off {
+	content: url(../images/svg/cart-off.svg);
+}
+
+.mdie-cart-outline {
+	content: url(../images/svg/cart-outline.svg);
+}
+
+.mdie-cart-plus {
+	content: url(../images/svg/cart-plus.svg);
+}
+
+.mdie-car-wash {
+	content: url(../images/svg/car-wash.svg);
+}
+
+.mdie-cash {
+	content: url(../images/svg/cash.svg);
+}
+
+.mdie-cash-100 {
+	content: url(../images/svg/cash-100.svg);
+}
+
+.mdie-cash-multiple {
+	content: url(../images/svg/cash-multiple.svg);
+}
+
+.mdie-cash-usd {
+	content: url(../images/svg/cash-usd.svg);
+}
+
+.mdie-cast {
+	content: url(../images/svg/cast.svg);
+}
+
+.mdie-cast-connected {
+	content: url(../images/svg/cast-connected.svg);
+}
+
+.mdie-castle {
+	content: url(../images/svg/castle.svg);
+}
+
+.mdie-cast-off {
+	content: url(../images/svg/cast-off.svg);
+}
+
+.mdie-cat {
+	content: url(../images/svg/cat.svg);
+}
+
+.mdie-cctv {
+	content: url(../images/svg/cctv.svg);
+}
+
+.mdie-ceiling-light {
+	content: url(../images/svg/ceiling-light.svg);
+}
+
+.mdie-cellphone {
+	content: url(../images/svg/cellphone.svg);
+}
+
+.mdie-cellphone-android {
+	content: url(../images/svg/cellphone-android.svg);
+}
+
+.mdie-cellphone-basic {
+	content: url(../images/svg/cellphone-basic.svg);
+}
+
+.mdie-cellphone-dock {
+	content: url(../images/svg/cellphone-dock.svg);
+}
+
+.mdie-cellphone-iphone {
+	content: url(../images/svg/cellphone-iphone.svg);
+}
+
+.mdie-cellphone-link {
+	content: url(../images/svg/cellphone-link.svg);
+}
+
+.mdie-cellphone-link-off {
+	content: url(../images/svg/cellphone-link-off.svg);
+}
+
+.mdie-cellphone-message {
+	content: url(../images/svg/cellphone-message.svg);
+}
+
+.mdie-cellphone-settings {
+	content: url(../images/svg/cellphone-settings.svg);
+}
+
+.mdie-cellphone-text {
+	content: url(../images/svg/cellphone-text.svg);
+}
+
+.mdie-cellphone-wireless {
+	content: url(../images/svg/cellphone-wireless.svg);
+}
+
+.mdie-certificate {
+	content: url(../images/svg/certificate.svg);
+}
+
+.mdie-chair-school {
+	content: url(../images/svg/chair-school.svg);
+}
+
+.mdie-chart-arc {
+	content: url(../images/svg/chart-arc.svg);
+}
+
+.mdie-chart-areaspline {
+	content: url(../images/svg/chart-areaspline.svg);
+}
+
+.mdie-chart-bar {
+	content: url(../images/svg/chart-bar.svg);
+}
+
+.mdie-chart-bar-stacked {
+	content: url(../images/svg/chart-bar-stacked.svg);
+}
+
+.mdie-chart-bubble {
+	content: url(../images/svg/chart-bubble.svg);
+}
+
+.mdie-chart-donut {
+	content: url(../images/svg/chart-donut.svg);
+}
+
+.mdie-chart-donut-variant {
+	content: url(../images/svg/chart-donut-variant.svg);
+}
+
+.mdie-chart-gantt {
+	content: url(../images/svg/chart-gantt.svg);
+}
+
+.mdie-chart-histogram {
+	content: url(../images/svg/chart-histogram.svg);
+}
+
+.mdie-chart-line {
+	content: url(../images/svg/chart-line.svg);
+}
+
+.mdie-chart-line-stacked {
+	content: url(../images/svg/chart-line-stacked.svg);
+}
+
+.mdie-chart-line-variant {
+	content: url(../images/svg/chart-line-variant.svg);
+}
+
+.mdie-chart-pie {
+	content: url(../images/svg/chart-pie.svg);
+}
+
+.mdie-chart-scatterplot-hexbin {
+	content: url(../images/svg/chart-scatterplot-hexbin.svg);
+}
+
+.mdie-chart-timeline {
+	content: url(../images/svg/chart-timeline.svg);
+}
+
+.mdie-check {
+	content: url(../images/svg/check.svg);
+}
+
+.mdie-check-all {
+	content: url(../images/svg/check-all.svg);
+}
+
+.mdie-check-bookmark {
+	content: url(../images/svg/check-bookmark.svg);
+}
+
+.mdie-checkbox-blank {
+	content: url(../images/svg/checkbox-blank.svg);
+}
+
+.mdie-checkbox-blank-circle {
+	content: url(../images/svg/checkbox-blank-circle.svg);
+}
+
+.mdie-checkbox-blank-circle-outline {
+	content: url(../images/svg/checkbox-blank-circle-outline.svg);
+}
+
+.mdie-checkbox-blank-outline {
+	content: url(../images/svg/checkbox-blank-outline.svg);
+}
+
+.mdie-checkbox-indeterminate {
+	content: url(../images/svg/checkbox-indeterminate.svg);
+}
+
+.mdie-checkbox-marked {
+	content: url(../images/svg/checkbox-marked.svg);
+}
+
+.mdie-checkbox-marked-circle {
+	content: url(../images/svg/checkbox-marked-circle.svg);
+}
+
+.mdie-checkbox-marked-circle-outline {
+	content: url(../images/svg/checkbox-marked-circle-outline.svg);
+}
+
+.mdie-checkbox-marked-outline {
+	content: url(../images/svg/checkbox-marked-outline.svg);
+}
+
+.mdie-checkbox-multiple-blank {
+	content: url(../images/svg/checkbox-multiple-blank.svg);
+}
+
+.mdie-checkbox-multiple-blank-circle {
+	content: url(../images/svg/checkbox-multiple-blank-circle.svg);
+}
+
+.mdie-checkbox-multiple-blank-circle-outline {
+	content: url(../images/svg/checkbox-multiple-blank-circle-outline.svg);
+}
+
+.mdie-checkbox-multiple-blank-outline {
+	content: url(../images/svg/checkbox-multiple-blank-outline.svg);
+}
+
+.mdie-checkbox-multiple-marked {
+	content: url(../images/svg/checkbox-multiple-marked.svg);
+}
+
+.mdie-checkbox-multiple-marked-circle {
+	content: url(../images/svg/checkbox-multiple-marked-circle.svg);
+}
+
+.mdie-checkbox-multiple-marked-circle-outline {
+	content: url(../images/svg/checkbox-multiple-marked-circle-outline.svg);
+}
+
+.mdie-checkbox-multiple-marked-outline {
+	content: url(../images/svg/checkbox-multiple-marked-outline.svg);
+}
+
+.mdie-check-circle {
+	content: url(../images/svg/check-circle.svg);
+}
+
+.mdie-check-circle-outline {
+	content: url(../images/svg/check-circle-outline.svg);
+}
+
+.mdie-checkerboard {
+	content: url(../images/svg/checkerboard.svg);
+}
+
+.mdie-check-outline {
+	content: url(../images/svg/check-outline.svg);
+}
+
+.mdie-chemical-weapon {
+	content: url(../images/svg/chemical-weapon.svg);
+}
+
+.mdie-chess-bishop {
+	content: url(../images/svg/chess-bishop.svg);
+}
+
+.mdie-chess-king {
+	content: url(../images/svg/chess-king.svg);
+}
+
+.mdie-chess-knight {
+	content: url(../images/svg/chess-knight.svg);
+}
+
+.mdie-chess-pawn {
+	content: url(../images/svg/chess-pawn.svg);
+}
+
+.mdie-chess-queen {
+	content: url(../images/svg/chess-queen.svg);
+}
+
+.mdie-chess-rook {
+	content: url(../images/svg/chess-rook.svg);
+}
+
+.mdie-chevron-double-down {
+	content: url(../images/svg/chevron-double-down.svg);
+}
+
+.mdie-chevron-double-left {
+	content: url(../images/svg/chevron-double-left.svg);
+}
+
+.mdie-chevron-double-right {
+	content: url(../images/svg/chevron-double-right.svg);
+}
+
+.mdie-chevron-double-up {
+	content: url(../images/svg/chevron-double-up.svg);
+}
+
+.mdie-chevron-down {
+	content: url(../images/svg/chevron-down.svg);
+}
+
+.mdie-chevron-left {
+	content: url(../images/svg/chevron-left.svg);
+}
+
+.mdie-chevron-right {
+	content: url(../images/svg/chevron-right.svg);
+}
+
+.mdie-chevron-up {
+	content: url(../images/svg/chevron-up.svg);
+}
+
+.mdie-chili-hot {
+	content: url(../images/svg/chili-hot.svg);
+}
+
+.mdie-chili-medium {
+	content: url(../images/svg/chili-medium.svg);
+}
+
+.mdie-chili-mild {
+	content: url(../images/svg/chili-mild.svg);
+}
+
+.mdie-chip {
+	content: url(../images/svg/chip.svg);
+}
+
+.mdie-church {
+	content: url(../images/svg/church.svg);
+}
+
+.mdie-circle {
+	content: url(../images/svg/circle.svg);
+}
+
+.mdie-circle-outline {
+	content: url(../images/svg/circle-outline.svg);
+}
+
+.mdie-cisco-webex {
+	content: url(../images/svg/cisco-webex.svg);
+}
+
+.mdie-city {
+	content: url(../images/svg/city.svg);
+}
+
+.mdie-clapperboard {
+	content: url(../images/svg/clapperboard.svg);
+}
+
+.mdie-clipboard {
+	content: url(../images/svg/clipboard.svg);
+}
+
+.mdie-clipboard-account {
+	content: url(../images/svg/clipboard-account.svg);
+}
+
+.mdie-clipboard-alert {
+	content: url(../images/svg/clipboard-alert.svg);
+}
+
+.mdie-clipboard-arrow-down {
+	content: url(../images/svg/clipboard-arrow-down.svg);
+}
+
+.mdie-clipboard-arrow-left {
+	content: url(../images/svg/clipboard-arrow-left.svg);
+}
+
+.mdie-clipboard-check {
+	content: url(../images/svg/clipboard-check.svg);
+}
+
+.mdie-clipboard-check-outline {
+	content: url(../images/svg/clipboard-check-outline.svg);
+}
+
+.mdie-clipboard-flow {
+	content: url(../images/svg/clipboard-flow.svg);
+}
+
+.mdie-clipboard-outline {
+	content: url(../images/svg/clipboard-outline.svg);
+}
+
+.mdie-clipboard-plus {
+	content: url(../images/svg/clipboard-plus.svg);
+}
+
+.mdie-clipboard-pulse {
+	content: url(../images/svg/clipboard-pulse.svg);
+}
+
+.mdie-clipboard-pulse-outline {
+	content: url(../images/svg/clipboard-pulse-outline.svg);
+}
+
+.mdie-clipboard-text {
+	content: url(../images/svg/clipboard-text.svg);
+}
+
+.mdie-clippy {
+	content: url(../images/svg/clippy.svg);
+}
+
+.mdie-clock {
+	content: url(../images/svg/clock.svg);
+}
+
+.mdie-clock-alert {
+	content: url(../images/svg/clock-alert.svg);
+}
+
+.mdie-clock-end {
+	content: url(../images/svg/clock-end.svg);
+}
+
+.mdie-clock-fast {
+	content: url(../images/svg/clock-fast.svg);
+}
+
+.mdie-clock-in {
+	content: url(../images/svg/clock-in.svg);
+}
+
+.mdie-clock-out {
+	content: url(../images/svg/clock-out.svg);
+}
+
+.mdie-clock-start {
+	content: url(../images/svg/clock-start.svg);
+}
+
+.mdie-close {
+	content: url(../images/svg/close.svg);
+}
+
+.mdie-close-circle {
+	content: url(../images/svg/close-circle.svg);
+}
+
+.mdie-close-circle-outline {
+	content: url(../images/svg/close-circle-outline.svg);
+}
+
+.mdie-closed-caption {
+	content: url(../images/svg/closed-caption.svg);
+}
+
+.mdie-close-network {
+	content: url(../images/svg/close-network.svg);
+}
+
+.mdie-close-octagon {
+	content: url(../images/svg/close-octagon.svg);
+}
+
+.mdie-close-octagon-outline {
+	content: url(../images/svg/close-octagon-outline.svg);
+}
+
+.mdie-close-outline {
+	content: url(../images/svg/close-outline.svg);
+}
+
+.mdie-cloud {
+	content: url(../images/svg/cloud.svg);
+}
+
+.mdie-cloud-braces {
+	content: url(../images/svg/cloud-braces.svg);
+}
+
+.mdie-cloud-check {
+	content: url(../images/svg/cloud-check.svg);
+}
+
+.mdie-cloud-circle {
+	content: url(../images/svg/cloud-circle.svg);
+}
+
+.mdie-cloud-download {
+	content: url(../images/svg/cloud-download.svg);
+}
+
+.mdie-cloud-off-outline {
+	content: url(../images/svg/cloud-off-outline.svg);
+}
+
+.mdie-cloud-outline {
+	content: url(../images/svg/cloud-outline.svg);
+}
+
+.mdie-cloud-print {
+	content: url(../images/svg/cloud-print.svg);
+}
+
+.mdie-cloud-print-outline {
+	content: url(../images/svg/cloud-print-outline.svg);
+}
+
+.mdie-cloud-sync {
+	content: url(../images/svg/cloud-sync.svg);
+}
+
+.mdie-cloud-tags {
+	content: url(../images/svg/cloud-tags.svg);
+}
+
+.mdie-cloud-upload {
+	content: url(../images/svg/cloud-upload.svg);
+}
+
+.mdie-clover {
+	content: url(../images/svg/clover.svg);
+}
+
+.mdie-code-array {
+	content: url(../images/svg/code-array.svg);
+}
+
+.mdie-code-braces {
+	content: url(../images/svg/code-braces.svg);
+}
+
+.mdie-code-brackets {
+	content: url(../images/svg/code-brackets.svg);
+}
+
+.mdie-code-equal {
+	content: url(../images/svg/code-equal.svg);
+}
+
+.mdie-code-greater-than {
+	content: url(../images/svg/code-greater-than.svg);
+}
+
+.mdie-code-greater-than-or-equal {
+	content: url(../images/svg/code-greater-than-or-equal.svg);
+}
+
+.mdie-code-less-than {
+	content: url(../images/svg/code-less-than.svg);
+}
+
+.mdie-code-less-than-or-equal {
+	content: url(../images/svg/code-less-than-or-equal.svg);
+}
+
+.mdie-code-not-equal {
+	content: url(../images/svg/code-not-equal.svg);
+}
+
+.mdie-code-not-equal-variant {
+	content: url(../images/svg/code-not-equal-variant.svg);
+}
+
+.mdie-code-parentheses {
+	content: url(../images/svg/code-parentheses.svg);
+}
+
+.mdie-codepen {
+	content: url(../images/svg/codepen.svg);
+}
+
+.mdie-code-string {
+	content: url(../images/svg/code-string.svg);
+}
+
+.mdie-code-tags {
+	content: url(../images/svg/code-tags.svg);
+}
+
+.mdie-code-tags-check {
+	content: url(../images/svg/code-tags-check.svg);
+}
+
+.mdie-coffee {
+	content: url(../images/svg/coffee.svg);
+}
+
+.mdie-coffee-outline {
+	content: url(../images/svg/coffee-outline.svg);
+}
+
+.mdie-coffee-to-go {
+	content: url(../images/svg/coffee-to-go.svg);
+}
+
+.mdie-cogs {
+	content: url(../images/svg/cogs.svg);
+}
+
+.mdie-coin {
+	content: url(../images/svg/coin.svg);
+}
+
+.mdie-coins {
+	content: url(../images/svg/coins.svg);
+}
+
+.mdie-collage {
+	content: url(../images/svg/collage.svg);
+}
+
+.mdie-color-helper {
+	content: url(../images/svg/color-helper.svg);
+}
+
+.mdie-comment {
+	content: url(../images/svg/comment.svg);
+}
+
+.mdie-comment-account {
+	content: url(../images/svg/comment-account.svg);
+}
+
+.mdie-comment-account-outline {
+	content: url(../images/svg/comment-account-outline.svg);
+}
+
+.mdie-comment-alert {
+	content: url(../images/svg/comment-alert.svg);
+}
+
+.mdie-comment-alert-outline {
+	content: url(../images/svg/comment-alert-outline.svg);
+}
+
+.mdie-comment-check {
+	content: url(../images/svg/comment-check.svg);
+}
+
+.mdie-comment-check-outline {
+	content: url(../images/svg/comment-check-outline.svg);
+}
+
+.mdie-comment-multiple {
+	content: url(../images/svg/comment-multiple.svg);
+}
+
+.mdie-comment-multiple-outline {
+	content: url(../images/svg/comment-multiple-outline.svg);
+}
+
+.mdie-comment-outline {
+	content: url(../images/svg/comment-outline.svg);
+}
+
+.mdie-comment-plus-outline {
+	content: url(../images/svg/comment-plus-outline.svg);
+}
+
+.mdie-comment-processing {
+	content: url(../images/svg/comment-processing.svg);
+}
+
+.mdie-comment-processing-outline {
+	content: url(../images/svg/comment-processing-outline.svg);
+}
+
+.mdie-comment-question {
+	content: url(../images/svg/comment-question.svg);
+}
+
+.mdie-comment-question-outline {
+	content: url(../images/svg/comment-question-outline.svg);
+}
+
+.mdie-comment-remove {
+	content: url(../images/svg/comment-remove.svg);
+}
+
+.mdie-comment-remove-outline {
+	content: url(../images/svg/comment-remove-outline.svg);
+}
+
+.mdie-comment-text {
+	content: url(../images/svg/comment-text.svg);
+}
+
+.mdie-comment-text-multiple {
+	content: url(../images/svg/comment-text-multiple.svg);
+}
+
+.mdie-comment-text-multiple-outline {
+	content: url(../images/svg/comment-text-multiple-outline.svg);
+}
+
+.mdie-comment-text-outline {
+	content: url(../images/svg/comment-text-outline.svg);
+}
+
+.mdie-compare {
+	content: url(../images/svg/compare.svg);
+}
+
+.mdie-compass {
+	content: url(../images/svg/compass.svg);
+}
+
+.mdie-compass-outline {
+	content: url(../images/svg/compass-outline.svg);
+}
+
+.mdie-console {
+	content: url(../images/svg/console.svg);
+}
+
+.mdie-console-line {
+	content: url(../images/svg/console-line.svg);
+}
+
+.mdie-console-network {
+	content: url(../images/svg/console-network.svg);
+}
+
+.mdie-contact-mail {
+	content: url(../images/svg/contact-mail.svg);
+}
+
+.mdie-contacts {
+	content: url(../images/svg/contacts.svg);
+}
+
+.mdie-content-copy {
+	content: url(../images/svg/content-copy.svg);
+}
+
+.mdie-content-cut {
+	content: url(../images/svg/content-cut.svg);
+}
+
+.mdie-content-duplicate {
+	content: url(../images/svg/content-duplicate.svg);
+}
+
+.mdie-content-paste {
+	content: url(../images/svg/content-paste.svg);
+}
+
+.mdie-content-save {
+	content: url(../images/svg/content-save.svg);
+}
+
+.mdie-content-save-all {
+	content: url(../images/svg/content-save-all.svg);
+}
+
+.mdie-content-save-outline {
+	content: url(../images/svg/content-save-outline.svg);
+}
+
+.mdie-content-save-settings {
+	content: url(../images/svg/content-save-settings.svg);
+}
+
+.mdie-contrast {
+	content: url(../images/svg/contrast.svg);
+}
+
+.mdie-contrast-box {
+	content: url(../images/svg/contrast-box.svg);
+}
+
+.mdie-contrast-circle {
+	content: url(../images/svg/contrast-circle.svg);
+}
+
+.mdie-controller-xbox {
+	content: url(../images/svg/controller-xbox.svg);
+}
+
+.mdie-cookie {
+	content: url(../images/svg/cookie.svg);
+}
+
+.mdie-copyright {
+	content: url(../images/svg/copyright.svg);
+}
+
+.mdie-corn {
+	content: url(../images/svg/corn.svg);
+}
+
+.mdie-counter {
+	content: url(../images/svg/counter.svg);
+}
+
+.mdie-cow {
+	content: url(../images/svg/cow.svg);
+}
+
+.mdie-crane {
+	content: url(../images/svg/crane.svg);
+}
+
+.mdie-creation {
+	content: url(../images/svg/creation.svg);
+}
+
+.mdie-credit-card {
+	content: url(../images/svg/credit-card.svg);
+}
+
+.mdie-credit-card-multiple {
+	content: url(../images/svg/credit-card-multiple.svg);
+}
+
+.mdie-credit-card-off {
+	content: url(../images/svg/credit-card-off.svg);
+}
+
+.mdie-credit-card-plus {
+	content: url(../images/svg/credit-card-plus.svg);
+}
+
+.mdie-credit-card-scan {
+	content: url(../images/svg/credit-card-scan.svg);
+}
+
+.mdie-crop {
+	content: url(../images/svg/crop.svg);
+}
+
+.mdie-crop-free {
+	content: url(../images/svg/crop-free.svg);
+}
+
+.mdie-crop-landscape {
+	content: url(../images/svg/crop-landscape.svg);
+}
+
+.mdie-crop-portrait {
+	content: url(../images/svg/crop-portrait.svg);
+}
+
+.mdie-crop-rotate {
+	content: url(../images/svg/crop-rotate.svg);
+}
+
+.mdie-crop-square {
+	content: url(../images/svg/crop-square.svg);
+}
+
+.mdie-crosshairs {
+	content: url(../images/svg/crosshairs.svg);
+}
+
+.mdie-crosshairs-gps {
+	content: url(../images/svg/crosshairs-gps.svg);
+}
+
+.mdie-crown {
+	content: url(../images/svg/crown.svg);
+}
+
+.mdie-cube {
+	content: url(../images/svg/cube.svg);
+}
+
+.mdie-cube-outline {
+	content: url(../images/svg/cube-outline.svg);
+}
+
+.mdie-cube-send {
+	content: url(../images/svg/cube-send.svg);
+}
+
+.mdie-cube-unfolded {
+	content: url(../images/svg/cube-unfolded.svg);
+}
+
+.mdie-cup {
+	content: url(../images/svg/cup.svg);
+}
+
+.mdie-cup-off {
+	content: url(../images/svg/cup-off.svg);
+}
+
+.mdie-cup-water {
+	content: url(../images/svg/cup-water.svg);
+}
+
+.mdie-curling {
+	content: url(../images/svg/curling.svg);
+}
+
+.mdie-currency-bdt {
+	content: url(../images/svg/currency-bdt.svg);
+}
+
+.mdie-currency-btc {
+	content: url(../images/svg/currency-btc.svg);
+}
+
+.mdie-currency-chf {
+	content: url(../images/svg/currency-chf.svg);
+}
+
+.mdie-currency-cny {
+	content: url(../images/svg/currency-cny.svg);
+}
+
+.mdie-currency-eth {
+	content: url(../images/svg/currency-eth.svg);
+}
+
+.mdie-currency-eur {
+	content: url(../images/svg/currency-eur.svg);
+}
+
+.mdie-currency-gbp {
+	content: url(../images/svg/currency-gbp.svg);
+}
+
+.mdie-currency-inr {
+	content: url(../images/svg/currency-inr.svg);
+}
+
+.mdie-currency-jpy {
+	content: url(../images/svg/currency-jpy.svg);
+}
+
+.mdie-currency-krw {
+	content: url(../images/svg/currency-krw.svg);
+}
+
+.mdie-currency-kzt {
+	content: url(../images/svg/currency-kzt.svg);
+}
+
+.mdie-currency-ngn {
+	content: url(../images/svg/currency-ngn.svg);
+}
+
+.mdie-currency-rub {
+	content: url(../images/svg/currency-rub.svg);
+}
+
+.mdie-currency-sign {
+	content: url(../images/svg/currency-sign.svg);
+}
+
+.mdie-currency-try {
+	content: url(../images/svg/currency-try.svg);
+}
+
+.mdie-currency-twd {
+	content: url(../images/svg/currency-twd.svg);
+}
+
+.mdie-currency-usd {
+	content: url(../images/svg/currency-usd.svg);
+}
+
+.mdie-currency-usd-off {
+	content: url(../images/svg/currency-usd-off.svg);
+}
+
+.mdie-cursor-default {
+	content: url(../images/svg/cursor-default.svg);
+}
+
+.mdie-cursor-default-outline {
+	content: url(../images/svg/cursor-default-outline.svg);
+}
+
+.mdie-cursor-move {
+	content: url(../images/svg/cursor-move.svg);
+}
+
+.mdie-cursor-pointer {
+	content: url(../images/svg/cursor-pointer.svg);
+}
+
+.mdie-cursor-text {
+	content: url(../images/svg/cursor-text.svg);
+}
+
+.mdie-data {
+	content: url(../images/svg/data.svg);
+}
+
+.mdie-database {
+	content: url(../images/svg/database.svg);
+}
+
+.mdie-database-minus {
+	content: url(../images/svg/database-minus.svg);
+}
+
+.mdie-database-plus {
+	content: url(../images/svg/database-plus.svg);
+}
+
+.mdie-database-search {
+	content: url(../images/svg/database-search.svg);
+}
+
+.mdie-death-star {
+	content: url(../images/svg/death-star.svg);
+}
+
+.mdie-death-star-variant {
+	content: url(../images/svg/death-star-variant.svg);
+}
+
+.mdie-debug-step-into {
+	content: url(../images/svg/debug-step-into.svg);
+}
+
+.mdie-debug-step-out {
+	content: url(../images/svg/debug-step-out.svg);
+}
+
+.mdie-debug-step-over {
+	content: url(../images/svg/debug-step-over.svg);
+}
+
+.mdie-decagram {
+	content: url(../images/svg/decagram.svg);
+}
+
+.mdie-decagram-outline {
+	content: url(../images/svg/decagram-outline.svg);
+}
+
+.mdie-decimal-decrease {
+	content: url(../images/svg/decimal-decrease.svg);
+}
+
+.mdie-decimal-increase {
+	content: url(../images/svg/decimal-increase.svg);
+}
+
+.mdie-delete {
+	content: url(../images/svg/delete.svg);
+}
+
+.mdie-delete-circle {
+	content: url(../images/svg/delete-circle.svg);
+}
+
+.mdie-delete-empty {
+	content: url(../images/svg/delete-empty.svg);
+}
+
+.mdie-delete-forever {
+	content: url(../images/svg/delete-forever.svg);
+}
+
+.mdie-delete-restore {
+	content: url(../images/svg/delete-restore.svg);
+}
+
+.mdie-delete-sweep {
+	content: url(../images/svg/delete-sweep.svg);
+}
+
+.mdie-delete-variant {
+	content: url(../images/svg/delete-variant.svg);
+}
+
+.mdie-delta {
+	content: url(../images/svg/delta.svg);
+}
+
+.mdie-deskphone {
+	content: url(../images/svg/deskphone.svg);
+}
+
+.mdie-desktop-classic {
+	content: url(../images/svg/desktop-classic.svg);
+}
+
+.mdie-desktop-mac {
+	content: url(../images/svg/desktop-mac.svg);
+}
+
+.mdie-desktop-tower {
+	content: url(../images/svg/desktop-tower.svg);
+}
+
+.mdie-details {
+	content: url(../images/svg/details.svg);
+}
+
+.mdie-developer-board {
+	content: url(../images/svg/developer-board.svg);
+}
+
+.mdie-deviantart {
+	content: url(../images/svg/deviantart.svg);
+}
+
+.mdie-dialpad {
+	content: url(../images/svg/dialpad.svg);
+}
+
+.mdie-diamond {
+	content: url(../images/svg/diamond.svg);
+}
+
+.mdie-dice {
+	content: url(../images/svg/dice.svg);
+}
+
+.mdie-dice-1 {
+	content: url(../images/svg/dice-1.svg);
+}
+
+.mdie-dice-2 {
+	content: url(../images/svg/dice-2.svg);
+}
+
+.mdie-dice-3 {
+	content: url(../images/svg/dice-3.svg);
+}
+
+.mdie-dice-4 {
+	content: url(../images/svg/dice-4.svg);
+}
+
+.mdie-dice-5 {
+	content: url(../images/svg/dice-5.svg);
+}
+
+.mdie-dice-6 {
+	content: url(../images/svg/dice-6.svg);
+}
+
+.mdie-dice-d4 {
+	content: url(../images/svg/dice-d4.svg);
+}
+
+.mdie-dice-d6 {
+	content: url(../images/svg/dice-d6.svg);
+}
+
+.mdie-dice-d8 {
+	content: url(../images/svg/dice-d8.svg);
+}
+
+.mdie-dice-d10 {
+	content: url(../images/svg/dice-d10.svg);
+}
+
+.mdie-dice-d12 {
+	content: url(../images/svg/dice-d12.svg);
+}
+
+.mdie-dice-d20 {
+	content: url(../images/svg/dice-d20.svg);
+}
+
+.mdie-dice-multiple {
+	content: url(../images/svg/dice-multiple.svg);
+}
+
+.mdie-dictionary {
+	content: url(../images/svg/dictionary.svg);
+}
+
+.mdie-dip-switch {
+	content: url(../images/svg/dip-switch.svg);
+}
+
+.mdie-directions {
+	content: url(../images/svg/directions.svg);
+}
+
+.mdie-directions-fork {
+	content: url(../images/svg/directions-fork.svg);
+}
+
+.mdie-discord {
+	content: url(../images/svg/discord.svg);
+}
+
+.mdie-disk {
+	content: url(../images/svg/disk.svg);
+}
+
+.mdie-disk-alert {
+	content: url(../images/svg/disk-alert.svg);
+}
+
+.mdie-disqus {
+	content: url(../images/svg/disqus.svg);
+}
+
+.mdie-disqus-outline {
+	content: url(../images/svg/disqus-outline.svg);
+}
+
+.mdie-division {
+	content: url(../images/svg/division.svg);
+}
+
+.mdie-division-box {
+	content: url(../images/svg/division-box.svg);
+}
+
+.mdie-dna {
+	content: url(../images/svg/dna.svg);
+}
+
+.mdie-dns {
+	content: url(../images/svg/dns.svg);
+}
+
+.mdie-docker {
+	content: url(../images/svg/docker.svg);
+}
+
+.mdie-document {
+	content: url(../images/svg/document.svg);
+}
+
+.mdie-dolby {
+	content: url(../images/svg/dolby.svg);
+}
+
+.mdie-domain {
+	content: url(../images/svg/domain.svg);
+}
+
+.mdie-donkey {
+	content: url(../images/svg/donkey.svg);
+}
+
+.mdie-do-not-disturb {
+	content: url(../images/svg/do-not-disturb.svg);
+}
+
+.mdie-do-not-disturb-off {
+	content: url(../images/svg/do-not-disturb-off.svg);
+}
+
+.mdie-door {
+	content: url(../images/svg/door.svg);
+}
+
+.mdie-doorbell-video {
+	content: url(../images/svg/doorbell-video.svg);
+}
+
+.mdie-door-closed {
+	content: url(../images/svg/door-closed.svg);
+}
+
+.mdie-door-open {
+	content: url(../images/svg/door-open.svg);
+}
+
+.mdie-dots-horizontal {
+	content: url(../images/svg/dots-horizontal.svg);
+}
+
+.mdie-dots-horizontal-circle {
+	content: url(../images/svg/dots-horizontal-circle.svg);
+}
+
+.mdie-dots-vertical {
+	content: url(../images/svg/dots-vertical.svg);
+}
+
+.mdie-dots-vertical-circle {
+	content: url(../images/svg/dots-vertical-circle.svg);
+}
+
+.mdie-douban {
+	content: url(../images/svg/douban.svg);
+}
+
+.mdie-download {
+	content: url(../images/svg/download.svg);
+}
+
+.mdie-download-network {
+	content: url(../images/svg/download-network.svg);
+}
+
+.mdie-drag {
+	content: url(../images/svg/drag.svg);
+}
+
+.mdie-drag-horizontal {
+	content: url(../images/svg/drag-horizontal.svg);
+}
+
+.mdie-drag-vertical {
+	content: url(../images/svg/drag-vertical.svg);
+}
+
+.mdie-drawing {
+	content: url(../images/svg/drawing.svg);
+}
+
+.mdie-drawing-box {
+	content: url(../images/svg/drawing-box.svg);
+}
+
+.mdie-dribbble {
+	content: url(../images/svg/dribbble.svg);
+}
+
+.mdie-dribbble-box {
+	content: url(../images/svg/dribbble-box.svg);
+}
+
+.mdie-drone {
+	content: url(../images/svg/drone.svg);
+}
+
+.mdie-dropbox {
+	content: url(../images/svg/dropbox.svg);
+}
+
+.mdie-drupal {
+	content: url(../images/svg/drupal.svg);
+}
+
+.mdie-duck {
+	content: url(../images/svg/duck.svg);
+}
+
+.mdie-dumbbell {
+	content: url(../images/svg/dumbbell.svg);
+}
+
+.mdie-ear-hearing {
+	content: url(../images/svg/ear-hearing.svg);
+}
+
+.mdie-earth {
+	content: url(../images/svg/earth.svg);
+}
+
+.mdie-earth-box {
+	content: url(../images/svg/earth-box.svg);
+}
+
+.mdie-earth-box-off {
+	content: url(../images/svg/earth-box-off.svg);
+}
+
+.mdie-earth-off {
+	content: url(../images/svg/earth-off.svg);
+}
+
+.mdie-ebay {
+	content: url(../images/svg/ebay.svg);
+}
+
+.mdie-edge {
+	content: url(../images/svg/edge.svg);
+}
+
+.mdie-eject {
+	content: url(../images/svg/eject.svg);
+}
+
+.mdie-elephant {
+	content: url(../images/svg/elephant.svg);
+}
+
+.mdie-elevation-decline {
+	content: url(../images/svg/elevation-decline.svg);
+}
+
+.mdie-elevation-rise {
+	content: url(../images/svg/elevation-rise.svg);
+}
+
+.mdie-elevator {
+	content: url(../images/svg/elevator.svg);
+}
+
+.mdie-email {
+	content: url(../images/svg/email.svg);
+}
+
+.mdie-email-alert {
+	content: url(../images/svg/email-alert.svg);
+}
+
+.mdie-email-open {
+	content: url(../images/svg/email-open.svg);
+}
+
+.mdie-email-open-outline {
+	content: url(../images/svg/email-open-outline.svg);
+}
+
+.mdie-email-outline {
+	content: url(../images/svg/email-outline.svg);
+}
+
+.mdie-email-secure {
+	content: url(../images/svg/email-secure.svg);
+}
+
+.mdie-email-variant {
+	content: url(../images/svg/email-variant.svg);
+}
+
+.mdie-ember {
+	content: url(../images/svg/ember.svg);
+}
+
+.mdie-emby {
+	content: url(../images/svg/emby.svg);
+}
+
+.mdie-emoticon {
+	content: url(../images/svg/emoticon.svg);
+}
+
+.mdie-emoticon-cool {
+	content: url(../images/svg/emoticon-cool.svg);
+}
+
+.mdie-emoticon-dead {
+	content: url(../images/svg/emoticon-dead.svg);
+}
+
+.mdie-emoticon-devil {
+	content: url(../images/svg/emoticon-devil.svg);
+}
+
+.mdie-emoticon-excited {
+	content: url(../images/svg/emoticon-excited.svg);
+}
+
+.mdie-emoticon-happy {
+	content: url(../images/svg/emoticon-happy.svg);
+}
+
+.mdie-emoticon-neutral {
+	content: url(../images/svg/emoticon-neutral.svg);
+}
+
+.mdie-emoticon-poop {
+	content: url(../images/svg/emoticon-poop.svg);
+}
+
+.mdie-emoticon-sad {
+	content: url(../images/svg/emoticon-sad.svg);
+}
+
+.mdie-emoticon-tongue {
+	content: url(../images/svg/emoticon-tongue.svg);
+}
+
+.mdie-engine {
+	content: url(../images/svg/engine.svg);
+}
+
+.mdie-engine-outline {
+	content: url(../images/svg/engine-outline.svg);
+}
+
+.mdie-equal {
+	content: url(../images/svg/equal.svg);
+}
+
+.mdie-equal-box {
+	content: url(../images/svg/equal-box.svg);
+}
+
+.mdie-eraser {
+	content: url(../images/svg/eraser.svg);
+}
+
+.mdie-eraser-variant {
+	content: url(../images/svg/eraser-variant.svg);
+}
+
+.mdie-escalator {
+	content: url(../images/svg/escalator.svg);
+}
+
+.mdie-ethernet {
+	content: url(../images/svg/ethernet.svg);
+}
+
+.mdie-ethernet-cable {
+	content: url(../images/svg/ethernet-cable.svg);
+}
+
+.mdie-ethernet-cable-off {
+	content: url(../images/svg/ethernet-cable-off.svg);
+}
+
+.mdie-etsy {
+	content: url(../images/svg/etsy.svg);
+}
+
+.mdie-eventbrite {
+	content: url(../images/svg/eventbrite.svg);
+}
+
+.mdie-evernote {
+	content: url(../images/svg/evernote.svg);
+}
+
+.mdie-ev-station {
+	content: url(../images/svg/ev-station.svg);
+}
+
+.mdie-exclamation {
+	content: url(../images/svg/exclamation.svg);
+}
+
+.mdie-exit-to-app {
+	content: url(../images/svg/exit-to-app.svg);
+}
+
+.mdie-export {
+	content: url(../images/svg/export.svg);
+}
+
+.mdie-eye {
+	content: url(../images/svg/eye.svg);
+}
+
+.mdie-eyedropper {
+	content: url(../images/svg/eyedropper.svg);
+}
+
+.mdie-eyedropper-variant {
+	content: url(../images/svg/eyedropper-variant.svg);
+}
+
+.mdie-eye-off {
+	content: url(../images/svg/eye-off.svg);
+}
+
+.mdie-eye-off-outline {
+	content: url(../images/svg/eye-off-outline.svg);
+}
+
+.mdie-eye-outline {
+	content: url(../images/svg/eye-outline.svg);
+}
+
+.mdie-eye-plus {
+	content: url(../images/svg/eye-plus.svg);
+}
+
+.mdie-eye-plus-outline {
+	content: url(../images/svg/eye-plus-outline.svg);
+}
+
+.mdie-eye-settings {
+	content: url(../images/svg/eye-settings.svg);
+}
+
+.mdie-eye-settings-outline {
+	content: url(../images/svg/eye-settings-outline.svg);
+}
+
+.mdie-face {
+	content: url(../images/svg/face.svg);
+}
+
+.mdie-facebook {
+	content: url(../images/svg/facebook.svg);
+}
+
+.mdie-facebook-box {
+	content: url(../images/svg/facebook-box.svg);
+}
+
+.mdie-facebook-messenger {
+	content: url(../images/svg/facebook-messenger.svg);
+}
+
+.mdie-face-profile {
+	content: url(../images/svg/face-profile.svg);
+}
+
+.mdie-factory {
+	content: url(../images/svg/factory.svg);
+}
+
+.mdie-fan {
+	content: url(../images/svg/fan.svg);
+}
+
+.mdie-fan-off {
+	content: url(../images/svg/fan-off.svg);
+}
+
+.mdie-fast-forward {
+	content: url(../images/svg/fast-forward.svg);
+}
+
+.mdie-fast-forward-outline {
+	content: url(../images/svg/fast-forward-outline.svg);
+}
+
+.mdie-fax {
+	content: url(../images/svg/fax.svg);
+}
+
+.mdie-feather {
+	content: url(../images/svg/feather.svg);
+}
+
+.mdie-ferry {
+	content: url(../images/svg/ferry.svg);
+}
+
+.mdie-file {
+	content: url(../images/svg/file.svg);
+}
+
+.mdie-file-account {
+	content: url(../images/svg/file-account.svg);
+}
+
+.mdie-file-chart {
+	content: url(../images/svg/file-chart.svg);
+}
+
+.mdie-file-check {
+	content: url(../images/svg/file-check.svg);
+}
+
+.mdie-file-cloud {
+	content: url(../images/svg/file-cloud.svg);
+}
+
+.mdie-file-compare {
+	content: url(../images/svg/file-compare.svg);
+}
+
+.mdie-file-delimited {
+	content: url(../images/svg/file-delimited.svg);
+}
+
+.mdie-file-document {
+	content: url(../images/svg/file-document.svg);
+}
+
+.mdie-file-document-box {
+	content: url(../images/svg/file-document-box.svg);
+}
+
+.mdie-file-excel {
+	content: url(../images/svg/file-excel.svg);
+}
+
+.mdie-file-excel-box {
+	content: url(../images/svg/file-excel-box.svg);
+}
+
+.mdie-file-export {
+	content: url(../images/svg/file-export.svg);
+}
+
+.mdie-file-find {
+	content: url(../images/svg/file-find.svg);
+}
+
+.mdie-file-hidden {
+	content: url(../images/svg/file-hidden.svg);
+}
+
+.mdie-file-image {
+	content: url(../images/svg/file-image.svg);
+}
+
+.mdie-file-image-box {
+	content: url(../images/svg/file-image-box.svg);
+}
+
+.mdie-file-import {
+	content: url(../images/svg/file-import.svg);
+}
+
+.mdie-file-lock {
+	content: url(../images/svg/file-lock.svg);
+}
+
+.mdie-file-move {
+	content: url(../images/svg/file-move.svg);
+}
+
+.mdie-file-multiple {
+	content: url(../images/svg/file-multiple.svg);
+}
+
+.mdie-file-music {
+	content: url(../images/svg/file-music.svg);
+}
+
+.mdie-file-outline {
+	content: url(../images/svg/file-outline.svg);
+}
+
+.mdie-file-pdf {
+	content: url(../images/svg/file-pdf.svg);
+}
+
+.mdie-file-pdf-box {
+	content: url(../images/svg/file-pdf-box.svg);
+}
+
+.mdie-file-percent {
+	content: url(../images/svg/file-percent.svg);
+}
+
+.mdie-file-plus {
+	content: url(../images/svg/file-plus.svg);
+}
+
+.mdie-file-powerpoint {
+	content: url(../images/svg/file-powerpoint.svg);
+}
+
+.mdie-file-powerpoint-box {
+	content: url(../images/svg/file-powerpoint-box.svg);
+}
+
+.mdie-file-presentation-box {
+	content: url(../images/svg/file-presentation-box.svg);
+}
+
+.mdie-file-question {
+	content: url(../images/svg/file-question.svg);
+}
+
+.mdie-file-restore {
+	content: url(../images/svg/file-restore.svg);
+}
+
+.mdie-file-send {
+	content: url(../images/svg/file-send.svg);
+}
+
+.mdie-file-tree {
+	content: url(../images/svg/file-tree.svg);
+}
+
+.mdie-file-video {
+	content: url(../images/svg/file-video.svg);
+}
+
+.mdie-file-word {
+	content: url(../images/svg/file-word.svg);
+}
+
+.mdie-file-word-box {
+	content: url(../images/svg/file-word-box.svg);
+}
+
+.mdie-file-xml {
+	content: url(../images/svg/file-xml.svg);
+}
+
+.mdie-fill {
+	content: url(../images/svg/fill.svg);
+}
+
+.mdie-film {
+	content: url(../images/svg/film.svg);
+}
+
+.mdie-filmstrip {
+	content: url(../images/svg/filmstrip.svg);
+}
+
+.mdie-filmstrip-off {
+	content: url(../images/svg/filmstrip-off.svg);
+}
+
+.mdie-filter {
+	content: url(../images/svg/filter.svg);
+}
+
+.mdie-filter-outline {
+	content: url(../images/svg/filter-outline.svg);
+}
+
+.mdie-filter-remove {
+	content: url(../images/svg/filter-remove.svg);
+}
+
+.mdie-filter-remove-outline {
+	content: url(../images/svg/filter-remove-outline.svg);
+}
+
+.mdie-filter-variant {
+	content: url(../images/svg/filter-variant.svg);
+}
+
+.mdie-finance {
+	content: url(../images/svg/finance.svg);
+}
+
+.mdie-find-replace {
+	content: url(../images/svg/find-replace.svg);
+}
+
+.mdie-fingerprint {
+	content: url(../images/svg/fingerprint.svg);
+}
+
+.mdie-fire {
+	content: url(../images/svg/fire.svg);
+}
+
+.mdie-fire-truck {
+	content: url(../images/svg/fire-truck.svg);
+}
+
+.mdie-fish {
+	content: url(../images/svg/fish.svg);
+}
+
+.mdie-flag {
+	content: url(../images/svg/flag.svg);
+}
+
+.mdie-flag-checkered {
+	content: url(../images/svg/flag-checkered.svg);
+}
+
+.mdie-flag-checkered-variant {
+	content: url(../images/svg/flag-checkered-variant.svg);
+}
+
+.mdie-flag-outline {
+	content: url(../images/svg/flag-outline.svg);
+}
+
+.mdie-flag-outline-variant {
+	content: url(../images/svg/flag-outline-variant.svg);
+}
+
+.mdie-flag-triangle {
+	content: url(../images/svg/flag-triangle.svg);
+}
+
+.mdie-flag-variant {
+	content: url(../images/svg/flag-variant.svg);
+}
+
+.mdie-flash {
+	content: url(../images/svg/flash.svg);
+}
+
+.mdie-flash-auto {
+	content: url(../images/svg/flash-auto.svg);
+}
+
+.mdie-flash-circle {
+	content: url(../images/svg/flash-circle.svg);
+}
+
+.mdie-flashlight {
+	content: url(../images/svg/flashlight.svg);
+}
+
+.mdie-flashlight-off {
+	content: url(../images/svg/flashlight-off.svg);
+}
+
+.mdie-flash-off {
+	content: url(../images/svg/flash-off.svg);
+}
+
+.mdie-flash-outline {
+	content: url(../images/svg/flash-outline.svg);
+}
+
+.mdie-flash-red-eye {
+	content: url(../images/svg/flash-red-eye.svg);
+}
+
+.mdie-flask {
+	content: url(../images/svg/flask.svg);
+}
+
+.mdie-flask-empty {
+	content: url(../images/svg/flask-empty.svg);
+}
+
+.mdie-flask-empty-outline {
+	content: url(../images/svg/flask-empty-outline.svg);
+}
+
+.mdie-flask-outline {
+	content: url(../images/svg/flask-outline.svg);
+}
+
+.mdie-flattr {
+	content: url(../images/svg/flattr.svg);
+}
+
+.mdie-flickr-after {
+	content: url(../images/svg/flickr-after.svg);
+}
+
+.mdie-flickr-before {
+	content: url(../images/svg/flickr-before.svg);
+}
+
+.mdie-flip-to-back {
+	content: url(../images/svg/flip-to-back.svg);
+}
+
+.mdie-flip-to-front {
+	content: url(../images/svg/flip-to-front.svg);
+}
+
+.mdie-floor-lamp {
+	content: url(../images/svg/floor-lamp.svg);
+}
+
+.mdie-floor-plan {
+	content: url(../images/svg/floor-plan.svg);
+}
+
+.mdie-floppy {
+	content: url(../images/svg/floppy.svg);
+}
+
+.mdie-flower {
+	content: url(../images/svg/flower.svg);
+}
+
+.mdie-folder {
+	content: url(../images/svg/folder.svg);
+}
+
+.mdie-folder-account {
+	content: url(../images/svg/folder-account.svg);
+}
+
+.mdie-folder-download {
+	content: url(../images/svg/folder-download.svg);
+}
+
+.mdie-folder-edit {
+	content: url(../images/svg/folder-edit.svg);
+}
+
+.mdie-folder-google-drive {
+	content: url(../images/svg/folder-google-drive.svg);
+}
+
+.mdie-folder-image {
+	content: url(../images/svg/folder-image.svg);
+}
+
+.mdie-folder-key {
+	content: url(../images/svg/folder-key.svg);
+}
+
+.mdie-folder-key-network {
+	content: url(../images/svg/folder-key-network.svg);
+}
+
+.mdie-folder-lock {
+	content: url(../images/svg/folder-lock.svg);
+}
+
+.mdie-folder-lock-open {
+	content: url(../images/svg/folder-lock-open.svg);
+}
+
+.mdie-folder-move {
+	content: url(../images/svg/folder-move.svg);
+}
+
+.mdie-folder-multiple {
+	content: url(../images/svg/folder-multiple.svg);
+}
+
+.mdie-folder-multiple-image {
+	content: url(../images/svg/folder-multiple-image.svg);
+}
+
+.mdie-folder-multiple-outline {
+	content: url(../images/svg/folder-multiple-outline.svg);
+}
+
+.mdie-folder-network {
+	content: url(../images/svg/folder-network.svg);
+}
+
+.mdie-folder-open {
+	content: url(../images/svg/folder-open.svg);
+}
+
+.mdie-folder-outline {
+	content: url(../images/svg/folder-outline.svg);
+}
+
+.mdie-folder-outline-lock {
+	content: url(../images/svg/folder-outline-lock.svg);
+}
+
+.mdie-folder-plus {
+	content: url(../images/svg/folder-plus.svg);
+}
+
+.mdie-folder-remove {
+	content: url(../images/svg/folder-remove.svg);
+}
+
+.mdie-folder-star {
+	content: url(../images/svg/folder-star.svg);
+}
+
+.mdie-folder-upload {
+	content: url(../images/svg/folder-upload.svg);
+}
+
+.mdie-font-awesome {
+	content: url(../images/svg/font-awesome.svg);
+}
+
+.mdie-food {
+	content: url(../images/svg/food.svg);
+}
+
+.mdie-food-apple {
+	content: url(../images/svg/food-apple.svg);
+}
+
+.mdie-food-croissant {
+	content: url(../images/svg/food-croissant.svg);
+}
+
+.mdie-food-fork-drink {
+	content: url(../images/svg/food-fork-drink.svg);
+}
+
+.mdie-food-off {
+	content: url(../images/svg/food-off.svg);
+}
+
+.mdie-food-variant {
+	content: url(../images/svg/food-variant.svg);
+}
+
+.mdie-football {
+	content: url(../images/svg/football.svg);
+}
+
+.mdie-football-australian {
+	content: url(../images/svg/football-australian.svg);
+}
+
+.mdie-football-helmet {
+	content: url(../images/svg/football-helmet.svg);
+}
+
+.mdie-footer {
+	content: url(../images/svg/footer.svg);
+}
+
+.mdie-forklift {
+	content: url(../images/svg/forklift.svg);
+}
+
+.mdie-format-align-bottom {
+	content: url(../images/svg/format-align-bottom.svg);
+}
+
+.mdie-format-align-center {
+	content: url(../images/svg/format-align-center.svg);
+}
+
+.mdie-format-align-justify {
+	content: url(../images/svg/format-align-justify.svg);
+}
+
+.mdie-format-align-left {
+	content: url(../images/svg/format-align-left.svg);
+}
+
+.mdie-format-align-middle {
+	content: url(../images/svg/format-align-middle.svg);
+}
+
+.mdie-format-align-right {
+	content: url(../images/svg/format-align-right.svg);
+}
+
+.mdie-format-align-top {
+	content: url(../images/svg/format-align-top.svg);
+}
+
+.mdie-format-annotation-plus {
+	content: url(../images/svg/format-annotation-plus.svg);
+}
+
+.mdie-format-bold {
+	content: url(../images/svg/format-bold.svg);
+}
+
+.mdie-format-clear {
+	content: url(../images/svg/format-clear.svg);
+}
+
+.mdie-format-color {
+	content: url(../images/svg/format-color.svg);
+}
+
+.mdie-format-color-fill {
+	content: url(../images/svg/format-color-fill.svg);
+}
+
+.mdie-format-color-text {
+	content: url(../images/svg/format-color-text.svg);
+}
+
+.mdie-format-columns {
+	content: url(../images/svg/format-columns.svg);
+}
+
+.mdie-format-float-center {
+	content: url(../images/svg/format-float-center.svg);
+}
+
+.mdie-format-float-left {
+	content: url(../images/svg/format-float-left.svg);
+}
+
+.mdie-format-float-none {
+	content: url(../images/svg/format-float-none.svg);
+}
+
+.mdie-format-float-right {
+	content: url(../images/svg/format-float-right.svg);
+}
+
+.mdie-format-font {
+	content: url(../images/svg/format-font.svg);
+}
+
+.mdie-format-header-1 {
+	content: url(../images/svg/format-header-1.svg);
+}
+
+.mdie-format-header-2 {
+	content: url(../images/svg/format-header-2.svg);
+}
+
+.mdie-format-header-3 {
+	content: url(../images/svg/format-header-3.svg);
+}
+
+.mdie-format-header-4 {
+	content: url(../images/svg/format-header-4.svg);
+}
+
+.mdie-format-header-5 {
+	content: url(../images/svg/format-header-5.svg);
+}
+
+.mdie-format-header-6 {
+	content: url(../images/svg/format-header-6.svg);
+}
+
+.mdie-format-header-decrease {
+	content: url(../images/svg/format-header-decrease.svg);
+}
+
+.mdie-format-header-down {
+	content: url(../images/svg/format-header-down.svg);
+}
+
+.mdie-format-header-equal {
+	content: url(../images/svg/format-header-equal.svg);
+}
+
+.mdie-format-header-increase {
+	content: url(../images/svg/format-header-increase.svg);
+}
+
+.mdie-format-header-pound {
+	content: url(../images/svg/format-header-pound.svg);
+}
+
+.mdie-format-header-up {
+	content: url(../images/svg/format-header-up.svg);
+}
+
+.mdie-format-horizontal-align-center {
+	content: url(../images/svg/format-horizontal-align-center.svg);
+}
+
+.mdie-format-horizontal-align-left {
+	content: url(../images/svg/format-horizontal-align-left.svg);
+}
+
+.mdie-format-horizontal-align-right {
+	content: url(../images/svg/format-horizontal-align-right.svg);
+}
+
+.mdie-format-indent-decrease {
+	content: url(../images/svg/format-indent-decrease.svg);
+}
+
+.mdie-format-indent-increase {
+	content: url(../images/svg/format-indent-increase.svg);
+}
+
+.mdie-format-italic {
+	content: url(../images/svg/format-italic.svg);
+}
+
+.mdie-format-line-spacing {
+	content: url(../images/svg/format-line-spacing.svg);
+}
+
+.mdie-format-line-style {
+	content: url(../images/svg/format-line-style.svg);
+}
+
+.mdie-format-line-weight {
+	content: url(../images/svg/format-line-weight.svg);
+}
+
+.mdie-format-list-bulleted {
+	content: url(../images/svg/format-list-bulleted.svg);
+}
+
+.mdie-format-list-bulleted-type {
+	content: url(../images/svg/format-list-bulleted-type.svg);
+}
+
+.mdie-format-list-checks {
+	content: url(../images/svg/format-list-checks.svg);
+}
+
+.mdie-format-list-numbers {
+	content: url(../images/svg/format-list-numbers.svg);
+}
+
+.mdie-format-page-break {
+	content: url(../images/svg/format-page-break.svg);
+}
+
+.mdie-format-paint {
+	content: url(../images/svg/format-paint.svg);
+}
+
+.mdie-format-paragraph {
+	content: url(../images/svg/format-paragraph.svg);
+}
+
+.mdie-format-pilcrow {
+	content: url(../images/svg/format-pilcrow.svg);
+}
+
+.mdie-format-quote-close {
+	content: url(../images/svg/format-quote-close.svg);
+}
+
+.mdie-format-quote-open {
+	content: url(../images/svg/format-quote-open.svg);
+}
+
+.mdie-format-rotate-90 {
+	content: url(../images/svg/format-rotate-90.svg);
+}
+
+.mdie-format-section {
+	content: url(../images/svg/format-section.svg);
+}
+
+.mdie-format-size {
+	content: url(../images/svg/format-size.svg);
+}
+
+.mdie-format-strikethrough {
+	content: url(../images/svg/format-strikethrough.svg);
+}
+
+.mdie-format-strikethrough-variant {
+	content: url(../images/svg/format-strikethrough-variant.svg);
+}
+
+.mdie-format-subscript {
+	content: url(../images/svg/format-subscript.svg);
+}
+
+.mdie-format-superscript {
+	content: url(../images/svg/format-superscript.svg);
+}
+
+.mdie-format-text {
+	content: url(../images/svg/format-text.svg);
+}
+
+.mdie-format-textdirection-l-to-r {
+	content: url(../images/svg/format-textdirection-l-to-r.svg);
+}
+
+.mdie-format-textdirection-r-to-l {
+	content: url(../images/svg/format-textdirection-r-to-l.svg);
+}
+
+.mdie-format-title {
+	content: url(../images/svg/format-title.svg);
+}
+
+.mdie-format-underline {
+	content: url(../images/svg/format-underline.svg);
+}
+
+.mdie-format-vertical-align-bottom {
+	content: url(../images/svg/format-vertical-align-bottom.svg);
+}
+
+.mdie-format-vertical-align-center {
+	content: url(../images/svg/format-vertical-align-center.svg);
+}
+
+.mdie-format-vertical-align-top {
+	content: url(../images/svg/format-vertical-align-top.svg);
+}
+
+.mdie-format-wrap-inline {
+	content: url(../images/svg/format-wrap-inline.svg);
+}
+
+.mdie-format-wrap-square {
+	content: url(../images/svg/format-wrap-square.svg);
+}
+
+.mdie-format-wrap-tight {
+	content: url(../images/svg/format-wrap-tight.svg);
+}
+
+.mdie-format-wrap-top-bottom {
+	content: url(../images/svg/format-wrap-top-bottom.svg);
+}
+
+.mdie-forum {
+	content: url(../images/svg/forum.svg);
+}
+
+.mdie-forum-outline {
+	content: url(../images/svg/forum-outline.svg);
+}
+
+.mdie-forward {
+	content: url(../images/svg/forward.svg);
+}
+
+.mdie-foursquare {
+	content: url(../images/svg/foursquare.svg);
+}
+
+.mdie-fridge {
+	content: url(../images/svg/fridge.svg);
+}
+
+.mdie-fridge-filled {
+	content: url(../images/svg/fridge-filled.svg);
+}
+
+.mdie-fridge-filled-bottom {
+	content: url(../images/svg/fridge-filled-bottom.svg);
+}
+
+.mdie-fridge-filled-top {
+	content: url(../images/svg/fridge-filled-top.svg);
+}
+
+.mdie-fuel {
+	content: url(../images/svg/fuel.svg);
+}
+
+.mdie-fullscreen {
+	content: url(../images/svg/fullscreen.svg);
+}
+
+.mdie-fullscreen-exit {
+	content: url(../images/svg/fullscreen-exit.svg);
+}
+
+.mdie-function {
+	content: url(../images/svg/function.svg);
+}
+
+.mdie-function-variant {
+	content: url(../images/svg/function-variant.svg);
+}
+
+.mdie-gamepad {
+	content: url(../images/svg/gamepad.svg);
+}
+
+.mdie-gamepad-variant {
+	content: url(../images/svg/gamepad-variant.svg);
+}
+
+.mdie-garage {
+	content: url(../images/svg/garage.svg);
+}
+
+.mdie-garage-alert {
+	content: url(../images/svg/garage-alert.svg);
+}
+
+.mdie-garage-open {
+	content: url(../images/svg/garage-open.svg);
+}
+
+.mdie-gas-cylinder {
+	content: url(../images/svg/gas-cylinder.svg);
+}
+
+.mdie-gas-station {
+	content: url(../images/svg/gas-station.svg);
+}
+
+.mdie-gate {
+	content: url(../images/svg/gate.svg);
+}
+
+.mdie-gate-and {
+	content: url(../images/svg/gate-and.svg);
+}
+
+.mdie-gate-nand {
+	content: url(../images/svg/gate-nand.svg);
+}
+
+.mdie-gate-nor {
+	content: url(../images/svg/gate-nor.svg);
+}
+
+.mdie-gate-not {
+	content: url(../images/svg/gate-not.svg);
+}
+
+.mdie-gate-or {
+	content: url(../images/svg/gate-or.svg);
+}
+
+.mdie-gate-xnor {
+	content: url(../images/svg/gate-xnor.svg);
+}
+
+.mdie-gate-xor {
+	content: url(../images/svg/gate-xor.svg);
+}
+
+.mdie-gauge {
+	content: url(../images/svg/gauge.svg);
+}
+
+.mdie-gauge-empty {
+	content: url(../images/svg/gauge-empty.svg);
+}
+
+.mdie-gauge-full {
+	content: url(../images/svg/gauge-full.svg);
+}
+
+.mdie-gauge-low {
+	content: url(../images/svg/gauge-low.svg);
+}
+
+.mdie-gavel {
+	content: url(../images/svg/gavel.svg);
+}
+
+.mdie-gender-female {
+	content: url(../images/svg/gender-female.svg);
+}
+
+.mdie-gender-male {
+	content: url(../images/svg/gender-male.svg);
+}
+
+.mdie-gender-male-female {
+	content: url(../images/svg/gender-male-female.svg);
+}
+
+.mdie-gender-transgender {
+	content: url(../images/svg/gender-transgender.svg);
+}
+
+.mdie-gesture {
+	content: url(../images/svg/gesture.svg);
+}
+
+.mdie-gesture-double-tap {
+	content: url(../images/svg/gesture-double-tap.svg);
+}
+
+.mdie-gesture-swipe-down {
+	content: url(../images/svg/gesture-swipe-down.svg);
+}
+
+.mdie-gesture-swipe-left {
+	content: url(../images/svg/gesture-swipe-left.svg);
+}
+
+.mdie-gesture-swipe-right {
+	content: url(../images/svg/gesture-swipe-right.svg);
+}
+
+.mdie-gesture-swipe-up {
+	content: url(../images/svg/gesture-swipe-up.svg);
+}
+
+.mdie-gesture-tap {
+	content: url(../images/svg/gesture-tap.svg);
+}
+
+.mdie-gesture-two-double-tap {
+	content: url(../images/svg/gesture-two-double-tap.svg);
+}
+
+.mdie-gesture-two-tap {
+	content: url(../images/svg/gesture-two-tap.svg);
+}
+
+.mdie-ghost {
+	content: url(../images/svg/ghost.svg);
+}
+
+.mdie-gift {
+	content: url(../images/svg/gift.svg);
+}
+
+.mdie-git {
+	content: url(../images/svg/git.svg);
+}
+
+.mdie-github-box {
+	content: url(../images/svg/github-box.svg);
+}
+
+.mdie-github-circle {
+	content: url(../images/svg/github-circle.svg);
+}
+
+.mdie-github-face {
+	content: url(../images/svg/github-face.svg);
+}
+
+.mdie-glassdoor {
+	content: url(../images/svg/glassdoor.svg);
+}
+
+.mdie-glasses {
+	content: url(../images/svg/glasses.svg);
+}
+
+.mdie-glass-flute {
+	content: url(../images/svg/glass-flute.svg);
+}
+
+.mdie-glass-mug {
+	content: url(../images/svg/glass-mug.svg);
+}
+
+.mdie-glass-stange {
+	content: url(../images/svg/glass-stange.svg);
+}
+
+.mdie-glass-tulip {
+	content: url(../images/svg/glass-tulip.svg);
+}
+
+.mdie-glass-wine {
+	content: url(../images/svg/glass-wine.svg);
+}
+
+.mdie-gmail {
+	content: url(../images/svg/gmail.svg);
+}
+
+.mdie-gnome {
+	content: url(../images/svg/gnome.svg);
+}
+
+.mdie-golf {
+	content: url(../images/svg/golf.svg);
+}
+
+.mdie-gondola {
+	content: url(../images/svg/gondola.svg);
+}
+
+.mdie-google {
+	content: url(../images/svg/google.svg);
+}
+
+.mdie-google-analytics {
+	content: url(../images/svg/google-analytics.svg);
+}
+
+.mdie-google-assistant {
+	content: url(../images/svg/google-assistant.svg);
+}
+
+.mdie-google-cardboard {
+	content: url(../images/svg/google-cardboard.svg);
+}
+
+.mdie-google-chrome {
+	content: url(../images/svg/google-chrome.svg);
+}
+
+.mdie-google-circles {
+	content: url(../images/svg/google-circles.svg);
+}
+
+.mdie-google-circles-communities {
+	content: url(../images/svg/google-circles-communities.svg);
+}
+
+.mdie-google-circles-extended {
+	content: url(../images/svg/google-circles-extended.svg);
+}
+
+.mdie-google-circles-group {
+	content: url(../images/svg/google-circles-group.svg);
+}
+
+.mdie-google-controller {
+	content: url(../images/svg/google-controller.svg);
+}
+
+.mdie-google-controller-off {
+	content: url(../images/svg/google-controller-off.svg);
+}
+
+.mdie-google-drive {
+	content: url(../images/svg/google-drive.svg);
+}
+
+.mdie-google-earth {
+	content: url(../images/svg/google-earth.svg);
+}
+
+.mdie-google-glass {
+	content: url(../images/svg/google-glass.svg);
+}
+
+.mdie-google-home {
+	content: url(../images/svg/google-home.svg);
+}
+
+.mdie-google-keep {
+	content: url(../images/svg/google-keep.svg);
+}
+
+.mdie-google-maps {
+	content: url(../images/svg/google-maps.svg);
+}
+
+.mdie-google-nearby {
+	content: url(../images/svg/google-nearby.svg);
+}
+
+.mdie-google-pages {
+	content: url(../images/svg/google-pages.svg);
+}
+
+.mdie-google-photos {
+	content: url(../images/svg/google-photos.svg);
+}
+
+.mdie-google-physical-web {
+	content: url(../images/svg/google-physical-web.svg);
+}
+
+.mdie-google-play {
+	content: url(../images/svg/google-play.svg);
+}
+
+.mdie-google-plus {
+	content: url(../images/svg/google-plus.svg);
+}
+
+.mdie-google-plus-box {
+	content: url(../images/svg/google-plus-box.svg);
+}
+
+.mdie-google-translate {
+	content: url(../images/svg/google-translate.svg);
+}
+
+.mdie-google-wallet {
+	content: url(../images/svg/google-wallet.svg);
+}
+
+.mdie-gpu {
+	content: url(../images/svg/gpu.svg);
+}
+
+.mdie-gradient {
+	content: url(../images/svg/gradient.svg);
+}
+
+.mdie-graphql {
+	content: url(../images/svg/graphql.svg);
+}
+
+.mdie-grease-pencil {
+	content: url(../images/svg/grease-pencil.svg);
+}
+
+.mdie-grid {
+	content: url(../images/svg/grid.svg);
+}
+
+.mdie-grid-large {
+	content: url(../images/svg/grid-large.svg);
+}
+
+.mdie-grid-off {
+	content: url(../images/svg/grid-off.svg);
+}
+
+.mdie-group {
+	content: url(../images/svg/group.svg);
+}
+
+.mdie-guitar-acoustic {
+	content: url(../images/svg/guitar-acoustic.svg);
+}
+
+.mdie-guitar-electric {
+	content: url(../images/svg/guitar-electric.svg);
+}
+
+.mdie-guy-fawkes-mask {
+	content: url(../images/svg/guy-fawkes-mask.svg);
+}
+
+.mdie-hackernews {
+	content: url(../images/svg/hackernews.svg);
+}
+
+.mdie-hamburger {
+	content: url(../images/svg/hamburger.svg);
+}
+
+.mdie-hammer {
+	content: url(../images/svg/hammer.svg);
+}
+
+.mdie-hand-pointing-right {
+	content: url(../images/svg/hand-pointing-right.svg);
+}
+
+.mdie-hanger {
+	content: url(../images/svg/hanger.svg);
+}
+
+.mdie-hangouts {
+	content: url(../images/svg/hangouts.svg);
+}
+
+.mdie-harddisk {
+	content: url(../images/svg/harddisk.svg);
+}
+
+.mdie-headphones {
+	content: url(../images/svg/headphones.svg);
+}
+
+.mdie-headphones-box {
+	content: url(../images/svg/headphones-box.svg);
+}
+
+.mdie-headphones-off {
+	content: url(../images/svg/headphones-off.svg);
+}
+
+.mdie-headphones-settings {
+	content: url(../images/svg/headphones-settings.svg);
+}
+
+.mdie-headset {
+	content: url(../images/svg/headset.svg);
+}
+
+.mdie-headset-dock {
+	content: url(../images/svg/headset-dock.svg);
+}
+
+.mdie-headset-off {
+	content: url(../images/svg/headset-off.svg);
+}
+
+.mdie-heart {
+	content: url(../images/svg/heart.svg);
+}
+
+.mdie-heart-box {
+	content: url(../images/svg/heart-box.svg);
+}
+
+.mdie-heart-box-outline {
+	content: url(../images/svg/heart-box-outline.svg);
+}
+
+.mdie-heart-broken {
+	content: url(../images/svg/heart-broken.svg);
+}
+
+.mdie-heart-half {
+	content: url(../images/svg/heart-half.svg);
+}
+
+.mdie-heart-half-full {
+	content: url(../images/svg/heart-half-full.svg);
+}
+
+.mdie-heart-half-outline {
+	content: url(../images/svg/heart-half-outline.svg);
+}
+
+.mdie-heart-off {
+	content: url(../images/svg/heart-off.svg);
+}
+
+.mdie-heart-outline {
+	content: url(../images/svg/heart-outline.svg);
+}
+
+.mdie-heart-pulse {
+	content: url(../images/svg/heart-pulse.svg);
+}
+
+.mdie-help {
+	content: url(../images/svg/help.svg);
+}
+
+.mdie-help-box {
+	content: url(../images/svg/help-box.svg);
+}
+
+.mdie-help-circle {
+	content: url(../images/svg/help-circle.svg);
+}
+
+.mdie-help-circle-outline {
+	content: url(../images/svg/help-circle-outline.svg);
+}
+
+.mdie-help-network {
+	content: url(../images/svg/help-network.svg);
+}
+
+.mdie-hexagon {
+	content: url(../images/svg/hexagon.svg);
+}
+
+.mdie-hexagon-multiple {
+	content: url(../images/svg/hexagon-multiple.svg);
+}
+
+.mdie-hexagon-outline {
+	content: url(../images/svg/hexagon-outline.svg);
+}
+
+.mdie-high-definition {
+	content: url(../images/svg/high-definition.svg);
+}
+
+.mdie-high-definition-box {
+	content: url(../images/svg/high-definition-box.svg);
+}
+
+.mdie-highway {
+	content: url(../images/svg/highway.svg);
+}
+
+.mdie-history {
+	content: url(../images/svg/history.svg);
+}
+
+.mdie-hockey-puck {
+	content: url(../images/svg/hockey-puck.svg);
+}
+
+.mdie-hockey-sticks {
+	content: url(../images/svg/hockey-sticks.svg);
+}
+
+.mdie-hololens {
+	content: url(../images/svg/hololens.svg);
+}
+
+.mdie-home {
+	content: url(../images/svg/home.svg);
+}
+
+.mdie-home-account {
+	content: url(../images/svg/home-account.svg);
+}
+
+.mdie-home-alert {
+	content: url(../images/svg/home-alert.svg);
+}
+
+.mdie-home-assistant {
+	content: url(../images/svg/home-assistant.svg);
+}
+
+.mdie-home-automation {
+	content: url(../images/svg/home-automation.svg);
+}
+
+.mdie-home-circle {
+	content: url(../images/svg/home-circle.svg);
+}
+
+.mdie-home-currency-usd {
+	content: url(../images/svg/home-currency-usd.svg);
+}
+
+.mdie-home-heart {
+	content: url(../images/svg/home-heart.svg);
+}
+
+.mdie-home-lock {
+	content: url(../images/svg/home-lock.svg);
+}
+
+.mdie-home-lock-open {
+	content: url(../images/svg/home-lock-open.svg);
+}
+
+.mdie-home-map-marker {
+	content: url(../images/svg/home-map-marker.svg);
+}
+
+.mdie-home-modern {
+	content: url(../images/svg/home-modern.svg);
+}
+
+.mdie-home-outline {
+	content: url(../images/svg/home-outline.svg);
+}
+
+.mdie-home-variant {
+	content: url(../images/svg/home-variant.svg);
+}
+
+.mdie-hook {
+	content: url(../images/svg/hook.svg);
+}
+
+.mdie-hook-off {
+	content: url(../images/svg/hook-off.svg);
+}
+
+.mdie-hops {
+	content: url(../images/svg/hops.svg);
+}
+
+.mdie-hospital {
+	content: url(../images/svg/hospital.svg);
+}
+
+.mdie-hospital-building {
+	content: url(../images/svg/hospital-building.svg);
+}
+
+.mdie-hospital-marker {
+	content: url(../images/svg/hospital-marker.svg);
+}
+
+.mdie-hotel {
+	content: url(../images/svg/hotel.svg);
+}
+
+.mdie-hot-tub {
+	content: url(../images/svg/hot-tub.svg);
+}
+
+.mdie-houzz {
+	content: url(../images/svg/houzz.svg);
+}
+
+.mdie-houzz-box {
+	content: url(../images/svg/houzz-box.svg);
+}
+
+.mdie-hulu {
+	content: url(../images/svg/hulu.svg);
+}
+
+.mdie-human {
+	content: url(../images/svg/human.svg);
+}
+
+.mdie-human-child {
+	content: url(../images/svg/human-child.svg);
+}
+
+.mdie-human-female {
+	content: url(../images/svg/human-female.svg);
+}
+
+.mdie-human-greeting {
+	content: url(../images/svg/human-greeting.svg);
+}
+
+.mdie-human-handsdown {
+	content: url(../images/svg/human-handsdown.svg);
+}
+
+.mdie-human-handsup {
+	content: url(../images/svg/human-handsup.svg);
+}
+
+.mdie-human-male {
+	content: url(../images/svg/human-male.svg);
+}
+
+.mdie-human-male-female {
+	content: url(../images/svg/human-male-female.svg);
+}
+
+.mdie-human-pregnant {
+	content: url(../images/svg/human-pregnant.svg);
+}
+
+.mdie-humble-bundle {
+	content: url(../images/svg/humble-bundle.svg);
+}
+
+.mdie-hurricane {
+	content: url(../images/svg/hurricane.svg);
+}
+
+.mdie-ice-cream {
+	content: url(../images/svg/ice-cream.svg);
+}
+
+.mdie-image {
+	content: url(../images/svg/image.svg);
+}
+
+.mdie-image-album {
+	content: url(../images/svg/image-album.svg);
+}
+
+.mdie-image-area {
+	content: url(../images/svg/image-area.svg);
+}
+
+.mdie-image-area-close {
+	content: url(../images/svg/image-area-close.svg);
+}
+
+.mdie-image-broken {
+	content: url(../images/svg/image-broken.svg);
+}
+
+.mdie-image-broken-variant {
+	content: url(../images/svg/image-broken-variant.svg);
+}
+
+.mdie-image-filter {
+	content: url(../images/svg/image-filter.svg);
+}
+
+.mdie-image-filter-black-white {
+	content: url(../images/svg/image-filter-black-white.svg);
+}
+
+.mdie-image-filter-center-focus {
+	content: url(../images/svg/image-filter-center-focus.svg);
+}
+
+.mdie-image-filter-center-focus-weak {
+	content: url(../images/svg/image-filter-center-focus-weak.svg);
+}
+
+.mdie-image-filter-drama {
+	content: url(../images/svg/image-filter-drama.svg);
+}
+
+.mdie-image-filter-frames {
+	content: url(../images/svg/image-filter-frames.svg);
+}
+
+.mdie-image-filter-hdr {
+	content: url(../images/svg/image-filter-hdr.svg);
+}
+
+.mdie-image-filter-none {
+	content: url(../images/svg/image-filter-none.svg);
+}
+
+.mdie-image-filter-tilt-shift {
+	content: url(../images/svg/image-filter-tilt-shift.svg);
+}
+
+.mdie-image-filter-vintage {
+	content: url(../images/svg/image-filter-vintage.svg);
+}
+
+.mdie-image-multiple {
+	content: url(../images/svg/image-multiple.svg);
+}
+
+.mdie-image-off {
+	content: url(../images/svg/image-off.svg);
+}
+
+.mdie-image-plus {
+	content: url(../images/svg/image-plus.svg);
+}
+
+.mdie-import {
+	content: url(../images/svg/import.svg);
+}
+
+.mdie-inbox {
+	content: url(../images/svg/inbox.svg);
+}
+
+.mdie-inbox-arrow-down {
+	content: url(../images/svg/inbox-arrow-down.svg);
+}
+
+.mdie-inbox-arrow-up {
+	content: url(../images/svg/inbox-arrow-up.svg);
+}
+
+.mdie-inbox-multiple {
+	content: url(../images/svg/inbox-multiple.svg);
+}
+
+.mdie-incognito {
+	content: url(../images/svg/incognito.svg);
+}
+
+.mdie-indent {
+	content: url(../images/svg/indent.svg);
+}
+
+.mdie-infinity {
+	content: url(../images/svg/infinity.svg);
+}
+
+.mdie-information {
+	content: url(../images/svg/information.svg);
+}
+
+.mdie-information-outline {
+	content: url(../images/svg/information-outline.svg);
+}
+
+.mdie-information-variant {
+	content: url(../images/svg/information-variant.svg);
+}
+
+.mdie-instagram {
+	content: url(../images/svg/instagram.svg);
+}
+
+.mdie-instapaper {
+	content: url(../images/svg/instapaper.svg);
+}
+
+.mdie-internet-explorer {
+	content: url(../images/svg/internet-explorer.svg);
+}
+
+.mdie-invert-colors {
+	content: url(../images/svg/invert-colors.svg);
+}
+
+.mdie-itunes {
+	content: url(../images/svg/itunes.svg);
+}
+
+.mdie-jeepney {
+	content: url(../images/svg/jeepney.svg);
+}
+
+.mdie-jira {
+	content: url(../images/svg/jira.svg);
+}
+
+.mdie-jquery {
+	content: url(../images/svg/jquery.svg);
+}
+
+.mdie-jsfiddle {
+	content: url(../images/svg/jsfiddle.svg);
+}
+
+.mdie-json {
+	content: url(../images/svg/json.svg);
+}
+
+.mdie-karate {
+	content: url(../images/svg/karate.svg);
+}
+
+.mdie-keg {
+	content: url(../images/svg/keg.svg);
+}
+
+.mdie-kettle {
+	content: url(../images/svg/kettle.svg);
+}
+
+.mdie-key {
+	content: url(../images/svg/key.svg);
+}
+
+.mdie-keyboard {
+	content: url(../images/svg/keyboard.svg);
+}
+
+.mdie-keyboard-backspace {
+	content: url(../images/svg/keyboard-backspace.svg);
+}
+
+.mdie-keyboard-caps {
+	content: url(../images/svg/keyboard-caps.svg);
+}
+
+.mdie-keyboard-close {
+	content: url(../images/svg/keyboard-close.svg);
+}
+
+.mdie-keyboard-off {
+	content: url(../images/svg/keyboard-off.svg);
+}
+
+.mdie-keyboard-return {
+	content: url(../images/svg/keyboard-return.svg);
+}
+
+.mdie-keyboard-tab {
+	content: url(../images/svg/keyboard-tab.svg);
+}
+
+.mdie-keyboard-variant {
+	content: url(../images/svg/keyboard-variant.svg);
+}
+
+.mdie-key-change {
+	content: url(../images/svg/key-change.svg);
+}
+
+.mdie-key-minus {
+	content: url(../images/svg/key-minus.svg);
+}
+
+.mdie-key-plus {
+	content: url(../images/svg/key-plus.svg);
+}
+
+.mdie-key-remove {
+	content: url(../images/svg/key-remove.svg);
+}
+
+.mdie-key-variant {
+	content: url(../images/svg/key-variant.svg);
+}
+
+.mdie-kickstarter {
+	content: url(../images/svg/kickstarter.svg);
+}
+
+.mdie-kodi {
+	content: url(../images/svg/kodi.svg);
+}
+
+.mdie-label {
+	content: url(../images/svg/label.svg);
+}
+
+.mdie-label-outline {
+	content: url(../images/svg/label-outline.svg);
+}
+
+.mdie-ladybug {
+	content: url(../images/svg/ladybug.svg);
+}
+
+.mdie-lambda {
+	content: url(../images/svg/lambda.svg);
+}
+
+.mdie-lamp {
+	content: url(../images/svg/lamp.svg);
+}
+
+.mdie-lan {
+	content: url(../images/svg/lan.svg);
+}
+
+.mdie-lan-connect {
+	content: url(../images/svg/lan-connect.svg);
+}
+
+.mdie-lan-disconnect {
+	content: url(../images/svg/lan-disconnect.svg);
+}
+
+.mdie-language-c {
+	content: url(../images/svg/language-c.svg);
+}
+
+.mdie-language-cpp {
+	content: url(../images/svg/language-cpp.svg);
+}
+
+.mdie-language-csharp {
+	content: url(../images/svg/language-csharp.svg);
+}
+
+.mdie-language-css3 {
+	content: url(../images/svg/language-css3.svg);
+}
+
+.mdie-language-go {
+	content: url(../images/svg/language-go.svg);
+}
+
+.mdie-language-html5 {
+	content: url(../images/svg/language-html5.svg);
+}
+
+.mdie-language-javascript {
+	content: url(../images/svg/language-javascript.svg);
+}
+
+.mdie-language-lua {
+	content: url(../images/svg/language-lua.svg);
+}
+
+.mdie-language-php {
+	content: url(../images/svg/language-php.svg);
+}
+
+.mdie-language-python {
+	content: url(../images/svg/language-python.svg);
+}
+
+.mdie-language-python-text {
+	content: url(../images/svg/language-python-text.svg);
+}
+
+.mdie-language-r {
+	content: url(../images/svg/language-r.svg);
+}
+
+.mdie-language-swift {
+	content: url(../images/svg/language-swift.svg);
+}
+
+.mdie-language-typescript {
+	content: url(../images/svg/language-typescript.svg);
+}
+
+.mdie-lan-pending {
+	content: url(../images/svg/lan-pending.svg);
+}
+
+.mdie-laptop {
+	content: url(../images/svg/laptop.svg);
+}
+
+.mdie-laptop-chromebook {
+	content: url(../images/svg/laptop-chromebook.svg);
+}
+
+.mdie-laptop-mac {
+	content: url(../images/svg/laptop-mac.svg);
+}
+
+.mdie-laptop-off {
+	content: url(../images/svg/laptop-off.svg);
+}
+
+.mdie-laptop-windows {
+	content: url(../images/svg/laptop-windows.svg);
+}
+
+.mdie-lastfm {
+	content: url(../images/svg/lastfm.svg);
+}
+
+.mdie-lastpass {
+	content: url(../images/svg/lastpass.svg);
+}
+
+.mdie-launch {
+	content: url(../images/svg/launch.svg);
+}
+
+.mdie-lava-lamp {
+	content: url(../images/svg/lava-lamp.svg);
+}
+
+.mdie-layers {
+	content: url(../images/svg/layers.svg);
+}
+
+.mdie-layers-off {
+	content: url(../images/svg/layers-off.svg);
+}
+
+.mdie-lead-pencil {
+	content: url(../images/svg/lead-pencil.svg);
+}
+
+.mdie-leaf {
+	content: url(../images/svg/leaf.svg);
+}
+
+.mdie-led-off {
+	content: url(../images/svg/led-off.svg);
+}
+
+.mdie-led-on {
+	content: url(../images/svg/led-on.svg);
+}
+
+.mdie-led-outline {
+	content: url(../images/svg/led-outline.svg);
+}
+
+.mdie-led-strip {
+	content: url(../images/svg/led-strip.svg);
+}
+
+.mdie-led-variant-off {
+	content: url(../images/svg/led-variant-off.svg);
+}
+
+.mdie-led-variant-on {
+	content: url(../images/svg/led-variant-on.svg);
+}
+
+.mdie-led-variant-outline {
+	content: url(../images/svg/led-variant-outline.svg);
+}
+
+.mdie-library {
+	content: url(../images/svg/library.svg);
+}
+
+.mdie-library-books {
+	content: url(../images/svg/library-books.svg);
+}
+
+.mdie-library-music {
+	content: url(../images/svg/library-music.svg);
+}
+
+.mdie-library-plus {
+	content: url(../images/svg/library-plus.svg);
+}
+
+.mdie-lifebuoy {
+	content: url(../images/svg/lifebuoy.svg);
+}
+
+.mdie-lightbulb {
+	content: url(../images/svg/lightbulb.svg);
+}
+
+.mdie-lightbulb-on {
+	content: url(../images/svg/lightbulb-on.svg);
+}
+
+.mdie-lightbulb-on-outline {
+	content: url(../images/svg/lightbulb-on-outline.svg);
+}
+
+.mdie-lightbulb-outline {
+	content: url(../images/svg/lightbulb-outline.svg);
+}
+
+.mdie-link {
+	content: url(../images/svg/link.svg);
+}
+
+.mdie-linkedin {
+	content: url(../images/svg/linkedin.svg);
+}
+
+.mdie-linkedin-box {
+	content: url(../images/svg/linkedin-box.svg);
+}
+
+.mdie-link-off {
+	content: url(../images/svg/link-off.svg);
+}
+
+.mdie-link-variant {
+	content: url(../images/svg/link-variant.svg);
+}
+
+.mdie-link-variant-off {
+	content: url(../images/svg/link-variant-off.svg);
+}
+
+.mdie-linode {
+	content: url(../images/svg/linode.svg);
+}
+
+.mdie-linux {
+	content: url(../images/svg/linux.svg);
+}
+
+.mdie-loading {
+	content: url(../images/svg/loading.svg);
+}
+
+.mdie-lock {
+	content: url(../images/svg/lock.svg);
+}
+
+.mdie-lock-alert {
+	content: url(../images/svg/lock-alert.svg);
+}
+
+.mdie-locker {
+	content: url(../images/svg/locker.svg);
+}
+
+.mdie-locker-multiple {
+	content: url(../images/svg/locker-multiple.svg);
+}
+
+.mdie-lock-open {
+	content: url(../images/svg/lock-open.svg);
+}
+
+.mdie-lock-open-outline {
+	content: url(../images/svg/lock-open-outline.svg);
+}
+
+.mdie-lock-outline {
+	content: url(../images/svg/lock-outline.svg);
+}
+
+.mdie-lock-pattern {
+	content: url(../images/svg/lock-pattern.svg);
+}
+
+.mdie-lock-plus {
+	content: url(../images/svg/lock-plus.svg);
+}
+
+.mdie-lock-question {
+	content: url(../images/svg/lock-question.svg);
+}
+
+.mdie-lock-reset {
+	content: url(../images/svg/lock-reset.svg);
+}
+
+.mdie-lock-smart {
+	content: url(../images/svg/lock-smart.svg);
+}
+
+.mdie-login {
+	content: url(../images/svg/login.svg);
+}
+
+.mdie-login-variant {
+	content: url(../images/svg/login-variant.svg);
+}
+
+.mdie-logout {
+	content: url(../images/svg/logout.svg);
+}
+
+.mdie-logout-variant {
+	content: url(../images/svg/logout-variant.svg);
+}
+
+.mdie-looks {
+	content: url(../images/svg/looks.svg);
+}
+
+.mdie-loop {
+	content: url(../images/svg/loop.svg);
+}
+
+.mdie-loupe {
+	content: url(../images/svg/loupe.svg);
+}
+
+.mdie-lumx {
+	content: url(../images/svg/lumx.svg);
+}
+
+.mdie-magnet {
+	content: url(../images/svg/magnet.svg);
+}
+
+.mdie-magnet-on {
+	content: url(../images/svg/magnet-on.svg);
+}
+
+.mdie-magnify {
+	content: url(../images/svg/magnify.svg);
+}
+
+.mdie-magnify-minus {
+	content: url(../images/svg/magnify-minus.svg);
+}
+
+.mdie-magnify-minus-outline {
+	content: url(../images/svg/magnify-minus-outline.svg);
+}
+
+.mdie-magnify-plus {
+	content: url(../images/svg/magnify-plus.svg);
+}
+
+.mdie-magnify-plus-outline {
+	content: url(../images/svg/magnify-plus-outline.svg);
+}
+
+.mdie-mailbox {
+	content: url(../images/svg/mailbox.svg);
+}
+
+.mdie-mail-ru {
+	content: url(../images/svg/mail-ru.svg);
+}
+
+.mdie-map {
+	content: url(../images/svg/map.svg);
+}
+
+.mdie-map-marker {
+	content: url(../images/svg/map-marker.svg);
+}
+
+.mdie-map-marker-circle {
+	content: url(../images/svg/map-marker-circle.svg);
+}
+
+.mdie-map-marker-minus {
+	content: url(../images/svg/map-marker-minus.svg);
+}
+
+.mdie-map-marker-multiple {
+	content: url(../images/svg/map-marker-multiple.svg);
+}
+
+.mdie-map-marker-off {
+	content: url(../images/svg/map-marker-off.svg);
+}
+
+.mdie-map-marker-outline {
+	content: url(../images/svg/map-marker-outline.svg);
+}
+
+.mdie-map-marker-plus {
+	content: url(../images/svg/map-marker-plus.svg);
+}
+
+.mdie-map-marker-radius {
+	content: url(../images/svg/map-marker-radius.svg);
+}
+
+.mdie-margin {
+	content: url(../images/svg/margin.svg);
+}
+
+.mdie-markdown {
+	content: url(../images/svg/markdown.svg);
+}
+
+.mdie-marker {
+	content: url(../images/svg/marker.svg);
+}
+
+.mdie-marker-check {
+	content: url(../images/svg/marker-check.svg);
+}
+
+.mdie-martini {
+	content: url(../images/svg/martini.svg);
+}
+
+.mdie-material-ui {
+	content: url(../images/svg/material-ui.svg);
+}
+
+.mdie-matrix {
+	content: url(../images/svg/matrix.svg);
+}
+
+.mdie-maxcdn {
+	content: url(../images/svg/maxcdn.svg);
+}
+
+.mdie-medical-bag {
+	content: url(../images/svg/medical-bag.svg);
+}
+
+.mdie-medium {
+	content: url(../images/svg/medium.svg);
+}
+
+.mdie-memory {
+	content: url(../images/svg/memory.svg);
+}
+
+.mdie-menu {
+	content: url(../images/svg/menu.svg);
+}
+
+.mdie-menu-down {
+	content: url(../images/svg/menu-down.svg);
+}
+
+.mdie-menu-down-outline {
+	content: url(../images/svg/menu-down-outline.svg);
+}
+
+.mdie-menu-left {
+	content: url(../images/svg/menu-left.svg);
+}
+
+.mdie-menu-right {
+	content: url(../images/svg/menu-right.svg);
+}
+
+.mdie-menu-up {
+	content: url(../images/svg/menu-up.svg);
+}
+
+.mdie-menu-up-outline {
+	content: url(../images/svg/menu-up-outline.svg);
+}
+
+.mdie-message {
+	content: url(../images/svg/message.svg);
+}
+
+.mdie-message-alert {
+	content: url(../images/svg/message-alert.svg);
+}
+
+.mdie-message-bulleted {
+	content: url(../images/svg/message-bulleted.svg);
+}
+
+.mdie-message-bulleted-off {
+	content: url(../images/svg/message-bulleted-off.svg);
+}
+
+.mdie-message-draw {
+	content: url(../images/svg/message-draw.svg);
+}
+
+.mdie-message-image {
+	content: url(../images/svg/message-image.svg);
+}
+
+.mdie-message-outline {
+	content: url(../images/svg/message-outline.svg);
+}
+
+.mdie-message-plus {
+	content: url(../images/svg/message-plus.svg);
+}
+
+.mdie-message-processing {
+	content: url(../images/svg/message-processing.svg);
+}
+
+.mdie-message-reply {
+	content: url(../images/svg/message-reply.svg);
+}
+
+.mdie-message-reply-text {
+	content: url(../images/svg/message-reply-text.svg);
+}
+
+.mdie-message-settings {
+	content: url(../images/svg/message-settings.svg);
+}
+
+.mdie-message-settings-variant {
+	content: url(../images/svg/message-settings-variant.svg);
+}
+
+.mdie-message-text {
+	content: url(../images/svg/message-text.svg);
+}
+
+.mdie-message-text-outline {
+	content: url(../images/svg/message-text-outline.svg);
+}
+
+.mdie-message-video {
+	content: url(../images/svg/message-video.svg);
+}
+
+.mdie-meteor {
+	content: url(../images/svg/meteor.svg);
+}
+
+.mdie-metronome {
+	content: url(../images/svg/metronome.svg);
+}
+
+.mdie-metronome-tick {
+	content: url(../images/svg/metronome-tick.svg);
+}
+
+.mdie-microphone {
+	content: url(../images/svg/microphone.svg);
+}
+
+.mdie-microphone-minus {
+	content: url(../images/svg/microphone-minus.svg);
+}
+
+.mdie-microphone-off {
+	content: url(../images/svg/microphone-off.svg);
+}
+
+.mdie-microphone-outline {
+	content: url(../images/svg/microphone-outline.svg);
+}
+
+.mdie-microphone-plus {
+	content: url(../images/svg/microphone-plus.svg);
+}
+
+.mdie-microphone-settings {
+	content: url(../images/svg/microphone-settings.svg);
+}
+
+.mdie-microphone-variant {
+	content: url(../images/svg/microphone-variant.svg);
+}
+
+.mdie-microphone-variant-off {
+	content: url(../images/svg/microphone-variant-off.svg);
+}
+
+.mdie-microscope {
+	content: url(../images/svg/microscope.svg);
+}
+
+.mdie-micro-sd {
+	content: url(../images/svg/micro-sd.svg);
+}
+
+.mdie-microsoft {
+	content: url(../images/svg/microsoft.svg);
+}
+
+.mdie-midi {
+	content: url(../images/svg/midi.svg);
+}
+
+.mdie-midi-input {
+	content: url(../images/svg/midi-input.svg);
+}
+
+.mdie-minecraft {
+	content: url(../images/svg/minecraft.svg);
+}
+
+.mdie-minus {
+	content: url(../images/svg/minus.svg);
+}
+
+.mdie-minus-box {
+	content: url(../images/svg/minus-box.svg);
+}
+
+.mdie-minus-box-outline {
+	content: url(../images/svg/minus-box-outline.svg);
+}
+
+.mdie-minus-circle {
+	content: url(../images/svg/minus-circle.svg);
+}
+
+.mdie-minus-circle-outline {
+	content: url(../images/svg/minus-circle-outline.svg);
+}
+
+.mdie-minus-network {
+	content: url(../images/svg/minus-network.svg);
+}
+
+.mdie-mixcloud {
+	content: url(../images/svg/mixcloud.svg);
+}
+
+.mdie-mixed-reality {
+	content: url(../images/svg/mixed-reality.svg);
+}
+
+.mdie-mixer {
+	content: url(../images/svg/mixer.svg);
+}
+
+.mdie-monitor {
+	content: url(../images/svg/monitor.svg);
+}
+
+.mdie-monitor-multiple {
+	content: url(../images/svg/monitor-multiple.svg);
+}
+
+.mdie-more {
+	content: url(../images/svg/more.svg);
+}
+
+.mdie-mouse {
+	content: url(../images/svg/mouse.svg);
+}
+
+.mdie-mouse-off {
+	content: url(../images/svg/mouse-off.svg);
+}
+
+.mdie-mouse-variant {
+	content: url(../images/svg/mouse-variant.svg);
+}
+
+.mdie-mouse-variant-off {
+	content: url(../images/svg/mouse-variant-off.svg);
+}
+
+.mdie-move-resize {
+	content: url(../images/svg/move-resize.svg);
+}
+
+.mdie-move-resize-variant {
+	content: url(../images/svg/move-resize-variant.svg);
+}
+
+.mdie-movie {
+	content: url(../images/svg/movie.svg);
+}
+
+.mdie-movie-roll {
+	content: url(../images/svg/movie-roll.svg);
+}
+
+.mdie-multiplication {
+	content: url(../images/svg/multiplication.svg);
+}
+
+.mdie-multiplication-box {
+	content: url(../images/svg/multiplication-box.svg);
+}
+
+.mdie-mushroom {
+	content: url(../images/svg/mushroom.svg);
+}
+
+.mdie-mushroom-outline {
+	content: url(../images/svg/mushroom-outline.svg);
+}
+
+.mdie-music {
+	content: url(../images/svg/music.svg);
+}
+
+.mdie-music-box {
+	content: url(../images/svg/music-box.svg);
+}
+
+.mdie-music-box-outline {
+	content: url(../images/svg/music-box-outline.svg);
+}
+
+.mdie-music-circle {
+	content: url(../images/svg/music-circle.svg);
+}
+
+.mdie-music-note {
+	content: url(../images/svg/music-note.svg);
+}
+
+.mdie-music-note-bluetooth {
+	content: url(../images/svg/music-note-bluetooth.svg);
+}
+
+.mdie-music-note-bluetooth-off {
+	content: url(../images/svg/music-note-bluetooth-off.svg);
+}
+
+.mdie-music-note-eighth {
+	content: url(../images/svg/music-note-eighth.svg);
+}
+
+.mdie-music-note-half {
+	content: url(../images/svg/music-note-half.svg);
+}
+
+.mdie-music-note-off {
+	content: url(../images/svg/music-note-off.svg);
+}
+
+.mdie-music-note-quarter {
+	content: url(../images/svg/music-note-quarter.svg);
+}
+
+.mdie-music-note-sixteenth {
+	content: url(../images/svg/music-note-sixteenth.svg);
+}
+
+.mdie-music-note-whole {
+	content: url(../images/svg/music-note-whole.svg);
+}
+
+.mdie-music-off {
+	content: url(../images/svg/music-off.svg);
+}
+
+.mdie-nas {
+	content: url(../images/svg/nas.svg);
+}
+
+.mdie-nativescript {
+	content: url(../images/svg/nativescript.svg);
+}
+
+.mdie-nature {
+	content: url(../images/svg/nature.svg);
+}
+
+.mdie-nature-people {
+	content: url(../images/svg/nature-people.svg);
+}
+
+.mdie-navigation {
+	content: url(../images/svg/navigation.svg);
+}
+
+.mdie-near-me {
+	content: url(../images/svg/near-me.svg);
+}
+
+.mdie-needle {
+	content: url(../images/svg/needle.svg);
+}
+
+.mdie-nest-protect {
+	content: url(../images/svg/nest-protect.svg);
+}
+
+.mdie-nest-thermostat {
+	content: url(../images/svg/nest-thermostat.svg);
+}
+
+.mdie-netflix {
+	content: url(../images/svg/netflix.svg);
+}
+
+.mdie-network {
+	content: url(../images/svg/network.svg);
+}
+
+.mdie-network-signal-1 {
+	content: url(../images/svg/network-signal-1.svg);
+}
+
+.mdie-network-signal-1-alert {
+	content: url(../images/svg/network-signal-1-alert.svg);
+}
+
+.mdie-network-signal-2 {
+	content: url(../images/svg/network-signal-2.svg);
+}
+
+.mdie-network-signal-2-alert {
+	content: url(../images/svg/network-signal-2-alert.svg);
+}
+
+.mdie-network-signal-3 {
+	content: url(../images/svg/network-signal-3.svg);
+}
+
+.mdie-network-signal-3-alert {
+	content: url(../images/svg/network-signal-3-alert.svg);
+}
+
+.mdie-network-signal-4 {
+	content: url(../images/svg/network-signal-4.svg);
+}
+
+.mdie-network-signal-alert {
+	content: url(../images/svg/network-signal-alert.svg);
+}
+
+.mdie-network-signal-off {
+	content: url(../images/svg/network-signal-off.svg);
+}
+
+.mdie-network-signal-outline {
+	content: url(../images/svg/network-signal-outline.svg);
+}
+
+.mdie-network-signal-outline-alert {
+	content: url(../images/svg/network-signal-outline-alert.svg);
+}
+
+.mdie-network-signal-outline-off {
+	content: url(../images/svg/network-signal-outline-off.svg);
+}
+
+.mdie-new-box {
+	content: url(../images/svg/new-box.svg);
+}
+
+.mdie-newspaper {
+	content: url(../images/svg/newspaper.svg);
+}
+
+.mdie-nfc {
+	content: url(../images/svg/nfc.svg);
+}
+
+.mdie-nfc-tap {
+	content: url(../images/svg/nfc-tap.svg);
+}
+
+.mdie-nfc-variant {
+	content: url(../images/svg/nfc-variant.svg);
+}
+
+.mdie-ninja {
+	content: url(../images/svg/ninja.svg);
+}
+
+.mdie-nintendo-switch {
+	content: url(../images/svg/nintendo-switch.svg);
+}
+
+.mdie-no {
+	content: url(../images/svg/no.svg);
+}
+
+.mdie-nodejs {
+	content: url(../images/svg/nodejs.svg);
+}
+
+.mdie-note {
+	content: url(../images/svg/note.svg);
+}
+
+.mdie-notebook {
+	content: url(../images/svg/notebook.svg);
+}
+
+.mdie-note-multiple {
+	content: url(../images/svg/note-multiple.svg);
+}
+
+.mdie-note-multiple-outline {
+	content: url(../images/svg/note-multiple-outline.svg);
+}
+
+.mdie-note-outline {
+	content: url(../images/svg/note-outline.svg);
+}
+
+.mdie-note-plus {
+	content: url(../images/svg/note-plus.svg);
+}
+
+.mdie-note-plus-outline {
+	content: url(../images/svg/note-plus-outline.svg);
+}
+
+.mdie-not-equal {
+	content: url(../images/svg/not-equal.svg);
+}
+
+.mdie-note-text {
+	content: url(../images/svg/note-text.svg);
+}
+
+.mdie-notification-clear-all {
+	content: url(../images/svg/notification-clear-all.svg);
+}
+
+.mdie-npm {
+	content: url(../images/svg/npm.svg);
+}
+
+.mdie-nuke {
+	content: url(../images/svg/nuke.svg);
+}
+
+.mdie-null {
+	content: url(../images/svg/null.svg);
+}
+
+.mdie-numeric {
+	content: url(../images/svg/numeric.svg);
+}
+
+.mdie-numeric-0-box {
+	content: url(../images/svg/numeric-0-box.svg);
+}
+
+.mdie-numeric-0-box-multiple-outline {
+	content: url(../images/svg/numeric-0-box-multiple-outline.svg);
+}
+
+.mdie-numeric-0-box-outline {
+	content: url(../images/svg/numeric-0-box-outline.svg);
+}
+
+.mdie-numeric-1-box {
+	content: url(../images/svg/numeric-1-box.svg);
+}
+
+.mdie-numeric-1-box-multiple-outline {
+	content: url(../images/svg/numeric-1-box-multiple-outline.svg);
+}
+
+.mdie-numeric-1-box-outline {
+	content: url(../images/svg/numeric-1-box-outline.svg);
+}
+
+.mdie-numeric-2-box {
+	content: url(../images/svg/numeric-2-box.svg);
+}
+
+.mdie-numeric-2-box-multiple-outline {
+	content: url(../images/svg/numeric-2-box-multiple-outline.svg);
+}
+
+.mdie-numeric-2-box-outline {
+	content: url(../images/svg/numeric-2-box-outline.svg);
+}
+
+.mdie-numeric-3-box {
+	content: url(../images/svg/numeric-3-box.svg);
+}
+
+.mdie-numeric-3-box-multiple-outline {
+	content: url(../images/svg/numeric-3-box-multiple-outline.svg);
+}
+
+.mdie-numeric-3-box-outline {
+	content: url(../images/svg/numeric-3-box-outline.svg);
+}
+
+.mdie-numeric-4-box {
+	content: url(../images/svg/numeric-4-box.svg);
+}
+
+.mdie-numeric-4-box-multiple-outline {
+	content: url(../images/svg/numeric-4-box-multiple-outline.svg);
+}
+
+.mdie-numeric-4-box-outline {
+	content: url(../images/svg/numeric-4-box-outline.svg);
+}
+
+.mdie-numeric-5-box {
+	content: url(../images/svg/numeric-5-box.svg);
+}
+
+.mdie-numeric-5-box-multiple-outline {
+	content: url(../images/svg/numeric-5-box-multiple-outline.svg);
+}
+
+.mdie-numeric-5-box-outline {
+	content: url(../images/svg/numeric-5-box-outline.svg);
+}
+
+.mdie-numeric-6-box {
+	content: url(../images/svg/numeric-6-box.svg);
+}
+
+.mdie-numeric-6-box-multiple-outline {
+	content: url(../images/svg/numeric-6-box-multiple-outline.svg);
+}
+
+.mdie-numeric-6-box-outline {
+	content: url(../images/svg/numeric-6-box-outline.svg);
+}
+
+.mdie-numeric-7-box {
+	content: url(../images/svg/numeric-7-box.svg);
+}
+
+.mdie-numeric-7-box-multiple-outline {
+	content: url(../images/svg/numeric-7-box-multiple-outline.svg);
+}
+
+.mdie-numeric-7-box-outline {
+	content: url(../images/svg/numeric-7-box-outline.svg);
+}
+
+.mdie-numeric-8-box {
+	content: url(../images/svg/numeric-8-box.svg);
+}
+
+.mdie-numeric-8-box-multiple-outline {
+	content: url(../images/svg/numeric-8-box-multiple-outline.svg);
+}
+
+.mdie-numeric-8-box-outline {
+	content: url(../images/svg/numeric-8-box-outline.svg);
+}
+
+.mdie-numeric-9-box {
+	content: url(../images/svg/numeric-9-box.svg);
+}
+
+.mdie-numeric-9-box-multiple-outline {
+	content: url(../images/svg/numeric-9-box-multiple-outline.svg);
+}
+
+.mdie-numeric-9-box-outline {
+	content: url(../images/svg/numeric-9-box-outline.svg);
+}
+
+.mdie-numeric-9-plus-box {
+	content: url(../images/svg/numeric-9-plus-box.svg);
+}
+
+.mdie-numeric-9-plus-box-multiple-outline {
+	content: url(../images/svg/numeric-9-plus-box-multiple-outline.svg);
+}
+
+.mdie-numeric-9-plus-box-outline {
+	content: url(../images/svg/numeric-9-plus-box-outline.svg);
+}
+
+.mdie-nut {
+	content: url(../images/svg/nut.svg);
+}
+
+.mdie-nutrition {
+	content: url(../images/svg/nutrition.svg);
+}
+
+.mdie-oar {
+	content: url(../images/svg/oar.svg);
+}
+
+.mdie-octagon {
+	content: url(../images/svg/octagon.svg);
+}
+
+.mdie-octagon-outline {
+	content: url(../images/svg/octagon-outline.svg);
+}
+
+.mdie-octagram {
+	content: url(../images/svg/octagram.svg);
+}
+
+.mdie-octagram-outline {
+	content: url(../images/svg/octagram-outline.svg);
+}
+
+.mdie-odnoklassniki {
+	content: url(../images/svg/odnoklassniki.svg);
+}
+
+.mdie-office {
+	content: url(../images/svg/office.svg);
+}
+
+.mdie-oil {
+	content: url(../images/svg/oil.svg);
+}
+
+.mdie-oil-temperature {
+	content: url(../images/svg/oil-temperature.svg);
+}
+
+.mdie-omega {
+	content: url(../images/svg/omega.svg);
+}
+
+.mdie-onedrive {
+	content: url(../images/svg/onedrive.svg);
+}
+
+.mdie-onenote {
+	content: url(../images/svg/onenote.svg);
+}
+
+.mdie-onepassword {
+	content: url(../images/svg/onepassword.svg);
+}
+
+.mdie-opacity {
+	content: url(../images/svg/opacity.svg);
+}
+
+.mdie-openid {
+	content: url(../images/svg/openid.svg);
+}
+
+.mdie-open-in-app {
+	content: url(../images/svg/open-in-app.svg);
+}
+
+.mdie-open-in-new {
+	content: url(../images/svg/open-in-new.svg);
+}
+
+.mdie-opera {
+	content: url(../images/svg/opera.svg);
+}
+
+.mdie-orbit {
+	content: url(../images/svg/orbit.svg);
+}
+
+.mdie-ornament {
+	content: url(../images/svg/ornament.svg);
+}
+
+.mdie-ornament-variant {
+	content: url(../images/svg/ornament-variant.svg);
+}
+
+.mdie-outbox {
+	content: url(../images/svg/outbox.svg);
+}
+
+.mdie-outdent {
+	content: url(../images/svg/outdent.svg);
+}
+
+.mdie-owl {
+	content: url(../images/svg/owl.svg);
+}
+
+.mdie-package {
+	content: url(../images/svg/package.svg);
+}
+
+.mdie-package-down {
+	content: url(../images/svg/package-down.svg);
+}
+
+.mdie-package-up {
+	content: url(../images/svg/package-up.svg);
+}
+
+.mdie-package-variant {
+	content: url(../images/svg/package-variant.svg);
+}
+
+.mdie-package-variant-closed {
+	content: url(../images/svg/package-variant-closed.svg);
+}
+
+.mdie-page-first {
+	content: url(../images/svg/page-first.svg);
+}
+
+.mdie-page-last {
+	content: url(../images/svg/page-last.svg);
+}
+
+.mdie-page-layout-body {
+	content: url(../images/svg/page-layout-body.svg);
+}
+
+.mdie-page-layout-footer {
+	content: url(../images/svg/page-layout-footer.svg);
+}
+
+.mdie-page-layout-header {
+	content: url(../images/svg/page-layout-header.svg);
+}
+
+.mdie-page-layout-sidebar-left {
+	content: url(../images/svg/page-layout-sidebar-left.svg);
+}
+
+.mdie-page-layout-sidebar-right {
+	content: url(../images/svg/page-layout-sidebar-right.svg);
+}
+
+.mdie-palette {
+	content: url(../images/svg/palette.svg);
+}
+
+.mdie-palette-advanced {
+	content: url(../images/svg/palette-advanced.svg);
+}
+
+.mdie-palette-swatch {
+	content: url(../images/svg/palette-swatch.svg);
+}
+
+.mdie-panda {
+	content: url(../images/svg/panda.svg);
+}
+
+.mdie-pandora {
+	content: url(../images/svg/pandora.svg);
+}
+
+.mdie-panorama {
+	content: url(../images/svg/panorama.svg);
+}
+
+.mdie-panorama-fisheye {
+	content: url(../images/svg/panorama-fisheye.svg);
+}
+
+.mdie-panorama-horizontal {
+	content: url(../images/svg/panorama-horizontal.svg);
+}
+
+.mdie-panorama-vertical {
+	content: url(../images/svg/panorama-vertical.svg);
+}
+
+.mdie-panorama-wide-angle {
+	content: url(../images/svg/panorama-wide-angle.svg);
+}
+
+.mdie-paperclip {
+	content: url(../images/svg/paperclip.svg);
+}
+
+.mdie-paper-cut-vertical {
+	content: url(../images/svg/paper-cut-vertical.svg);
+}
+
+.mdie-parking {
+	content: url(../images/svg/parking.svg);
+}
+
+.mdie-passport {
+	content: url(../images/svg/passport.svg);
+}
+
+.mdie-patreon {
+	content: url(../images/svg/patreon.svg);
+}
+
+.mdie-pause {
+	content: url(../images/svg/pause.svg);
+}
+
+.mdie-pause-circle {
+	content: url(../images/svg/pause-circle.svg);
+}
+
+.mdie-pause-circle-outline {
+	content: url(../images/svg/pause-circle-outline.svg);
+}
+
+.mdie-pause-octagon {
+	content: url(../images/svg/pause-octagon.svg);
+}
+
+.mdie-pause-octagon-outline {
+	content: url(../images/svg/pause-octagon-outline.svg);
+}
+
+.mdie-paw {
+	content: url(../images/svg/paw.svg);
+}
+
+.mdie-paw-off {
+	content: url(../images/svg/paw-off.svg);
+}
+
+.mdie-paypal {
+	content: url(../images/svg/paypal.svg);
+}
+
+.mdie-peace {
+	content: url(../images/svg/peace.svg);
+}
+
+.mdie-pen {
+	content: url(../images/svg/pen.svg);
+}
+
+.mdie-pencil {
+	content: url(../images/svg/pencil.svg);
+}
+
+.mdie-pencil-box {
+	content: url(../images/svg/pencil-box.svg);
+}
+
+.mdie-pencil-box-outline {
+	content: url(../images/svg/pencil-box-outline.svg);
+}
+
+.mdie-pencil-circle {
+	content: url(../images/svg/pencil-circle.svg);
+}
+
+.mdie-pencil-circle-outline {
+	content: url(../images/svg/pencil-circle-outline.svg);
+}
+
+.mdie-pencil-lock {
+	content: url(../images/svg/pencil-lock.svg);
+}
+
+.mdie-pencil-off {
+	content: url(../images/svg/pencil-off.svg);
+}
+
+.mdie-pentagon {
+	content: url(../images/svg/pentagon.svg);
+}
+
+.mdie-pentagon-outline {
+	content: url(../images/svg/pentagon-outline.svg);
+}
+
+.mdie-people {
+	content: url(../images/svg/people.svg);
+}
+
+.mdie-percent {
+	content: url(../images/svg/percent.svg);
+}
+
+.mdie-periodic-table {
+	content: url(../images/svg/periodic-table.svg);
+}
+
+.mdie-periodic-table-co2 {
+	content: url(../images/svg/periodic-table-co2.svg);
+}
+
+.mdie-periscope {
+	content: url(../images/svg/periscope.svg);
+}
+
+.mdie-person-box {
+	content: url(../images/svg/person-box.svg);
+}
+
+.mdie-person-minus {
+	content: url(../images/svg/person-minus.svg);
+}
+
+.mdie-person-plus {
+	content: url(../images/svg/person-plus.svg);
+}
+
+.mdie-pharmacy {
+	content: url(../images/svg/pharmacy.svg);
+}
+
+.mdie-phone {
+	content: url(../images/svg/phone.svg);
+}
+
+.mdie-phone-bluetooth {
+	content: url(../images/svg/phone-bluetooth.svg);
+}
+
+.mdie-phone-classic {
+	content: url(../images/svg/phone-classic.svg);
+}
+
+.mdie-phone-forward {
+	content: url(../images/svg/phone-forward.svg);
+}
+
+.mdie-phone-hangup {
+	content: url(../images/svg/phone-hangup.svg);
+}
+
+.mdie-phone-incoming {
+	content: url(../images/svg/phone-incoming.svg);
+}
+
+.mdie-phone-in-talk {
+	content: url(../images/svg/phone-in-talk.svg);
+}
+
+.mdie-phone-locked {
+	content: url(../images/svg/phone-locked.svg);
+}
+
+.mdie-phone-log {
+	content: url(../images/svg/phone-log.svg);
+}
+
+.mdie-phone-minus {
+	content: url(../images/svg/phone-minus.svg);
+}
+
+.mdie-phone-missed {
+	content: url(../images/svg/phone-missed.svg);
+}
+
+.mdie-phone-outgoing {
+	content: url(../images/svg/phone-outgoing.svg);
+}
+
+.mdie-phone-paused {
+	content: url(../images/svg/phone-paused.svg);
+}
+
+.mdie-phone-plus {
+	content: url(../images/svg/phone-plus.svg);
+}
+
+.mdie-phone-return {
+	content: url(../images/svg/phone-return.svg);
+}
+
+.mdie-phone-rotate-landscape {
+	content: url(../images/svg/phone-rotate-landscape.svg);
+}
+
+.mdie-phone-rotate-portrait {
+	content: url(../images/svg/phone-rotate-portrait.svg);
+}
+
+.mdie-phone-settings {
+	content: url(../images/svg/phone-settings.svg);
+}
+
+.mdie-phone-voip {
+	content: url(../images/svg/phone-voip.svg);
+}
+
+.mdie-pi {
+	content: url(../images/svg/pi.svg);
+}
+
+.mdie-piano {
+	content: url(../images/svg/piano.svg);
+}
+
+.mdie-pi-box {
+	content: url(../images/svg/pi-box.svg);
+}
+
+.mdie-pickaxe {
+	content: url(../images/svg/pickaxe.svg);
+}
+
+.mdie-picture {
+	content: url(../images/svg/picture.svg);
+}
+
+.mdie-pier {
+	content: url(../images/svg/pier.svg);
+}
+
+.mdie-pier-crane {
+	content: url(../images/svg/pier-crane.svg);
+}
+
+.mdie-pig {
+	content: url(../images/svg/pig.svg);
+}
+
+.mdie-pill {
+	content: url(../images/svg/pill.svg);
+}
+
+.mdie-pillar {
+	content: url(../images/svg/pillar.svg);
+}
+
+.mdie-pin {
+	content: url(../images/svg/pin.svg);
+}
+
+.mdie-pine-tree {
+	content: url(../images/svg/pine-tree.svg);
+}
+
+.mdie-pine-tree-box {
+	content: url(../images/svg/pine-tree-box.svg);
+}
+
+.mdie-pin-off {
+	content: url(../images/svg/pin-off.svg);
+}
+
+.mdie-pinterest {
+	content: url(../images/svg/pinterest.svg);
+}
+
+.mdie-pinterest-box {
+	content: url(../images/svg/pinterest-box.svg);
+}
+
+.mdie-pipe {
+	content: url(../images/svg/pipe.svg);
+}
+
+.mdie-pipe-disconnected {
+	content: url(../images/svg/pipe-disconnected.svg);
+}
+
+.mdie-pipe-leak {
+	content: url(../images/svg/pipe-leak.svg);
+}
+
+.mdie-pistol {
+	content: url(../images/svg/pistol.svg);
+}
+
+.mdie-piston {
+	content: url(../images/svg/piston.svg);
+}
+
+.mdie-pizza {
+	content: url(../images/svg/pizza.svg);
+}
+
+.mdie-plane {
+	content: url(../images/svg/plane.svg);
+}
+
+.mdie-plane-shield {
+	content: url(../images/svg/plane-shield.svg);
+}
+
+.mdie-play {
+	content: url(../images/svg/play.svg);
+}
+
+.mdie-play-box-outline {
+	content: url(../images/svg/play-box-outline.svg);
+}
+
+.mdie-play-circle {
+	content: url(../images/svg/play-circle.svg);
+}
+
+.mdie-play-circle-outline {
+	content: url(../images/svg/play-circle-outline.svg);
+}
+
+.mdie-playlist-check {
+	content: url(../images/svg/playlist-check.svg);
+}
+
+.mdie-playlist-edit {
+	content: url(../images/svg/playlist-edit.svg);
+}
+
+.mdie-playlist-minus {
+	content: url(../images/svg/playlist-minus.svg);
+}
+
+.mdie-playlist-play {
+	content: url(../images/svg/playlist-play.svg);
+}
+
+.mdie-playlist-plus {
+	content: url(../images/svg/playlist-plus.svg);
+}
+
+.mdie-playlist-remove {
+	content: url(../images/svg/playlist-remove.svg);
+}
+
+.mdie-play-network {
+	content: url(../images/svg/play-network.svg);
+}
+
+.mdie-play-pause {
+	content: url(../images/svg/play-pause.svg);
+}
+
+.mdie-play-protected-content {
+	content: url(../images/svg/play-protected-content.svg);
+}
+
+.mdie-playstation {
+	content: url(../images/svg/playstation.svg);
+}
+
+.mdie-plex {
+	content: url(../images/svg/plex.svg);
+}
+
+.mdie-plus {
+	content: url(../images/svg/plus.svg);
+}
+
+.mdie-plus-box {
+	content: url(../images/svg/plus-box.svg);
+}
+
+.mdie-plus-box-outline {
+	content: url(../images/svg/plus-box-outline.svg);
+}
+
+.mdie-plus-circle {
+	content: url(../images/svg/plus-circle.svg);
+}
+
+.mdie-plus-circle-multiple-outline {
+	content: url(../images/svg/plus-circle-multiple-outline.svg);
+}
+
+.mdie-plus-circle-outline {
+	content: url(../images/svg/plus-circle-outline.svg);
+}
+
+.mdie-plus-network {
+	content: url(../images/svg/plus-network.svg);
+}
+
+.mdie-plus-one {
+	content: url(../images/svg/plus-one.svg);
+}
+
+.mdie-plus-outline {
+	content: url(../images/svg/plus-outline.svg);
+}
+
+.mdie-pocket {
+	content: url(../images/svg/pocket.svg);
+}
+
+.mdie-pokeball {
+	content: url(../images/svg/pokeball.svg);
+}
+
+.mdie-poker-chip {
+	content: url(../images/svg/poker-chip.svg);
+}
+
+.mdie-polaroid {
+	content: url(../images/svg/polaroid.svg);
+}
+
+.mdie-poll {
+	content: url(../images/svg/poll.svg);
+}
+
+.mdie-poll-box {
+	content: url(../images/svg/poll-box.svg);
+}
+
+.mdie-polymer {
+	content: url(../images/svg/polymer.svg);
+}
+
+.mdie-pool {
+	content: url(../images/svg/pool.svg);
+}
+
+.mdie-popcorn {
+	content: url(../images/svg/popcorn.svg);
+}
+
+.mdie-pot {
+	content: url(../images/svg/pot.svg);
+}
+
+.mdie-pot-mix {
+	content: url(../images/svg/pot-mix.svg);
+}
+
+.mdie-pound {
+	content: url(../images/svg/pound.svg);
+}
+
+.mdie-pound-box {
+	content: url(../images/svg/pound-box.svg);
+}
+
+.mdie-power {
+	content: url(../images/svg/power.svg);
+}
+
+.mdie-power-plug {
+	content: url(../images/svg/power-plug.svg);
+}
+
+.mdie-power-plug-off {
+	content: url(../images/svg/power-plug-off.svg);
+}
+
+.mdie-power-settings {
+	content: url(../images/svg/power-settings.svg);
+}
+
+.mdie-power-socket {
+	content: url(../images/svg/power-socket.svg);
+}
+
+.mdie-power-socket-eu {
+	content: url(../images/svg/power-socket-eu.svg);
+}
+
+.mdie-power-socket-uk {
+	content: url(../images/svg/power-socket-uk.svg);
+}
+
+.mdie-power-socket-us {
+	content: url(../images/svg/power-socket-us.svg);
+}
+
+.mdie-prescription {
+	content: url(../images/svg/prescription.svg);
+}
+
+.mdie-presentation {
+	content: url(../images/svg/presentation.svg);
+}
+
+.mdie-presentation-play {
+	content: url(../images/svg/presentation-play.svg);
+}
+
+.mdie-printer {
+	content: url(../images/svg/printer.svg);
+}
+
+.mdie-printer-3d {
+	content: url(../images/svg/printer-3d.svg);
+}
+
+.mdie-printer-alert {
+	content: url(../images/svg/printer-alert.svg);
+}
+
+.mdie-printer-settings {
+	content: url(../images/svg/printer-settings.svg);
+}
+
+.mdie-priority-high {
+	content: url(../images/svg/priority-high.svg);
+}
+
+.mdie-priority-low {
+	content: url(../images/svg/priority-low.svg);
+}
+
+.mdie-professional-hexagon {
+	content: url(../images/svg/professional-hexagon.svg);
+}
+
+.mdie-projector {
+	content: url(../images/svg/projector.svg);
+}
+
+.mdie-projector-screen {
+	content: url(../images/svg/projector-screen.svg);
+}
+
+.mdie-publish {
+	content: url(../images/svg/publish.svg);
+}
+
+.mdie-pulse {
+	content: url(../images/svg/pulse.svg);
+}
+
+.mdie-puzzle {
+	content: url(../images/svg/puzzle.svg);
+}
+
+.mdie-qqchat {
+	content: url(../images/svg/qqchat.svg);
+}
+
+.mdie-qrcode {
+	content: url(../images/svg/qrcode.svg);
+}
+
+.mdie-qrcode-edit {
+	content: url(../images/svg/qrcode-edit.svg);
+}
+
+.mdie-qrcode-scan {
+	content: url(../images/svg/qrcode-scan.svg);
+}
+
+.mdie-quadcopter {
+	content: url(../images/svg/quadcopter.svg);
+}
+
+.mdie-quality-high {
+	content: url(../images/svg/quality-high.svg);
+}
+
+.mdie-question-mark-circle {
+	content: url(../images/svg/question-mark-circle.svg);
+}
+
+.mdie-quick-reply {
+	content: url(../images/svg/quick-reply.svg);
+}
+
+.mdie-quicktime {
+	content: url(../images/svg/quicktime.svg);
+}
+
+.mdie-rabbit {
+	content: url(../images/svg/rabbit.svg);
+}
+
+.mdie-radar {
+	content: url(../images/svg/radar.svg);
+}
+
+.mdie-radiator {
+	content: url(../images/svg/radiator.svg);
+}
+
+.mdie-radio {
+	content: url(../images/svg/radio.svg);
+}
+
+.mdie-radioactive {
+	content: url(../images/svg/radioactive.svg);
+}
+
+.mdie-radiobox-blank {
+	content: url(../images/svg/radiobox-blank.svg);
+}
+
+.mdie-radiobox-marked {
+	content: url(../images/svg/radiobox-marked.svg);
+}
+
+.mdie-radio-handheld {
+	content: url(../images/svg/radio-handheld.svg);
+}
+
+.mdie-radio-tower {
+	content: url(../images/svg/radio-tower.svg);
+}
+
+.mdie-raspberrypi {
+	content: url(../images/svg/raspberrypi.svg);
+}
+
+.mdie-ray-end {
+	content: url(../images/svg/ray-end.svg);
+}
+
+.mdie-ray-end-arrow {
+	content: url(../images/svg/ray-end-arrow.svg);
+}
+
+.mdie-ray-start {
+	content: url(../images/svg/ray-start.svg);
+}
+
+.mdie-ray-start-arrow {
+	content: url(../images/svg/ray-start-arrow.svg);
+}
+
+.mdie-ray-start-end {
+	content: url(../images/svg/ray-start-end.svg);
+}
+
+.mdie-ray-vertex {
+	content: url(../images/svg/ray-vertex.svg);
+}
+
+.mdie-rdio {
+	content: url(../images/svg/rdio.svg);
+}
+
+.mdie-react {
+	content: url(../images/svg/react.svg);
+}
+
+.mdie-read {
+	content: url(../images/svg/read.svg);
+}
+
+.mdie-receipt {
+	content: url(../images/svg/receipt.svg);
+}
+
+.mdie-record {
+	content: url(../images/svg/record.svg);
+}
+
+.mdie-record-rec {
+	content: url(../images/svg/record-rec.svg);
+}
+
+.mdie-recycle {
+	content: url(../images/svg/recycle.svg);
+}
+
+.mdie-reddit {
+	content: url(../images/svg/reddit.svg);
+}
+
+.mdie-redo {
+	content: url(../images/svg/redo.svg);
+}
+
+.mdie-redo-variant {
+	content: url(../images/svg/redo-variant.svg);
+}
+
+.mdie-refresh {
+	content: url(../images/svg/refresh.svg);
+}
+
+.mdie-relative-scale {
+	content: url(../images/svg/relative-scale.svg);
+}
+
+.mdie-reload {
+	content: url(../images/svg/reload.svg);
+}
+
+.mdie-reminder {
+	content: url(../images/svg/reminder.svg);
+}
+
+.mdie-remote {
+	content: url(../images/svg/remote.svg);
+}
+
+.mdie-remote-desktop {
+	content: url(../images/svg/remote-desktop.svg);
+}
+
+.mdie-rename-box {
+	content: url(../images/svg/rename-box.svg);
+}
+
+.mdie-reorder-horizontal {
+	content: url(../images/svg/reorder-horizontal.svg);
+}
+
+.mdie-reorder-vertical {
+	content: url(../images/svg/reorder-vertical.svg);
+}
+
+.mdie-repeat {
+	content: url(../images/svg/repeat.svg);
+}
+
+.mdie-repeat-off {
+	content: url(../images/svg/repeat-off.svg);
+}
+
+.mdie-repeat-once {
+	content: url(../images/svg/repeat-once.svg);
+}
+
+.mdie-replay {
+	content: url(../images/svg/replay.svg);
+}
+
+.mdie-reply {
+	content: url(../images/svg/reply.svg);
+}
+
+.mdie-reply-all {
+	content: url(../images/svg/reply-all.svg);
+}
+
+.mdie-reproduction {
+	content: url(../images/svg/reproduction.svg);
+}
+
+.mdie-resize-bottom-right {
+	content: url(../images/svg/resize-bottom-right.svg);
+}
+
+.mdie-responsive {
+	content: url(../images/svg/responsive.svg);
+}
+
+.mdie-restart {
+	content: url(../images/svg/restart.svg);
+}
+
+.mdie-restore {
+	content: url(../images/svg/restore.svg);
+}
+
+.mdie-rewind {
+	content: url(../images/svg/rewind.svg);
+}
+
+.mdie-rewind-outline {
+	content: url(../images/svg/rewind-outline.svg);
+}
+
+.mdie-rhombus {
+	content: url(../images/svg/rhombus.svg);
+}
+
+.mdie-rhombus-outline {
+	content: url(../images/svg/rhombus-outline.svg);
+}
+
+.mdie-ribbon {
+	content: url(../images/svg/ribbon.svg);
+}
+
+.mdie-rice {
+	content: url(../images/svg/rice.svg);
+}
+
+.mdie-ring {
+	content: url(../images/svg/ring.svg);
+}
+
+.mdie-road {
+	content: url(../images/svg/road.svg);
+}
+
+.mdie-road-variant {
+	content: url(../images/svg/road-variant.svg);
+}
+
+.mdie-robot {
+	content: url(../images/svg/robot.svg);
+}
+
+.mdie-rocket {
+	content: url(../images/svg/rocket.svg);
+}
+
+.mdie-roomba {
+	content: url(../images/svg/roomba.svg);
+}
+
+.mdie-room-service {
+	content: url(../images/svg/room-service.svg);
+}
+
+.mdie-rotate-3d {
+	content: url(../images/svg/rotate-3d.svg);
+}
+
+.mdie-rotate-left {
+	content: url(../images/svg/rotate-left.svg);
+}
+
+.mdie-rotate-left-variant {
+	content: url(../images/svg/rotate-left-variant.svg);
+}
+
+.mdie-rotate-right {
+	content: url(../images/svg/rotate-right.svg);
+}
+
+.mdie-rotate-right-variant {
+	content: url(../images/svg/rotate-right-variant.svg);
+}
+
+.mdie-rounded-corner {
+	content: url(../images/svg/rounded-corner.svg);
+}
+
+.mdie-router-wireless {
+	content: url(../images/svg/router-wireless.svg);
+}
+
+.mdie-routes {
+	content: url(../images/svg/routes.svg);
+}
+
+.mdie-rowing {
+	content: url(../images/svg/rowing.svg);
+}
+
+.mdie-rss {
+	content: url(../images/svg/rss.svg);
+}
+
+.mdie-rss-box {
+	content: url(../images/svg/rss-box.svg);
+}
+
+.mdie-ruler {
+	content: url(../images/svg/ruler.svg);
+}
+
+.mdie-run {
+	content: url(../images/svg/run.svg);
+}
+
+.mdie-run-fast {
+	content: url(../images/svg/run-fast.svg);
+}
+
+.mdie-sale {
+	content: url(../images/svg/sale.svg);
+}
+
+.mdie-salesforce {
+	content: url(../images/svg/salesforce.svg);
+}
+
+.mdie-sass {
+	content: url(../images/svg/sass.svg);
+}
+
+.mdie-satellite {
+	content: url(../images/svg/satellite.svg);
+}
+
+.mdie-satellite-variant {
+	content: url(../images/svg/satellite-variant.svg);
+}
+
+.mdie-sausage {
+	content: url(../images/svg/sausage.svg);
+}
+
+.mdie-saxophone {
+	content: url(../images/svg/saxophone.svg);
+}
+
+.mdie-scale {
+	content: url(../images/svg/scale.svg);
+}
+
+.mdie-scale-balance {
+	content: url(../images/svg/scale-balance.svg);
+}
+
+.mdie-scale-bathroom {
+	content: url(../images/svg/scale-bathroom.svg);
+}
+
+.mdie-scanner {
+	content: url(../images/svg/scanner.svg);
+}
+
+.mdie-scanner-off {
+	content: url(../images/svg/scanner-off.svg);
+}
+
+.mdie-school {
+	content: url(../images/svg/school.svg);
+}
+
+.mdie-screen-rotation {
+	content: url(../images/svg/screen-rotation.svg);
+}
+
+.mdie-screen-rotation-lock {
+	content: url(../images/svg/screen-rotation-lock.svg);
+}
+
+.mdie-screwdriver {
+	content: url(../images/svg/screwdriver.svg);
+}
+
+.mdie-script {
+	content: url(../images/svg/script.svg);
+}
+
+.mdie-sd {
+	content: url(../images/svg/sd.svg);
+}
+
+.mdie-seal {
+	content: url(../images/svg/seal.svg);
+}
+
+.mdie-search-web {
+	content: url(../images/svg/search-web.svg);
+}
+
+.mdie-seat-flat {
+	content: url(../images/svg/seat-flat.svg);
+}
+
+.mdie-seat-flat-angled {
+	content: url(../images/svg/seat-flat-angled.svg);
+}
+
+.mdie-seat-individual-suite {
+	content: url(../images/svg/seat-individual-suite.svg);
+}
+
+.mdie-seat-legroom-extra {
+	content: url(../images/svg/seat-legroom-extra.svg);
+}
+
+.mdie-seat-legroom-normal {
+	content: url(../images/svg/seat-legroom-normal.svg);
+}
+
+.mdie-seat-legroom-reduced {
+	content: url(../images/svg/seat-legroom-reduced.svg);
+}
+
+.mdie-seat-recline-extra {
+	content: url(../images/svg/seat-recline-extra.svg);
+}
+
+.mdie-seat-recline-normal {
+	content: url(../images/svg/seat-recline-normal.svg);
+}
+
+.mdie-security {
+	content: url(../images/svg/security.svg);
+}
+
+.mdie-security-account {
+	content: url(../images/svg/security-account.svg);
+}
+
+.mdie-security-home {
+	content: url(../images/svg/security-home.svg);
+}
+
+.mdie-security-network {
+	content: url(../images/svg/security-network.svg);
+}
+
+.mdie-select {
+	content: url(../images/svg/select.svg);
+}
+
+.mdie-select-all {
+	content: url(../images/svg/select-all.svg);
+}
+
+.mdie-select-inverse {
+	content: url(../images/svg/select-inverse.svg);
+}
+
+.mdie-selection {
+	content: url(../images/svg/selection.svg);
+}
+
+.mdie-selection-off {
+	content: url(../images/svg/selection-off.svg);
+}
+
+.mdie-select-off {
+	content: url(../images/svg/select-off.svg);
+}
+
+.mdie-send {
+	content: url(../images/svg/send.svg);
+}
+
+.mdie-send-secure {
+	content: url(../images/svg/send-secure.svg);
+}
+
+.mdie-serial-port {
+	content: url(../images/svg/serial-port.svg);
+}
+
+.mdie-server {
+	content: url(../images/svg/server.svg);
+}
+
+.mdie-server-minus {
+	content: url(../images/svg/server-minus.svg);
+}
+
+.mdie-server-network {
+	content: url(../images/svg/server-network.svg);
+}
+
+.mdie-server-network-off {
+	content: url(../images/svg/server-network-off.svg);
+}
+
+.mdie-server-off {
+	content: url(../images/svg/server-off.svg);
+}
+
+.mdie-server-plus {
+	content: url(../images/svg/server-plus.svg);
+}
+
+.mdie-server-remove {
+	content: url(../images/svg/server-remove.svg);
+}
+
+.mdie-server-security {
+	content: url(../images/svg/server-security.svg);
+}
+
+.mdie-set-all {
+	content: url(../images/svg/set-all.svg);
+}
+
+.mdie-set-center {
+	content: url(../images/svg/set-center.svg);
+}
+
+.mdie-set-center-right {
+	content: url(../images/svg/set-center-right.svg);
+}
+
+.mdie-set-left {
+	content: url(../images/svg/set-left.svg);
+}
+
+.mdie-set-left-center {
+	content: url(../images/svg/set-left-center.svg);
+}
+
+.mdie-set-left-right {
+	content: url(../images/svg/set-left-right.svg);
+}
+
+.mdie-set-none {
+	content: url(../images/svg/set-none.svg);
+}
+
+.mdie-set-right {
+	content: url(../images/svg/set-right.svg);
+}
+
+.mdie-settings {
+	content: url(../images/svg/settings.svg);
+}
+
+.mdie-settings-box {
+	content: url(../images/svg/settings-box.svg);
+}
+
+.mdie-settings-outline {
+	content: url(../images/svg/settings-outline.svg);
+}
+
+.mdie-shape {
+	content: url(../images/svg/shape.svg);
+}
+
+.mdie-shape-circle-plus {
+	content: url(../images/svg/shape-circle-plus.svg);
+}
+
+.mdie-shape-outline {
+	content: url(../images/svg/shape-outline.svg);
+}
+
+.mdie-shape-plus {
+	content: url(../images/svg/shape-plus.svg);
+}
+
+.mdie-shape-polygon-plus {
+	content: url(../images/svg/shape-polygon-plus.svg);
+}
+
+.mdie-shape-rectangle-plus {
+	content: url(../images/svg/shape-rectangle-plus.svg);
+}
+
+.mdie-shape-square-plus {
+	content: url(../images/svg/shape-square-plus.svg);
+}
+
+.mdie-share {
+	content: url(../images/svg/share.svg);
+}
+
+.mdie-share-variant {
+	content: url(../images/svg/share-variant.svg);
+}
+
+.mdie-shield {
+	content: url(../images/svg/shield.svg);
+}
+
+.mdie-shield-half-full {
+	content: url(../images/svg/shield-half-full.svg);
+}
+
+.mdie-shield-outline {
+	content: url(../images/svg/shield-outline.svg);
+}
+
+.mdie-ship-wheel {
+	content: url(../images/svg/ship-wheel.svg);
+}
+
+.mdie-shopping {
+	content: url(../images/svg/shopping.svg);
+}
+
+.mdie-shopping-music {
+	content: url(../images/svg/shopping-music.svg);
+}
+
+.mdie-shovel {
+	content: url(../images/svg/shovel.svg);
+}
+
+.mdie-shovel-off {
+	content: url(../images/svg/shovel-off.svg);
+}
+
+.mdie-shredder {
+	content: url(../images/svg/shredder.svg);
+}
+
+.mdie-shuffle {
+	content: url(../images/svg/shuffle.svg);
+}
+
+.mdie-shuffle-disabled {
+	content: url(../images/svg/shuffle-disabled.svg);
+}
+
+.mdie-shuffle-variant {
+	content: url(../images/svg/shuffle-variant.svg);
+}
+
+.mdie-sigma {
+	content: url(../images/svg/sigma.svg);
+}
+
+.mdie-sigma-lower {
+	content: url(../images/svg/sigma-lower.svg);
+}
+
+.mdie-signal {
+	content: url(../images/svg/signal.svg);
+}
+
+.mdie-signal-2g {
+	content: url(../images/svg/signal-2g.svg);
+}
+
+.mdie-signal-3g {
+	content: url(../images/svg/signal-3g.svg);
+}
+
+.mdie-signal-4g {
+	content: url(../images/svg/signal-4g.svg);
+}
+
+.mdie-signal-cellular-0 {
+	content: url(../images/svg/signal-cellular-0.svg);
+}
+
+.mdie-signal-cellular-1 {
+	content: url(../images/svg/signal-cellular-1.svg);
+}
+
+.mdie-signal-cellular-2 {
+	content: url(../images/svg/signal-cellular-2.svg);
+}
+
+.mdie-signal-cellular-3 {
+	content: url(../images/svg/signal-cellular-3.svg);
+}
+
+.mdie-signal-hspa {
+	content: url(../images/svg/signal-hspa.svg);
+}
+
+.mdie-signal-hspa-plus {
+	content: url(../images/svg/signal-hspa-plus.svg);
+}
+
+.mdie-signal-off {
+	content: url(../images/svg/signal-off.svg);
+}
+
+.mdie-signal-variant {
+	content: url(../images/svg/signal-variant.svg);
+}
+
+.mdie-sign-caution {
+	content: url(../images/svg/sign-caution.svg);
+}
+
+.mdie-sign-direction {
+	content: url(../images/svg/sign-direction.svg);
+}
+
+.mdie-sign-text {
+	content: url(../images/svg/sign-text.svg);
+}
+
+.mdie-silverware {
+	content: url(../images/svg/silverware.svg);
+}
+
+.mdie-silverware-fork {
+	content: url(../images/svg/silverware-fork.svg);
+}
+
+.mdie-silverware-spoon {
+	content: url(../images/svg/silverware-spoon.svg);
+}
+
+.mdie-silverware-variant {
+	content: url(../images/svg/silverware-variant.svg);
+}
+
+.mdie-sim {
+	content: url(../images/svg/sim.svg);
+}
+
+.mdie-sim-alert {
+	content: url(../images/svg/sim-alert.svg);
+}
+
+.mdie-sim-off {
+	content: url(../images/svg/sim-off.svg);
+}
+
+.mdie-sitemap {
+	content: url(../images/svg/sitemap.svg);
+}
+
+.mdie-skip-backward {
+	content: url(../images/svg/skip-backward.svg);
+}
+
+.mdie-skip-forward {
+	content: url(../images/svg/skip-forward.svg);
+}
+
+.mdie-skip-next {
+	content: url(../images/svg/skip-next.svg);
+}
+
+.mdie-skip-next-circle {
+	content: url(../images/svg/skip-next-circle.svg);
+}
+
+.mdie-skip-next-circle-outline {
+	content: url(../images/svg/skip-next-circle-outline.svg);
+}
+
+.mdie-skip-previous {
+	content: url(../images/svg/skip-previous.svg);
+}
+
+.mdie-skip-previous-circle {
+	content: url(../images/svg/skip-previous-circle.svg);
+}
+
+.mdie-skip-previous-circle-outline {
+	content: url(../images/svg/skip-previous-circle-outline.svg);
+}
+
+.mdie-skull {
+	content: url(../images/svg/skull.svg);
+}
+
+.mdie-skype {
+	content: url(../images/svg/skype.svg);
+}
+
+.mdie-skype-business {
+	content: url(../images/svg/skype-business.svg);
+}
+
+.mdie-slack {
+	content: url(../images/svg/slack.svg);
+}
+
+.mdie-sleep {
+	content: url(../images/svg/sleep.svg);
+}
+
+.mdie-sleep-off {
+	content: url(../images/svg/sleep-off.svg);
+}
+
+.mdie-smoking {
+	content: url(../images/svg/smoking.svg);
+}
+
+.mdie-smoking-off {
+	content: url(../images/svg/smoking-off.svg);
+}
+
+.mdie-snapchat {
+	content: url(../images/svg/snapchat.svg);
+}
+
+.mdie-snowflake {
+	content: url(../images/svg/snowflake.svg);
+}
+
+.mdie-snowman {
+	content: url(../images/svg/snowman.svg);
+}
+
+.mdie-soccer {
+	content: url(../images/svg/soccer.svg);
+}
+
+.mdie-soccer-field {
+	content: url(../images/svg/soccer-field.svg);
+}
+
+.mdie-sofa {
+	content: url(../images/svg/sofa.svg);
+}
+
+.mdie-solid {
+	content: url(../images/svg/solid.svg);
+}
+
+.mdie-sort {
+	content: url(../images/svg/sort.svg);
+}
+
+.mdie-sort-alphabetical {
+	content: url(../images/svg/sort-alphabetical.svg);
+}
+
+.mdie-sort-ascending {
+	content: url(../images/svg/sort-ascending.svg);
+}
+
+.mdie-sort-descending {
+	content: url(../images/svg/sort-descending.svg);
+}
+
+.mdie-sort-numeric {
+	content: url(../images/svg/sort-numeric.svg);
+}
+
+.mdie-sort-variant {
+	content: url(../images/svg/sort-variant.svg);
+}
+
+.mdie-soundcloud {
+	content: url(../images/svg/soundcloud.svg);
+}
+
+.mdie-source-branch {
+	content: url(../images/svg/source-branch.svg);
+}
+
+.mdie-source-commit {
+	content: url(../images/svg/source-commit.svg);
+}
+
+.mdie-source-commit-end {
+	content: url(../images/svg/source-commit-end.svg);
+}
+
+.mdie-source-commit-end-local {
+	content: url(../images/svg/source-commit-end-local.svg);
+}
+
+.mdie-source-commit-local {
+	content: url(../images/svg/source-commit-local.svg);
+}
+
+.mdie-source-commit-next-local {
+	content: url(../images/svg/source-commit-next-local.svg);
+}
+
+.mdie-source-commit-start {
+	content: url(../images/svg/source-commit-start.svg);
+}
+
+.mdie-source-commit-start-next-local {
+	content: url(../images/svg/source-commit-start-next-local.svg);
+}
+
+.mdie-source-fork {
+	content: url(../images/svg/source-fork.svg);
+}
+
+.mdie-source-merge {
+	content: url(../images/svg/source-merge.svg);
+}
+
+.mdie-source-pull {
+	content: url(../images/svg/source-pull.svg);
+}
+
+.mdie-soy-sauce {
+	content: url(../images/svg/soy-sauce.svg);
+}
+
+.mdie-speaker {
+	content: url(../images/svg/speaker.svg);
+}
+
+.mdie-speaker-off {
+	content: url(../images/svg/speaker-off.svg);
+}
+
+.mdie-speaker-wireless {
+	content: url(../images/svg/speaker-wireless.svg);
+}
+
+.mdie-speedometer {
+	content: url(../images/svg/speedometer.svg);
+}
+
+.mdie-spellcheck {
+	content: url(../images/svg/spellcheck.svg);
+}
+
+.mdie-spotify {
+	content: url(../images/svg/spotify.svg);
+}
+
+.mdie-spotlight {
+	content: url(../images/svg/spotlight.svg);
+}
+
+.mdie-spotlight-beam {
+	content: url(../images/svg/spotlight-beam.svg);
+}
+
+.mdie-spray {
+	content: url(../images/svg/spray.svg);
+}
+
+.mdie-spreadsheet {
+	content: url(../images/svg/spreadsheet.svg);
+}
+
+.mdie-square {
+	content: url(../images/svg/square.svg);
+}
+
+.mdie-square-inc {
+	content: url(../images/svg/square-inc.svg);
+}
+
+.mdie-square-inc-cash {
+	content: url(../images/svg/square-inc-cash.svg);
+}
+
+.mdie-square-outline {
+	content: url(../images/svg/square-outline.svg);
+}
+
+.mdie-square-root {
+	content: url(../images/svg/square-root.svg);
+}
+
+.mdie-ssh {
+	content: url(../images/svg/ssh.svg);
+}
+
+.mdie-stackexchange {
+	content: url(../images/svg/stackexchange.svg);
+}
+
+.mdie-stackoverflow {
+	content: url(../images/svg/stackoverflow.svg);
+}
+
+.mdie-stadium {
+	content: url(../images/svg/stadium.svg);
+}
+
+.mdie-stairs {
+	content: url(../images/svg/stairs.svg);
+}
+
+.mdie-standard-definition {
+	content: url(../images/svg/standard-definition.svg);
+}
+
+.mdie-star {
+	content: url(../images/svg/star.svg);
+}
+
+.mdie-star-circle {
+	content: url(../images/svg/star-circle.svg);
+}
+
+.mdie-star-half {
+	content: url(../images/svg/star-half.svg);
+}
+
+.mdie-star-of-david {
+	content: url(../images/svg/star-of-david.svg);
+}
+
+.mdie-star-off {
+	content: url(../images/svg/star-off.svg);
+}
+
+.mdie-star-outline {
+	content: url(../images/svg/star-outline.svg);
+}
+
+.mdie-steam {
+	content: url(../images/svg/steam.svg);
+}
+
+.mdie-steam-box {
+	content: url(../images/svg/steam-box.svg);
+}
+
+.mdie-steering {
+	content: url(../images/svg/steering.svg);
+}
+
+.mdie-steering-off {
+	content: url(../images/svg/steering-off.svg);
+}
+
+.mdie-step-backward {
+	content: url(../images/svg/step-backward.svg);
+}
+
+.mdie-step-backward-2 {
+	content: url(../images/svg/step-backward-2.svg);
+}
+
+.mdie-step-forward {
+	content: url(../images/svg/step-forward.svg);
+}
+
+.mdie-step-forward-2 {
+	content: url(../images/svg/step-forward-2.svg);
+}
+
+.mdie-stethoscope {
+	content: url(../images/svg/stethoscope.svg);
+}
+
+.mdie-sticker {
+	content: url(../images/svg/sticker.svg);
+}
+
+.mdie-sticker-emoji {
+	content: url(../images/svg/sticker-emoji.svg);
+}
+
+.mdie-stocking {
+	content: url(../images/svg/stocking.svg);
+}
+
+.mdie-stop {
+	content: url(../images/svg/stop.svg);
+}
+
+.mdie-stop-circle {
+	content: url(../images/svg/stop-circle.svg);
+}
+
+.mdie-stop-circle-outline {
+	content: url(../images/svg/stop-circle-outline.svg);
+}
+
+.mdie-store {
+	content: url(../images/svg/store.svg);
+}
+
+.mdie-store-24-hour {
+	content: url(../images/svg/store-24-hour.svg);
+}
+
+.mdie-stove {
+	content: url(../images/svg/stove.svg);
+}
+
+.mdie-subdirectory-arrow-left {
+	content: url(../images/svg/subdirectory-arrow-left.svg);
+}
+
+.mdie-subdirectory-arrow-right {
+	content: url(../images/svg/subdirectory-arrow-right.svg);
+}
+
+.mdie-subway {
+	content: url(../images/svg/subway.svg);
+}
+
+.mdie-subway-variant {
+	content: url(../images/svg/subway-variant.svg);
+}
+
+.mdie-summit {
+	content: url(../images/svg/summit.svg);
+}
+
+.mdie-sunglasses {
+	content: url(../images/svg/sunglasses.svg);
+}
+
+.mdie-surround-sound {
+	content: url(../images/svg/surround-sound.svg);
+}
+
+.mdie-surround-sound-2-0 {
+	content: url(../images/svg/surround-sound-2-0.svg);
+}
+
+.mdie-surround-sound-3-1 {
+	content: url(../images/svg/surround-sound-3-1.svg);
+}
+
+.mdie-surround-sound-5-1 {
+	content: url(../images/svg/surround-sound-5-1.svg);
+}
+
+.mdie-surround-sound-7-1 {
+	content: url(../images/svg/surround-sound-7-1.svg);
+}
+
+.mdie-svg {
+	content: url(../images/svg/svg.svg);
+}
+
+.mdie-swap-horizontal {
+	content: url(../images/svg/swap-horizontal.svg);
+}
+
+.mdie-swap-horizontal-variant {
+	content: url(../images/svg/swap-horizontal-variant.svg);
+}
+
+.mdie-swap-vertical {
+	content: url(../images/svg/swap-vertical.svg);
+}
+
+.mdie-swap-vertical-variant {
+	content: url(../images/svg/swap-vertical-variant.svg);
+}
+
+.mdie-swim {
+	content: url(../images/svg/swim.svg);
+}
+
+.mdie-switch {
+	content: url(../images/svg/switch.svg);
+}
+
+.mdie-sword {
+	content: url(../images/svg/sword.svg);
+}
+
+.mdie-sword-cross {
+	content: url(../images/svg/sword-cross.svg);
+}
+
+.mdie-sync {
+	content: url(../images/svg/sync.svg);
+}
+
+.mdie-sync-alert {
+	content: url(../images/svg/sync-alert.svg);
+}
+
+.mdie-sync-off {
+	content: url(../images/svg/sync-off.svg);
+}
+
+.mdie-tab {
+	content: url(../images/svg/tab.svg);
+}
+
+.mdie-table {
+	content: url(../images/svg/table.svg);
+}
+
+.mdie-table-column {
+	content: url(../images/svg/table-column.svg);
+}
+
+.mdie-table-column-plus-after {
+	content: url(../images/svg/table-column-plus-after.svg);
+}
+
+.mdie-table-column-plus-before {
+	content: url(../images/svg/table-column-plus-before.svg);
+}
+
+.mdie-table-column-remove {
+	content: url(../images/svg/table-column-remove.svg);
+}
+
+.mdie-table-column-width {
+	content: url(../images/svg/table-column-width.svg);
+}
+
+.mdie-table-edit {
+	content: url(../images/svg/table-edit.svg);
+}
+
+.mdie-table-large {
+	content: url(../images/svg/table-large.svg);
+}
+
+.mdie-table-of-contents {
+	content: url(../images/svg/table-of-contents.svg);
+}
+
+.mdie-table-row {
+	content: url(../images/svg/table-row.svg);
+}
+
+.mdie-table-row-height {
+	content: url(../images/svg/table-row-height.svg);
+}
+
+.mdie-table-row-plus-after {
+	content: url(../images/svg/table-row-plus-after.svg);
+}
+
+.mdie-table-row-plus-before {
+	content: url(../images/svg/table-row-plus-before.svg);
+}
+
+.mdie-table-row-remove {
+	content: url(../images/svg/table-row-remove.svg);
+}
+
+.mdie-table-settings {
+	content: url(../images/svg/table-settings.svg);
+}
+
+.mdie-tablet {
+	content: url(../images/svg/tablet.svg);
+}
+
+.mdie-tablet-android {
+	content: url(../images/svg/tablet-android.svg);
+}
+
+.mdie-tablet-ipad {
+	content: url(../images/svg/tablet-ipad.svg);
+}
+
+.mdie-tab-plus {
+	content: url(../images/svg/tab-plus.svg);
+}
+
+.mdie-tab-unselected {
+	content: url(../images/svg/tab-unselected.svg);
+}
+
+.mdie-taco {
+	content: url(../images/svg/taco.svg);
+}
+
+.mdie-tag {
+	content: url(../images/svg/tag.svg);
+}
+
+.mdie-tag-faces {
+	content: url(../images/svg/tag-faces.svg);
+}
+
+.mdie-tag-heart {
+	content: url(../images/svg/tag-heart.svg);
+}
+
+.mdie-tag-minus {
+	content: url(../images/svg/tag-minus.svg);
+}
+
+.mdie-tag-multiple {
+	content: url(../images/svg/tag-multiple.svg);
+}
+
+.mdie-tag-outline {
+	content: url(../images/svg/tag-outline.svg);
+}
+
+.mdie-tag-plus {
+	content: url(../images/svg/tag-plus.svg);
+}
+
+.mdie-tag-remove {
+	content: url(../images/svg/tag-remove.svg);
+}
+
+.mdie-tag-text-outline {
+	content: url(../images/svg/tag-text-outline.svg);
+}
+
+.mdie-target {
+	content: url(../images/svg/target.svg);
+}
+
+.mdie-taxi {
+	content: url(../images/svg/taxi.svg);
+}
+
+.mdie-teach {
+	content: url(../images/svg/teach.svg);
+}
+
+.mdie-teamviewer {
+	content: url(../images/svg/teamviewer.svg);
+}
+
+.mdie-telegram {
+	content: url(../images/svg/telegram.svg);
+}
+
+.mdie-television {
+	content: url(../images/svg/television.svg);
+}
+
+.mdie-television-box {
+	content: url(../images/svg/television-box.svg);
+}
+
+.mdie-television-classic {
+	content: url(../images/svg/television-classic.svg);
+}
+
+.mdie-television-classic-off {
+	content: url(../images/svg/television-classic-off.svg);
+}
+
+.mdie-television-guide {
+	content: url(../images/svg/television-guide.svg);
+}
+
+.mdie-television-off {
+	content: url(../images/svg/television-off.svg);
+}
+
+.mdie-temperature-celsius {
+	content: url(../images/svg/temperature-celsius.svg);
+}
+
+.mdie-temperature-fahrenheit {
+	content: url(../images/svg/temperature-fahrenheit.svg);
+}
+
+.mdie-temperature-kelvin {
+	content: url(../images/svg/temperature-kelvin.svg);
+}
+
+.mdie-tennis {
+	content: url(../images/svg/tennis.svg);
+}
+
+.mdie-tent {
+	content: url(../images/svg/tent.svg);
+}
+
+.mdie-terrain {
+	content: url(../images/svg/terrain.svg);
+}
+
+.mdie-test-tube {
+	content: url(../images/svg/test-tube.svg);
+}
+
+.mdie-test-tube-empty {
+	content: url(../images/svg/test-tube-empty.svg);
+}
+
+.mdie-test-tube-off {
+	content: url(../images/svg/test-tube-off.svg);
+}
+
+.mdie-textbox {
+	content: url(../images/svg/textbox.svg);
+}
+
+.mdie-textbox-password {
+	content: url(../images/svg/textbox-password.svg);
+}
+
+.mdie-text-shadow {
+	content: url(../images/svg/text-shadow.svg);
+}
+
+.mdie-text-to-speech {
+	content: url(../images/svg/text-to-speech.svg);
+}
+
+.mdie-text-to-speech-off {
+	content: url(../images/svg/text-to-speech-off.svg);
+}
+
+.mdie-texture {
+	content: url(../images/svg/texture.svg);
+}
+
+.mdie-theater {
+	content: url(../images/svg/theater.svg);
+}
+
+.mdie-theme-light-dark {
+	content: url(../images/svg/theme-light-dark.svg);
+}
+
+.mdie-thermometer {
+	content: url(../images/svg/thermometer.svg);
+}
+
+.mdie-thermometer-lines {
+	content: url(../images/svg/thermometer-lines.svg);
+}
+
+.mdie-thermostat-box {
+	content: url(../images/svg/thermostat-box.svg);
+}
+
+.mdie-thought-bubble {
+	content: url(../images/svg/thought-bubble.svg);
+}
+
+.mdie-thought-bubble-outline {
+	content: url(../images/svg/thought-bubble-outline.svg);
+}
+
+.mdie-thumb-down {
+	content: url(../images/svg/thumb-down.svg);
+}
+
+.mdie-thumb-down-outline {
+	content: url(../images/svg/thumb-down-outline.svg);
+}
+
+.mdie-thumbs-up-down {
+	content: url(../images/svg/thumbs-up-down.svg);
+}
+
+.mdie-thumb-up {
+	content: url(../images/svg/thumb-up.svg);
+}
+
+.mdie-thumb-up-outline {
+	content: url(../images/svg/thumb-up-outline.svg);
+}
+
+.mdie-ticket {
+	content: url(../images/svg/ticket.svg);
+}
+
+.mdie-ticket-account {
+	content: url(../images/svg/ticket-account.svg);
+}
+
+.mdie-ticket-confirmation {
+	content: url(../images/svg/ticket-confirmation.svg);
+}
+
+.mdie-ticket-outline {
+	content: url(../images/svg/ticket-outline.svg);
+}
+
+.mdie-ticket-percent {
+	content: url(../images/svg/ticket-percent.svg);
+}
+
+.mdie-tie {
+	content: url(../images/svg/tie.svg);
+}
+
+.mdie-tilde {
+	content: url(../images/svg/tilde.svg);
+}
+
+.mdie-timelapse {
+	content: url(../images/svg/timelapse.svg);
+}
+
+.mdie-timer {
+	content: url(../images/svg/timer.svg);
+}
+
+.mdie-timer-3 {
+	content: url(../images/svg/timer-3.svg);
+}
+
+.mdie-timer-10 {
+	content: url(../images/svg/timer-10.svg);
+}
+
+.mdie-timer-off {
+	content: url(../images/svg/timer-off.svg);
+}
+
+.mdie-timer-sand {
+	content: url(../images/svg/timer-sand.svg);
+}
+
+.mdie-timer-sand-empty {
+	content: url(../images/svg/timer-sand-empty.svg);
+}
+
+.mdie-timer-sand-full {
+	content: url(../images/svg/timer-sand-full.svg);
+}
+
+.mdie-timetable {
+	content: url(../images/svg/timetable.svg);
+}
+
+.mdie-toggle-switch {
+	content: url(../images/svg/toggle-switch.svg);
+}
+
+.mdie-toggle-switch-off {
+	content: url(../images/svg/toggle-switch-off.svg);
+}
+
+.mdie-tooltip {
+	content: url(../images/svg/tooltip.svg);
+}
+
+.mdie-tooltip-edit {
+	content: url(../images/svg/tooltip-edit.svg);
+}
+
+.mdie-tooltip-image {
+	content: url(../images/svg/tooltip-image.svg);
+}
+
+.mdie-tooltip-outline {
+	content: url(../images/svg/tooltip-outline.svg);
+}
+
+.mdie-tooltip-outline-plus {
+	content: url(../images/svg/tooltip-outline-plus.svg);
+}
+
+.mdie-tooltip-text {
+	content: url(../images/svg/tooltip-text.svg);
+}
+
+.mdie-tooth {
+	content: url(../images/svg/tooth.svg);
+}
+
+.mdie-tooth-outline {
+	content: url(../images/svg/tooth-outline.svg);
+}
+
+.mdie-tor {
+	content: url(../images/svg/tor.svg);
+}
+
+.mdie-tower-beach {
+	content: url(../images/svg/tower-beach.svg);
+}
+
+.mdie-tower-fire {
+	content: url(../images/svg/tower-fire.svg);
+}
+
+.mdie-towing {
+	content: url(../images/svg/towing.svg);
+}
+
+.mdie-track-light {
+	content: url(../images/svg/track-light.svg);
+}
+
+.mdie-trackpad {
+	content: url(../images/svg/trackpad.svg);
+}
+
+.mdie-tractor {
+	content: url(../images/svg/tractor.svg);
+}
+
+.mdie-traffic-light {
+	content: url(../images/svg/traffic-light.svg);
+}
+
+.mdie-train {
+	content: url(../images/svg/train.svg);
+}
+
+.mdie-train-variant {
+	content: url(../images/svg/train-variant.svg);
+}
+
+.mdie-tram {
+	content: url(../images/svg/tram.svg);
+}
+
+.mdie-transcribe {
+	content: url(../images/svg/transcribe.svg);
+}
+
+.mdie-transcribe-close {
+	content: url(../images/svg/transcribe-close.svg);
+}
+
+.mdie-transfer {
+	content: url(../images/svg/transfer.svg);
+}
+
+.mdie-transition {
+	content: url(../images/svg/transition.svg);
+}
+
+.mdie-transition-masked {
+	content: url(../images/svg/transition-masked.svg);
+}
+
+.mdie-transit-transfer {
+	content: url(../images/svg/transit-transfer.svg);
+}
+
+.mdie-translate {
+	content: url(../images/svg/translate.svg);
+}
+
+.mdie-trash {
+	content: url(../images/svg/trash.svg);
+}
+
+.mdie-treasure-chest {
+	content: url(../images/svg/treasure-chest.svg);
+}
+
+.mdie-tree {
+	content: url(../images/svg/tree.svg);
+}
+
+.mdie-trello {
+	content: url(../images/svg/trello.svg);
+}
+
+.mdie-trending-down {
+	content: url(../images/svg/trending-down.svg);
+}
+
+.mdie-trending-neutral {
+	content: url(../images/svg/trending-neutral.svg);
+}
+
+.mdie-trending-up {
+	content: url(../images/svg/trending-up.svg);
+}
+
+.mdie-triangle {
+	content: url(../images/svg/triangle.svg);
+}
+
+.mdie-triangle-outline {
+	content: url(../images/svg/triangle-outline.svg);
+}
+
+.mdie-trophy-outline {
+	content: url(../images/svg/trophy-outline.svg);
+}
+
+.mdie-trophy-variant-outline {
+	content: url(../images/svg/trophy-variant-outline.svg);
+}
+
+.mdie-truck {
+	content: url(../images/svg/truck.svg);
+}
+
+.mdie-truck-delivery {
+	content: url(../images/svg/truck-delivery.svg);
+}
+
+.mdie-truck-fast {
+	content: url(../images/svg/truck-fast.svg);
+}
+
+.mdie-truck-trailer {
+	content: url(../images/svg/truck-trailer.svg);
+}
+
+.mdie-tshirt-crew {
+	content: url(../images/svg/tshirt-crew.svg);
+}
+
+.mdie-tshirt-v {
+	content: url(../images/svg/tshirt-v.svg);
+}
+
+.mdie-tumble-dryer {
+	content: url(../images/svg/tumble-dryer.svg);
+}
+
+.mdie-tumblr {
+	content: url(../images/svg/tumblr.svg);
+}
+
+.mdie-tumblr-box {
+	content: url(../images/svg/tumblr-box.svg);
+}
+
+.mdie-tumblr-reblog {
+	content: url(../images/svg/tumblr-reblog.svg);
+}
+
+.mdie-tune {
+	content: url(../images/svg/tune.svg);
+}
+
+.mdie-tune-vertical {
+	content: url(../images/svg/tune-vertical.svg);
+}
+
+.mdie-twitch {
+	content: url(../images/svg/twitch.svg);
+}
+
+.mdie-twitter {
+	content: url(../images/svg/twitter.svg);
+}
+
+.mdie-twitter-box {
+	content: url(../images/svg/twitter-box.svg);
+}
+
+.mdie-twitter-circle {
+	content: url(../images/svg/twitter-circle.svg);
+}
+
+.mdie-twitter-retweet {
+	content: url(../images/svg/twitter-retweet.svg);
+}
+
+.mdie-uber {
+	content: url(../images/svg/uber.svg);
+}
+
+.mdie-ubuntu {
+	content: url(../images/svg/ubuntu.svg);
+}
+
+.mdie-ultra-high-definition {
+	content: url(../images/svg/ultra-high-definition.svg);
+}
+
+.mdie-umbraco {
+	content: url(../images/svg/umbraco.svg);
+}
+
+.mdie-umbrella {
+	content: url(../images/svg/umbrella.svg);
+}
+
+.mdie-umbrella-outline {
+	content: url(../images/svg/umbrella-outline.svg);
+}
+
+.mdie-undo {
+	content: url(../images/svg/undo.svg);
+}
+
+.mdie-undo-variant {
+	content: url(../images/svg/undo-variant.svg);
+}
+
+.mdie-unfold-less-horizontal {
+	content: url(../images/svg/unfold-less-horizontal.svg);
+}
+
+.mdie-unfold-less-vertical {
+	content: url(../images/svg/unfold-less-vertical.svg);
+}
+
+.mdie-unfold-more-horizontal {
+	content: url(../images/svg/unfold-more-horizontal.svg);
+}
+
+.mdie-unfold-more-vertical {
+	content: url(../images/svg/unfold-more-vertical.svg);
+}
+
+.mdie-ungroup {
+	content: url(../images/svg/ungroup.svg);
+}
+
+.mdie-unity {
+	content: url(../images/svg/unity.svg);
+}
+
+.mdie-untappd {
+	content: url(../images/svg/untappd.svg);
+}
+
+.mdie-update {
+	content: url(../images/svg/update.svg);
+}
+
+.mdie-upload {
+	content: url(../images/svg/upload.svg);
+}
+
+.mdie-upload-multiple {
+	content: url(../images/svg/upload-multiple.svg);
+}
+
+.mdie-upload-network {
+	content: url(../images/svg/upload-network.svg);
+}
+
+.mdie-usb {
+	content: url(../images/svg/usb.svg);
+}
+
+.mdie-vanish {
+	content: url(../images/svg/vanish.svg);
+}
+
+.mdie-van-passenger {
+	content: url(../images/svg/van-passenger.svg);
+}
+
+.mdie-van-utility {
+	content: url(../images/svg/van-utility.svg);
+}
+
+.mdie-vector-arrange-above {
+	content: url(../images/svg/vector-arrange-above.svg);
+}
+
+.mdie-vector-arrange-below {
+	content: url(../images/svg/vector-arrange-below.svg);
+}
+
+.mdie-vector-circle {
+	content: url(../images/svg/vector-circle.svg);
+}
+
+.mdie-vector-circle-variant {
+	content: url(../images/svg/vector-circle-variant.svg);
+}
+
+.mdie-vector-combine {
+	content: url(../images/svg/vector-combine.svg);
+}
+
+.mdie-vector-curve {
+	content: url(../images/svg/vector-curve.svg);
+}
+
+.mdie-vector-difference {
+	content: url(../images/svg/vector-difference.svg);
+}
+
+.mdie-vector-difference-ab {
+	content: url(../images/svg/vector-difference-ab.svg);
+}
+
+.mdie-vector-difference-ba {
+	content: url(../images/svg/vector-difference-ba.svg);
+}
+
+.mdie-vector-ellipse {
+	content: url(../images/svg/vector-ellipse.svg);
+}
+
+.mdie-vector-intersection {
+	content: url(../images/svg/vector-intersection.svg);
+}
+
+.mdie-vector-line {
+	content: url(../images/svg/vector-line.svg);
+}
+
+.mdie-vector-point {
+	content: url(../images/svg/vector-point.svg);
+}
+
+.mdie-vector-polygon {
+	content: url(../images/svg/vector-polygon.svg);
+}
+
+.mdie-vector-polyline {
+	content: url(../images/svg/vector-polyline.svg);
+}
+
+.mdie-vector-radius {
+	content: url(../images/svg/vector-radius.svg);
+}
+
+.mdie-vector-rectangle {
+	content: url(../images/svg/vector-rectangle.svg);
+}
+
+.mdie-vector-selection {
+	content: url(../images/svg/vector-selection.svg);
+}
+
+.mdie-vector-square {
+	content: url(../images/svg/vector-square.svg);
+}
+
+.mdie-vector-triangle {
+	content: url(../images/svg/vector-triangle.svg);
+}
+
+.mdie-vector-union {
+	content: url(../images/svg/vector-union.svg);
+}
+
+.mdie-venmo {
+	content: url(../images/svg/venmo.svg);
+}
+
+.mdie-verified {
+	content: url(../images/svg/verified.svg);
+}
+
+.mdie-vibrate {
+	content: url(../images/svg/vibrate.svg);
+}
+
+.mdie-video {
+	content: url(../images/svg/video.svg);
+}
+
+.mdie-video-3d {
+	content: url(../images/svg/video-3d.svg);
+}
+
+.mdie-video-4k-box {
+	content: url(../images/svg/video-4k-box.svg);
+}
+
+.mdie-video-input-antenna {
+	content: url(../images/svg/video-input-antenna.svg);
+}
+
+.mdie-video-input-component {
+	content: url(../images/svg/video-input-component.svg);
+}
+
+.mdie-video-input-hdmi {
+	content: url(../images/svg/video-input-hdmi.svg);
+}
+
+.mdie-video-input-svideo {
+	content: url(../images/svg/video-input-svideo.svg);
+}
+
+.mdie-video-off {
+	content: url(../images/svg/video-off.svg);
+}
+
+.mdie-video-switch {
+	content: url(../images/svg/video-switch.svg);
+}
+
+.mdie-view-agenda {
+	content: url(../images/svg/view-agenda.svg);
+}
+
+.mdie-view-array {
+	content: url(../images/svg/view-array.svg);
+}
+
+.mdie-view-carousel {
+	content: url(../images/svg/view-carousel.svg);
+}
+
+.mdie-view-column {
+	content: url(../images/svg/view-column.svg);
+}
+
+.mdie-view-dashboard {
+	content: url(../images/svg/view-dashboard.svg);
+}
+
+.mdie-view-dashboard-variant {
+	content: url(../images/svg/view-dashboard-variant.svg);
+}
+
+.mdie-view-day {
+	content: url(../images/svg/view-day.svg);
+}
+
+.mdie-view-grid {
+	content: url(../images/svg/view-grid.svg);
+}
+
+.mdie-view-headline {
+	content: url(../images/svg/view-headline.svg);
+}
+
+.mdie-view-list {
+	content: url(../images/svg/view-list.svg);
+}
+
+.mdie-view-module {
+	content: url(../images/svg/view-module.svg);
+}
+
+.mdie-view-parallel {
+	content: url(../images/svg/view-parallel.svg);
+}
+
+.mdie-view-quilt {
+	content: url(../images/svg/view-quilt.svg);
+}
+
+.mdie-view-sequential {
+	content: url(../images/svg/view-sequential.svg);
+}
+
+.mdie-view-stream {
+	content: url(../images/svg/view-stream.svg);
+}
+
+.mdie-view-week {
+	content: url(../images/svg/view-week.svg);
+}
+
+.mdie-vimeo {
+	content: url(../images/svg/vimeo.svg);
+}
+
+.mdie-vine {
+	content: url(../images/svg/vine.svg);
+}
+
+.mdie-violin {
+	content: url(../images/svg/violin.svg);
+}
+
+.mdie-virtual-reality {
+	content: url(../images/svg/virtual-reality.svg);
+}
+
+.mdie-visualstudio {
+	content: url(../images/svg/visualstudio.svg);
+}
+
+.mdie-vk {
+	content: url(../images/svg/vk.svg);
+}
+
+.mdie-vk-box {
+	content: url(../images/svg/vk-box.svg);
+}
+
+.mdie-vk-circle {
+	content: url(../images/svg/vk-circle.svg);
+}
+
+.mdie-vlc {
+	content: url(../images/svg/vlc.svg);
+}
+
+.mdie-voice {
+	content: url(../images/svg/voice.svg);
+}
+
+.mdie-voicemail {
+	content: url(../images/svg/voicemail.svg);
+}
+
+.mdie-volume {
+	content: url(../images/svg/volume.svg);
+}
+
+.mdie-volume-high {
+	content: url(../images/svg/volume-high.svg);
+}
+
+.mdie-volume-low {
+	content: url(../images/svg/volume-low.svg);
+}
+
+.mdie-volume-medium {
+	content: url(../images/svg/volume-medium.svg);
+}
+
+.mdie-volume-minus {
+	content: url(../images/svg/volume-minus.svg);
+}
+
+.mdie-volume-mute {
+	content: url(../images/svg/volume-mute.svg);
+}
+
+.mdie-volume-off {
+	content: url(../images/svg/volume-off.svg);
+}
+
+.mdie-volume-plus {
+	content: url(../images/svg/volume-plus.svg);
+}
+
+.mdie-vpn {
+	content: url(../images/svg/vpn.svg);
+}
+
+.mdie-vuejs {
+	content: url(../images/svg/vuejs.svg);
+}
+
+.mdie-walk {
+	content: url(../images/svg/walk.svg);
+}
+
+.mdie-wall {
+	content: url(../images/svg/wall.svg);
+}
+
+.mdie-wallet {
+	content: url(../images/svg/wallet.svg);
+}
+
+.mdie-wallet-giftcard {
+	content: url(../images/svg/wallet-giftcard.svg);
+}
+
+.mdie-wallet-membership {
+	content: url(../images/svg/wallet-membership.svg);
+}
+
+.mdie-wallet-travel {
+	content: url(../images/svg/wallet-travel.svg);
+}
+
+.mdie-wall-sconce {
+	content: url(../images/svg/wall-sconce.svg);
+}
+
+.mdie-wall-sconce-flat {
+	content: url(../images/svg/wall-sconce-flat.svg);
+}
+
+.mdie-wall-sconce-variant {
+	content: url(../images/svg/wall-sconce-variant.svg);
+}
+
+.mdie-wan {
+	content: url(../images/svg/wan.svg);
+}
+
+.mdie-washing-machine {
+	content: url(../images/svg/washing-machine.svg);
+}
+
+.mdie-watch {
+	content: url(../images/svg/watch.svg);
+}
+
+.mdie-watch-export {
+	content: url(../images/svg/watch-export.svg);
+}
+
+.mdie-watch-export-variant {
+	content: url(../images/svg/watch-export-variant.svg);
+}
+
+.mdie-watch-import {
+	content: url(../images/svg/watch-import.svg);
+}
+
+.mdie-watch-import-variant {
+	content: url(../images/svg/watch-import-variant.svg);
+}
+
+.mdie-watch-variant {
+	content: url(../images/svg/watch-variant.svg);
+}
+
+.mdie-watch-vibrate {
+	content: url(../images/svg/watch-vibrate.svg);
+}
+
+.mdie-water {
+	content: url(../images/svg/water.svg);
+}
+
+.mdie-watermark {
+	content: url(../images/svg/watermark.svg);
+}
+
+.mdie-water-off {
+	content: url(../images/svg/water-off.svg);
+}
+
+.mdie-water-percent {
+	content: url(../images/svg/water-percent.svg);
+}
+
+.mdie-water-pump {
+	content: url(../images/svg/water-pump.svg);
+}
+
+.mdie-waves {
+	content: url(../images/svg/waves.svg);
+}
+
+.mdie-weather-cloudy {
+	content: url(../images/svg/weather-cloudy.svg);
+}
+
+.mdie-weather-fog {
+	content: url(../images/svg/weather-fog.svg);
+}
+
+.mdie-weather-hail {
+	content: url(../images/svg/weather-hail.svg);
+}
+
+.mdie-weather-lightning {
+	content: url(../images/svg/weather-lightning.svg);
+}
+
+.mdie-weather-lightning-rainy {
+	content: url(../images/svg/weather-lightning-rainy.svg);
+}
+
+.mdie-weather-night {
+	content: url(../images/svg/weather-night.svg);
+}
+
+.mdie-weather-partlycloudy {
+	content: url(../images/svg/weather-partlycloudy.svg);
+}
+
+.mdie-weather-pouring {
+	content: url(../images/svg/weather-pouring.svg);
+}
+
+.mdie-weather-rainy {
+	content: url(../images/svg/weather-rainy.svg);
+}
+
+.mdie-weather-snowy {
+	content: url(../images/svg/weather-snowy.svg);
+}
+
+.mdie-weather-snowy-rainy {
+	content: url(../images/svg/weather-snowy-rainy.svg);
+}
+
+.mdie-weather-sunny {
+	content: url(../images/svg/weather-sunny.svg);
+}
+
+.mdie-weather-sunset {
+	content: url(../images/svg/weather-sunset.svg);
+}
+
+.mdie-weather-sunset-down {
+	content: url(../images/svg/weather-sunset-down.svg);
+}
+
+.mdie-weather-sunset-up {
+	content: url(../images/svg/weather-sunset-up.svg);
+}
+
+.mdie-weather-windy {
+	content: url(../images/svg/weather-windy.svg);
+}
+
+.mdie-weather-windy-variant {
+	content: url(../images/svg/weather-windy-variant.svg);
+}
+
+.mdie-web {
+	content: url(../images/svg/web.svg);
+}
+
+.mdie-webcam {
+	content: url(../images/svg/webcam.svg);
+}
+
+.mdie-webhook {
+	content: url(../images/svg/webhook.svg);
+}
+
+.mdie-webpack {
+	content: url(../images/svg/webpack.svg);
+}
+
+.mdie-wechat {
+	content: url(../images/svg/wechat.svg);
+}
+
+.mdie-weight {
+	content: url(../images/svg/weight.svg);
+}
+
+.mdie-weight-kilogram {
+	content: url(../images/svg/weight-kilogram.svg);
+}
+
+.mdie-whatsapp {
+	content: url(../images/svg/whatsapp.svg);
+}
+
+.mdie-wheelchair-accessibility {
+	content: url(../images/svg/wheelchair-accessibility.svg);
+}
+
+.mdie-white-balance-auto {
+	content: url(../images/svg/white-balance-auto.svg);
+}
+
+.mdie-white-balance-incandescent {
+	content: url(../images/svg/white-balance-incandescent.svg);
+}
+
+.mdie-white-balance-iridescent {
+	content: url(../images/svg/white-balance-iridescent.svg);
+}
+
+.mdie-white-balance-sunny {
+	content: url(../images/svg/white-balance-sunny.svg);
+}
+
+.mdie-widgets {
+	content: url(../images/svg/widgets.svg);
+}
+
+.mdie-wifi {
+	content: url(../images/svg/wifi.svg);
+}
+
+.mdie-wifi-off {
+	content: url(../images/svg/wifi-off.svg);
+}
+
+.mdie-wii {
+	content: url(../images/svg/wii.svg);
+}
+
+.mdie-wiiu {
+	content: url(../images/svg/wiiu.svg);
+}
+
+.mdie-wikipedia {
+	content: url(../images/svg/wikipedia.svg);
+}
+
+.mdie-window-close {
+	content: url(../images/svg/window-close.svg);
+}
+
+.mdie-window-closed {
+	content: url(../images/svg/window-closed.svg);
+}
+
+.mdie-window-maximize {
+	content: url(../images/svg/window-maximize.svg);
+}
+
+.mdie-window-minimize {
+	content: url(../images/svg/window-minimize.svg);
+}
+
+.mdie-window-open {
+	content: url(../images/svg/window-open.svg);
+}
+
+.mdie-window-restore {
+	content: url(../images/svg/window-restore.svg);
+}
+
+.mdie-windows {
+	content: url(../images/svg/windows.svg);
+}
+
+.mdie-wordpress {
+	content: url(../images/svg/wordpress.svg);
+}
+
+.mdie-worker {
+	content: url(../images/svg/worker.svg);
+}
+
+.mdie-wrench {
+	content: url(../images/svg/wrench.svg);
+}
+
+.mdie-wunderlist {
+	content: url(../images/svg/wunderlist.svg);
+}
+
+.mdie-xamarin {
+	content: url(../images/svg/xamarin.svg);
+}
+
+.mdie-xamarin-outline {
+	content: url(../images/svg/xamarin-outline.svg);
+}
+
+.mdie-xaml {
+	content: url(../images/svg/xaml.svg);
+}
+
+.mdie-xbox {
+	content: url(../images/svg/xbox.svg);
+}
+
+.mdie-xbox-controller {
+	content: url(../images/svg/xbox-controller.svg);
+}
+
+.mdie-xbox-controller-battery-alert {
+	content: url(../images/svg/xbox-controller-battery-alert.svg);
+}
+
+.mdie-xbox-controller-battery-empty {
+	content: url(../images/svg/xbox-controller-battery-empty.svg);
+}
+
+.mdie-xbox-controller-battery-full {
+	content: url(../images/svg/xbox-controller-battery-full.svg);
+}
+
+.mdie-xbox-controller-battery-low {
+	content: url(../images/svg/xbox-controller-battery-low.svg);
+}
+
+.mdie-xbox-controller-battery-medium {
+	content: url(../images/svg/xbox-controller-battery-medium.svg);
+}
+
+.mdie-xbox-controller-battery-unknown {
+	content: url(../images/svg/xbox-controller-battery-unknown.svg);
+}
+
+.mdie-xbox-controller-off {
+	content: url(../images/svg/xbox-controller-off.svg);
+}
+
+.mdie-xda {
+	content: url(../images/svg/xda.svg);
+}
+
+.mdie-xing {
+	content: url(../images/svg/xing.svg);
+}
+
+.mdie-xing-box {
+	content: url(../images/svg/xing-box.svg);
+}
+
+.mdie-xing-circle {
+	content: url(../images/svg/xing-circle.svg);
+}
+
+.mdie-xml {
+	content: url(../images/svg/xml.svg);
+}
+
+.mdie-xmpp {
+	content: url(../images/svg/xmpp.svg);
+}
+
+.mdie-yammer {
+	content: url(../images/svg/yammer.svg);
+}
+
+.mdie-yeast {
+	content: url(../images/svg/yeast.svg);
+}
+
+.mdie-yelp {
+	content: url(../images/svg/yelp.svg);
+}
+
+.mdie-yin-yang {
+	content: url(../images/svg/yin-yang.svg);
+}
+
+.mdie-youtube {
+	content: url(../images/svg/youtube.svg);
+}
+
+.mdie-youtube-creator-studio {
+	content: url(../images/svg/youtube-creator-studio.svg);
+}
+
+.mdie-youtube-gaming {
+	content: url(../images/svg/youtube-gaming.svg);
+}
+
+.mdie-youtube-play {
+	content: url(../images/svg/youtube-play.svg);
+}
+
+.mdie-youtube-tv {
+	content: url(../images/svg/youtube-tv.svg);
+}
+
+.mdie-zip-box {
+	content: url(../images/svg/zip-box.svg);
+}

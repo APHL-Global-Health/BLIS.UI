@@ -1,0 +1,242 @@
+<!--<div class="FlexDisplay White Shadow-Navigation FlexRow" style="width:100%; ">
+	<div class="FlexDisplay  FlexRow Shadow White" style="margin:0px 0px 1px 0px; width:100%; height:100%;">
+		<div class='Menu FlexDisplay Divider-Right ' style="z-index:3;">
+			<ul class='Selection select--generic filter_gender' >
+				<li data-selected='true' data-value='title'>Test Status</li>
+				<li data-value='specimenaccepted'  >Specimen Accepted</li>
+				<li data-value='specimenrejected'>Specimen Rejected</li>
+				<li data-value='teststarted' >Test Started</li>
+				<li data-value='resulted'  >Resulted</li>
+				<li data-value='authorized'>Authorized</li>
+				<li data-value='resultrejected' >Result Rejected</li>
+				<li data-value='testrequested'  >Test Requested</li>
+			</ul>
+		</div>		
+		<div class='FlexDisplay Divider-Right '>
+			<div style="cursor:default; color:gray; width:150px;">
+				<input type="text" id="searchMessage" maxlength="14"  style="height:30px; font-weight:normal; font-size:16px; background:transparent; margin: 11px 0px 8px 16px; width:130px;" placeholder="Search">
+			</div>
+			<div id="searchBtn" class="FlexDisplay NonStandard Button Directional"><i class="mdi mdi-magnify" style="margin-top:16px;"></i></div>
+		</div>
+		
+	</div>
+</div>-->
+
+<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox Padding" style="width:100%; height:100%; padding-bottom:16px;">	
+	<div id="boxer" class="FlexDisplay Flex FlexRow Shadow White Round" style="width:100%; height:100%;">				
+		<div id="innerBox" class="FlexDisplay FlexColumn Divider-Left" style="width:100%; height:100%; position:relative;">
+			
+			<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%; overflow:hidden; position:relative;">
+				<div id="mapid" style="width:100%; height:100%;"></div>
+			</div>
+			<div class="FlexDisplay Flex FlexColumn" style="min-width:240px; max-width:240px; height:100%; top:0px; left:0px; position:absolute; background:rgba(255, 255, 255, 0.9); z-index: 314159;">
+				<div class="FlexDisplay FlexRow  Divider-Bottom" style="width:100%;">
+					<div class="FlexDisplay Flex FlexRow Blue-Dark" style="margin:16px; padding:10px 10px 10px 24px; overflow:hidden;">
+						<canvas id="qr"></canvas>
+					</div>
+				</div>
+				<div class="FlexDisplay FlexRow  Divider-Bottom" style="width:100%; height:64px;">
+					<span style="width:100%; height:100%; overflow:hidden; margin:10px 0px 0px 0px; position:relative;"><svg id="client_1" style="position:absolute; left:16px; top:-18px;"></svg></span>
+				</div>
+				<div class="FlexDisplay Flex FlexColumn"  style="margin:0px 0px 12px 0px;">
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">NAME</div>
+							<div id="facilityNameField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">ID</div>
+							<div id="idField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">LOCATION</div>
+							<div id="facilityLocationField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">REGION</div>
+							<div id="facilityRegionField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">DISTRICT</div>
+							<div id="facilityDistrictField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">COUNCIL</div>
+							<div id="facilityCouncilField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">Ilala MC</div>
+						</div>
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">STATUS</div>
+							<div id="facilityOperationgField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">Health Labs</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">TYPE</div>
+							<div id="facilityTypeField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">Health Labs</div>
+						</div>
+					</div>
+				</div>
+				<div class="FlexDisplay FlexRow Divider-Top" style="width:100%; max-height:40px; min-height:40px;">
+					<div id="editBtn" class="FlexDisplay Flex FlexGrow FlexRow  Divider-Right" style="width:100%; margin:0px 0px 0px 8px;">
+						<div class="FlexDisplay Button Options" style="font-size:16px; width:100%; height: 100%;"><i class="mdi mdi-pencil" style="margin:12px 0px 0px 0px;"></i></div>
+					</div>
+					<div id="printBtn" class="FlexDisplay Flex FlexGrow FlexRow  Divider-Right" style="width:100%; margin:0px 0px 0px 8px;">
+						<div class="FlexDisplay Button Options" style="font-size:16px; width:100%; height: 100%;"><i class="mdi mdi-printer" style="margin:12px 0px 0px 0px;"></i></div>
+					</div>
+					<div id="deleteBtn" class="FlexDisplay Flex FlexGrow FlexRow" style="width:100%; margin:0px 8px 0px 0px;">
+						<div class="FlexDisplay Button Options" style="font-size:16px; width:100%; height: 100%;"><i class="mdi mdi-delete-sweep" style="margin:12px 0px 0px 0px;"></i></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<link href="include/thirdparty/leaflet/leaflet.css" rel="stylesheet" type="text/css" />
+<link href="include/thirdparty/leaflet/leaflet-vector-markers.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="scripts/JsBarcode.all.min.js"></script>	
+<script type="text/javascript" src="include/thirdparty/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="include/thirdparty/qrious/dist/qrious.js"></script>
+<!--<script type="text/javascript" src="include/thirdparty/leaflet/leaflet-routeboxer.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/Polyline.encoded.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/leaflet.polylineDecorator.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/leaflet-vector-markers.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/MovingMarker.js"></script>-->
+
+<script>
+function getLatLong(data){
+	if(data == undefined) return null;
+	var d = data.split(",");
+	return [d[1], d[0]];
+}
+
+function Render(item){
+	
+	var maxZoom = 2;
+	var latlong = "";
+	
+	if(item.Latitude != ""){
+		latlong = item.Longitude+","+item.Latitude;	
+		maxZoom = 18;
+	}
+	
+	L.Icon.Default.imagePath = "include/thirdparty/leaflet/images/";	
+	
+	var map = L.map('mapid', { zoomControl:false });
+	var layer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: maxZoom,
+		minZoom: 2,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery ɠ<a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.streets'
+	});
+	layer.addTo(map);
+	
+	if(item.Latitude != ""){
+		var reCenter = getLatLong(latlong);	
+		map.setView([reCenter[0],reCenter[1]-0.002],17);
+		
+		var marker = L.marker(getLatLong(latlong)).addTo(map);
+		//marker.bindPopup("works");
+	}
+	else map.setView([0,0],2);
+	
+	
+}
+		
+function onResize(){
+	var wpx = $("#boxer").css("width").replace(/px/g,'');
+	var hpx = $("#content").css("height").replace(/px/g,'')-125;
+	$('#innerBox').css({"width":wpx+"px","max-height":hpx+"px"});
+}
+
+function GoBackToRequestor(){
+	var requestor = getParameterByName('requestor', pageQuery);
+	if(requestor == "facilities")
+	{
+		$("#menuSlider").css({"top":"56px"});
+		LoadSubPage('facilities', 'FACILITIES');
+	}
+}
+
+$('#editBtn').off("click");
+$('#editBtn').click(function(){
+	GoBackToRequestor();
+});
+
+$('#printBtn').off("click");
+$('#printBtn').click(function(){
+	GoBackToRequestor();
+});
+
+$('#deleteBtn').off("click");
+$('#deleteBtn').click(function(){
+	GoBackToRequestor();
+});
+
+var id = getParameterByName('id', pageQuery);
+
+
+var query  = "SELECT `ID`, `OtherID`, `FacilityNumber`, `FacilityName`, `CommonName`, `Zone`, `Region`, `District`, `Council`, `Ward`, `VillageStreet`, `FacilityType`, `OperatingStatus`, `Ownership`, `RegistrationNumber`, `Latitude`, `Longitude`, `Location`, `Source` ";
+query += "FROM `view_facilities` ";
+query += "WHERE `ID`='"+id+"' ";
+
+var SQL = require('include/scripts/modules/sql.js');
+SQL.query(query,'BLISMYSQLConnectionString','json',function (data, index, total){	
+	if(index == total) 
+	{
+		SQL = null;
+		if (data != null && data.length>0)
+		{
+			var item = data[0];
+			
+			$('#idField').html(item.FacilityNumber);
+			$('#facilityNameField').html(item.FacilityName);
+			$('#facilityLocationField').html(item.Location);			
+			$('#facilityRegionField').html(item.Region);
+			$('#facilityDistrictField').html(item.District);			
+			$('#facilityCouncilField').html(item.Council);
+			$('#facilityOperationgField').html(item.OperatingStatus);
+			$('#facilityTypeField').html(item.FacilityType);
+			
+			//
+			
+			var qr = new QRious({
+			  element: document.getElementById('qr'),
+			  value: item.FacilityNumber,
+			  size: 160,
+			  backgroundAlpha: 0,
+			  foreground: 'white'
+			});
+
+			JsBarcode("#client_1", item.FacilityNumber, {
+			  background:"transparent",
+			  lineColor: "#000",
+			  width: 2,
+			  height: 64,
+			  displayValue: false,
+			  margin:0,
+			  marginTop:0					  
+			});
+
+			Render(item);
+			CloseTransition();	
+		}		
+	}
+});	
+
+onResize();
+
+
+
+
+</script>

@@ -1,0 +1,100 @@
+<div class="FlexDisplay White Shadow-Navigation FlexRow" style="width:100%; ">
+	<div class="FlexDisplay  FlexRow Shadow White" style="margin:0px 0px 1px 0px; width:100%; height:100%;  z-index:4;">
+		<div class='Menu FlexDisplay Divider-Right' >
+			<ul class='Selection select--generic filter_sorting'>
+				<li data-selected='true' data-value='1'>Sorting: Alphabetically</li>
+				<li data-value='2'>Sorting: Score</li>
+			</ul>
+		</div>
+		<div class='Menu FlexDisplay Divider-Right' >
+			<ul class='Selection select--generic filter_report_type'>
+				<li data-selected='true' data-value='detailed'>Detailed Report</li>
+				<li data-value='ranking'>Ranking Report</li>
+				<li data-value='resultform'>Result Form</li>
+				<li data-value='exampleresultform'>Example Result Form</li>
+			</ul>
+		</div>
+		<!--<div class='Menu FlexDisplay Divider-Right' >
+			<ul class='Selection select--generic filter_rounds'>
+				<li data-selected='true' data-value='title'>Round</li>
+			</ul>
+		</div>-->
+		<div class='Menu FlexDisplay Divider-Right' >
+			<ul class='Selection select--generic filter_output'>
+				<li data-selected='true' data-value='pdf'>Pdf</li>
+				<li data-value='xlsx'>Excel</li>
+			</ul>
+		</div>		
+		<div class='FlexDisplay Divider-Right '>
+			<div style="cursor:default; color:gray; width:150px;">
+				<input type="text" id="searchText" style="height:30px; font-weight:normal; font-size:16px; background:transparent; margin: 11px 0px 8px 16px; width:130px;" placeholder="Search">
+			</div>
+			<div id="searchBtn" class="FlexDisplay NonStandard Button Directional"><i class="mdi mdi-magnify" style="margin-top:12px;"></i></div>
+		</div>
+	</div>
+</div>
+
+<div class="FlexDisplay  FlexColumn FlexBoxSizing-BorderBox Padding" style="width:100%; height:100%; ">	
+	<div id="boxer" class="FlexDisplay Flex FlexColumn Shadow Round White" style="width:100%; height:100%; background:#525659;">
+		<div id="innerBox" class="FlexDisplay Flex FlexColumn" style="height:100%;">
+			<div class="FlexDisplay Flex Divider-Bottom FlexRow White" style="height:48.5px; min-height:48.5px;">
+				<div class='FlexHidden Divider-Right ' >
+					<ul class='Selection select--generic filter_sheets'>
+						<li data-selected='true' data-value='title'>Sheets</li>
+					</ul>
+				</div>
+				<div class="FlexDisplay Flex FlexRow" style="height:100%;">
+					<div id="reportTitle" class="Header" style="font-size:12px; margin: 0px 0px 0px 16px; cursor:default; color:gray;"><div style="margin:20px 0px  0px  0px;"></div></div>
+				</div>
+				
+				<div id="loadingBay" class="FlexDisplay NonStandard Directional"></div>
+				<div id="printBtn" class="FlexHidden Button Directional "><i class="mdi mdi-printer"></i></div>				
+				<div id="downloadBtn" class="FlexHidden Button Directional "><i class="mdi mdi-download"></i></div>
+			</div>
+			
+			<div class="FlexDisplay FlexRow"  style="position:relative;">
+				<iframe id="reportListBox" frameborder="0" seamless='seamless'  style="width:100%; height:100%; border:0;"></iframe>
+				
+				<div id="reportLoader" class="trans-2-out" style="width:100%; height:100%; position:absolute; top:0px; left:0px; z-index:3;">
+					<div class="element" style="background:#525659;"></div>
+					<div class="element" style="background:#525659;"></div>
+					<div class="element" style="background:#525659;">
+						<div id="iPageLoader" class="spinnerContainer FlexHidden FlexDisplay">	
+							<div class="spinner FlexDisplay Flex FlexRow" style="width: 100%; height: 100%;">
+							  <div class="rect1 FlexDisplay FlexGrow" style="background-color:#ffffff;"></div>
+							  <div class="rect2 FlexDisplay FlexGrow" style="background-color:#ffffff;"></div>
+							  <div class="rect3 FlexDisplay FlexGrow" style="background-color:#ffffff;"></div>
+							  <div class="rect4 FlexDisplay FlexGrow" style="background-color:#ffffff;"></div>
+							  <div class="rect5 FlexDisplay FlexGrow" style="background-color:#ffffff;"></div>
+							</div>				
+						</div>
+					</div>
+					<div class="element" style="background:#525659;"></div>
+					<div class="element" style="background:#525659;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+function ResizeViews()
+{
+	var cutoff = 135;
+	var wpx = $("#boxer").css("width").replace(/px/g,'');
+	var hpx = $("#content").css("height").replace(/px/g,'')-49;
+	$('#innerBox').css({"min-height":(hpx-cutoff)+"px", "max-height":(hpx-cutoff)+"px"});
+	$('#reportListBox').css({"min-height":(hpx-cutoff)+"px", "max-height":(hpx-cutoff)+"px"});
+	$('#emailBox').css({"height":$('#reportListBox').css("height")});
+	$('#reportLoader').css({"min-height":(hpx-cutoff)+"px", "max-height":(hpx-cutoff)+"px"});
+}
+
+
+$(window).off("resize");
+$(window).resize(function (){ ResizeViews(); });
+
+ResizeViews();
+
+CloseTransition();
+</script>

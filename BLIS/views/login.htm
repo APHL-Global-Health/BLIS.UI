@@ -1,0 +1,158 @@
+<div class="FlexDisplay Flex FlexRow" style="width:100%; height:100%; overflow: hidden; margin: 0px; position: relative;">	
+	<img class="LoginImage" src="images/Cover-Pic.jpg" style="position: absolute; margin: auto; min-height: 100%; min-width: 100%; left: -100%; right: -100%; top: -100%; bottom: -100%;"/>
+	<div class="FlexDisplay" style="position: absolute; margin: 0px;  min-height: 100%; min-width: 100%;">
+		<div class="FlexDisplay FlexRow FlexBoxSizing-BorderBox" style="width:100%;">	
+			<div class="FlexDisplay Flex">
+				<div class="FlexDisplay" style="position:relative; width:100%;">
+					<div id="copyrightText" style="margin: 0px 0px 12px 0px; color:#242424; font-weight:bolder; text-align:center; font-size:10px; position:absolute; bottom:0px; width:100%;"></div>
+				</div>
+			</div>
+			<div class="FlexDisplay FlexColumn" style="min-width:400px; max-width:400px; min-height:100%; max-height:100%; background: rgba(255,255,255,.9);">
+				<div class="FlexDisplay FlexColumn Animation-3ms" style="height:300px; min-height:300px;">
+					<div style="margin: 70px 0px 0px 0px; padding:0px 0px 0px 0px; color:#4FC2E5; font-weight:bolder; text-align:center; font-size:100px;">BASIC</div>
+					<div style="margin: 0px 0px 0px 0px; padding:0px 0px 0px 0px; color:#536577; font-weight:bolder; text-align:center; font-size:16px;">LABORATORY INFORMATION SYSTEM</div>
+					
+					<div class="FlexDisplay" style="width:100%;">
+						<div class="FlexDisplay Flex FlexGrow" style="border-bottom: 1px solid #d1d1d1; height:19px;  margin-left:58px;"></div>
+						<div class="FlexDisplay">
+							<div style="margin: 12px 8px 0px 8px; padding:0px 0px 0px 0px; color:#a1a1a1; font-weight:bolder; text-align:center; font-size:12px;">PRO-EDITION</div>
+						</div>
+						<div class="FlexDisplay Flex FlexGrow" style="border-bottom: 1px solid #d1d1d1; height:19px;  margin-right:58px;"></div>
+					</div>
+				</div>
+				<div class="FlexDisplay FlexRow Animation-3ms White Divider-Bottom" style="height:50px; min-height:50px; border-left: 3px solid #ffffff; ">
+					<input type="text" id="user_username" autofocus placeholder="Username" onkeyup="if(event.keyCode == 13)login(); return false;" autocomplete="off">
+				</div>
+				<div class="FlexDisplay FlexRow Animation-3ms White Divider-Bottom" style="height:50px; min-height:50px; border-left: 3px solid #ffffff;">
+					<input type="password" id="user_password" placeholder="Password" onkeyup="if(event.keyCode == 13)login();">
+				</div>
+				<div class="FlexDisplay FlexRow Animation-3ms White Divider-Bottom" style="height:50px; min-height:50px;">
+					<div id="user_login" class="Box2 Button Animation-3ms" disabled style="height:50px; width:100%; margin:0px; display:block; " onclick="login();"><span style="display:block; margin-top: 17px; padding-bottom: 20px; ">LOGIN</span></div>
+				</div>
+				<div class="FlexDisplay Flex Animation-3msk">
+					<span id='statustext' class="FlexTitle" style="color:red; font-size:12px; text-align:center; width:100%;"></span>
+				</div>
+				<div class="FlexDisplay">
+					<div class="FlexDisplay Flex"></div>
+					<div id="loginShutdownBtn" class="FlexHidden Options Animation-3ms" style="width:55px; height: 55px;"><i class="mdi mdi-power"></i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+if(IsExposed() && !inIframe()){
+	$("#loginShutdownBtn").addClass("FlexDisplay");
+	$("#loginShutdownBtn").addClass("Button");
+}
+
+function getLoaders(color){
+	var spinner = '';
+	spinner += '<div class="spinner basic">';
+	spinner += '  <div class="rect1" style="background-color: '+color+';"></div>';
+	spinner += '  <div class="rect2" style="background-color: '+color+';"></div>';
+	spinner += '  <div class="rect3" style="background-color: '+color+';"></div>';
+	spinner += '  <div class="rect4" style="background-color: '+color+';"></div>';
+	spinner += '  <div class="rect5" style="background-color: '+color+';"></div>';
+	spinner += '</div>';
+	return spinner;
+}
+
+function logout(){
+	$('#appsBtn').unbind( "click" );
+	var AppsBar = $("#rightSide");
+	if(AppsBar != undefined)AppsBar.removeClass('Opened');	
+	var loader = require('include/scripts/modules/loader.js');
+	if(loader != undefined || loader != null){
+		loader.get('logout', function(response, error){ loader = null; });
+	}
+}
+
+function login(){
+	if(!$("#user_login").hasClass("Disabled")){
+		$("#statustext").html("");
+		$("#user_login").addClass("Disabled");
+		$("#user_login").html('<div style="width:100%;"><div style="margin:16px auto; display:block; width:30px;">'+getLoaders('#ffffff')+'</div></div>');
+		
+		var loader = require('include/scripts/modules/loader.js');
+		if(loader != undefined || loader != null){
+			loader.get('authenticate', function(response, error){
+				loader = null; 
+				if(error == null){
+					response.json()
+					.then(data => {							
+						var waitTimer = setTimeout(function (){					
+							if(data.Status == "OK") $("#user_login").html('<div style="width:100%;"><div style="margin:12px auto; display:block; width:30px;"><i class="mdi mdi-check-circle-outline" style="font-size:24px;"></div></div>');
+							else $("#user_login").html('<div style="width:100%;"><div style="margin:12px auto; display:block; width:30px;"><i class="mdi mdi-alert-circle-outline" style="font-size:24px;"></div></div>');
+							
+							waitTimer = setTimeout(function (){
+								if(data.Status == "OK")LoadMainPage('index');
+								else $("#statustext").html("Invalid Username/Password");					
+								$("#user_login").html('<span style="display:block; margin-top: 17px; padding-bottom: 20px; ">LOGIN</span>');
+								$("#user_login").removeClass("Disabled");
+								isRefreshing = false;
+							}, 2000);
+							
+						}, 1000);
+					});	
+				}
+				else {
+					if(error.status==403) {
+						var waitTimer = setTimeout(function (){						
+							$("#user_login").html('<div style="width:100%;"><div style="margin:12px auto; display:block; width:30px;"><i class="mdi mdi-alert-circle-outline" style="font-size:24px;"></div></div>');
+							waitTimer = setTimeout(function (){
+								$("#statustext").html(error.message);					
+								$("#user_login").html('<span style="display:block; margin-top: 17px; padding-bottom: 20px; ">LOGIN</span>');
+								$("#user_login").removeClass("Disabled");
+								isRefreshing = false;
+							}, 2000);						
+						}, 1000);
+					}
+					console.error(error);
+				}
+			},{ 
+				'Content-Type': 'application/x-www-form-urlencoded',
+				headers: {
+					"Authorization": "Basic " + btoa($("#user_username").val()+':'+$("#user_password").val())
+				}
+			});	
+		}
+	}
+}
+
+$('#loginShutdownBtn').off("click");
+$('#loginShutdownBtn').click(function(){
+	var trns = 'trans-'+$('body').attr('data-transition');
+	$('#tpage').removeClass(trns+'-open');
+	$('#tpage').removeClass(trns+'-out').css({'display': 'block'});
+	$('#tpage').addClass(trns+'-in').delay(650).queue(function(){
+		$( this ).dequeue();
+		$('#loader').addClass("FlexDisplay");	
+		$('#loaderText').html("Shutting down..");		
+		setTimeout(function(){
+			var loader = require('include/scripts/modules/loader.js');
+			if(loader != undefined || loader != null){
+				loader.get('system/shutdown', function(response, error){loader = null; });	
+			}				
+		}, 1000);
+	});
+});
+
+$('#user_username').focus(function(){
+	$(this).parent('div').css('border-left-color','#4FC2E5');
+}).blur(function(){
+	$(this).parent('div').css('border-left-color','#ffffff');
+});
+
+$('#user_password').focus(function(){
+	$(this).parent('div').css('border-left-color','#4FC2E5');
+}).blur(function(){
+	$(this).parent('div').css('border-left-color','#ffffff');
+});
+	
+var cprtDT = new Date();
+$('#copyrightText').html("Copyright © "+cprtDT.getFullYear()+" National Health Laboratory Qaulity Assurance &amp; Training Center. All rights reserved.");
+
+logout();
+</script>

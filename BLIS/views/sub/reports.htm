@@ -1,0 +1,71 @@
+<div class="FlexDisplay FlexRow" style="width:100%; height:100%;">
+	<div id="ReportNavigator" class="FlexDisplay FlexRow Navigation Animation-3ms" style="height:100%; background:#4FC2E5;">
+		<div class="FlexDisplay FlexColumn" style="width:100%; height:100%;  overflow:hidden;">
+			<div class="FlexDisplay FlexColumn Flex scroll scroll2" style="display:block; width:100%; height:100%;">
+				
+			</div>
+			<div class="FlexDisplay FlexColumn" style="width:100%; height:auto;">
+				<div class="OkButton FlexDisplay NonStandard Button Directional Submit Round" class="trigger" style="margin:8px; min-width:190px; max-width:190px;"><span class="text" style="text-align:center; margin: 8px 0px 8px 0px;"><span style="display:block; margin: 0px 0px 0px 0px;">SAVE</span></span></div>
+			</div>
+		</div>
+		<div class="FlexDisplay FlexRow White Shadow-Navigation" style="min-width:48px; max-width:48px; height:100%;">		
+			<div id="reportOptions" tooltip="Report Options" flow="right" class="FlexDisplay Button NonStandard Directional Overflow-Show Animation-3ms" style="border-bottom: 1px solid rgba(0,0,0,0.1); min-height: 55px; max-height: 55px;">
+				<div class="FlexDisplay FlexRow">
+					<div class="FlexDisplay" style="margin:0px 0px 0px 12px;"><i class="mdi mdi-dots-vertical"></i></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="FlexDisplay FlexRow Shadow-Navigation" style="width:100%; height:100%;">
+		<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox Padding" style="width:100%; height:100%; padding-bottom:16px;">	
+			<div id="boxer" class="FlexDisplay Flex FlexRow Shadow Round" style="width:100%; height:100%;  background:#525659;">
+				<div id="innerBox" class="FlexDisplay FlexColumn" style="width:100%; height:100%;">
+					<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox"  style="width:100%; height:100%; position:relative;">
+						<div class="FlexDisplay FlexRow Flex scroll scroll2"  style="width:100%; position:relative;">
+							<iframe id="reportViewer" class="FlexHidden" frameborder="0" seamless='seamless'  style="width:100%; height:100%; border:0;"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+if(currentInnerPage == "views/sub/reports.htm"){
+
+	//function InitDatePicker(){
+	//	if($('.datepicker-range-report').length > 0 && $('.datepicker-range-report').datepicker != undefined && $('.datepicker-range-report').datepicker != null && typeof($('.datepicker-range-report').datepicker) === "function"){
+	//		$('.datepicker-range-report').datepicker({
+	//			language: 'en'
+	//			,range:true
+	//			,multipleDatesSeparator:" - "
+	//			,toggleSelected: false
+	//			,dateFormat: 'yyyy-mm-dd'
+	//		});	
+	//		
+	//		var datepicker = $('.datepicker-range-report').datepicker().data('datepicker');
+	//		
+	//		var today = new Date();
+	//		datepicker.selectDate(today);
+	//		datepicker.selectDate(today);
+			
+			$("#reportOptions").off("click");
+			$("#reportOptions").click(function(){
+				if($("#ReportNavigator").hasClass('Opened'))$("#ReportNavigator").removeClass('Opened');
+				else $("#ReportNavigator").addClass('Opened');
+			});
+			
+			if(innerPageAnimation != undefined || innerPageAnimation != null){
+				innerPageAnimation.close(function(){
+					innerPageAnimation.text("");
+					//search
+				});
+			}
+	//	}
+	//	else setTimeout(InitDatePicker, 1000);
+	//}
+	//setTimeout(InitDatePicker, 1000);
+
+	
+}
+</script>

@@ -1,0 +1,182 @@
+<div class="FlexDisplay FlexRow" style="width:100%; height:100%;">
+	<div id="PatientNavigator" class="FlexDisplay FlexRow Navigation Animation-3ms" style="height:100%; background:#4FC2E5;">
+		<div class="FlexDisplay FlexColumn" style="width:100%; height:100%;  overflow:hidden;">
+			<div class="FlexDisplay FlexColumn" style="min-width:190px; max-width:190px; margin:8px; min-height:176px; max-height:176px; background:rgba(0, 0, 0, 0.2); ">
+				
+			</div>
+			<div class="FlexDisplay FlexColumn Flex scroll scroll2" style="display:block; width:100%; height:100%;">
+				
+			</div>
+			<div class="FlexDisplay FlexColumn" style="width:100%; height:auto;">
+				<div class="OkButton FlexDisplay NonStandard Button Directional Submit Round" class="trigger" style="margin:8px; min-width:190px; max-width:190px;"><span class="text" style="text-align:center; margin: 8px 0px 8px 0px;"><span style="display:block; margin: 0px 0px 0px 0px;">SAVE</span></span></div>
+			</div>			
+			<!--<div style="display:block; width:100%; margin:0px;">
+				<p style="font-family: 'Blokk', Arial, sans-serif; color:rgba(0, 0, 0, 0.2); margin:0px 0px; font-size:12px; line-height:1.5;">9 7</p>
+			</div>-->
+		</div>
+		<div class="FlexDisplay FlexRow White Shadow-Navigation" style="min-width:48px; max-width:48px; height:100%;">		
+			<div id="newPatient" tooltip="New Patient" flow="right" class="FlexDisplay Button NonStandard Directional Overflow-Show Animation-3ms" style="border-bottom: 1px solid rgba(0,0,0,0.1); min-height: 55px; max-height: 55px;">
+				<div class="FlexDisplay FlexRow">
+					<div class="FlexDisplay" style="margin:0px 0px 0px 12px;"><i class="mdi mdi-account-plus"></i></div>
+				</div>
+			</div>		
+		</div>
+	</div>
+	<div class="FlexDisplay FlexRow Shadow-Navigation" style="width:100%; height:100%;">
+		<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox Padding" style="width:100%; height:100%; padding-bottom:16px;">	
+			<div id="boxer" class="FlexDisplay Flex FlexRow Shadow White Round" style="width:100%; height:100%;">
+				<div id="innerBox" class="FlexDisplay FlexColumn" style="width:100%; height:100%;">
+					<div class="FlexDisplay Divider-Bottom FlexRow" style="width:100%; min-height:40px; max-height:40px;">
+						<div class="FlexDisplay Flex FlexRow" style="width:100%; height:100%;">
+							
+						</div>
+						<div id="viewList" class="FlexDisplay Button NonStandard Directional Selected" style="min-height:40px; max-height:40px;"><i class="mdi mdi-view-list" style="margin-top:10px; font-size:18px;"></i></div>
+						<div id="viewGrid" class="FlexDisplay Button NonStandard Directional" style="min-height:40px; max-height:40px;"><i class="mdi mdi-view-module" style="margin-top:10px; font-size:18px;"></i></div>
+					</div>
+					<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox "  style="width:100%; height:100%; position:relative;">
+						<div id="patientListBox" class="scroll scroll2"  style="width:100%; overflow-x:hidden;">						
+							<div class="Divider-Bottom FlexHidden FlexDisplay FlexRow Overflow-Hidden ListHeader" style="width:100%; padding:0px; min-height:24px; max-height:24px;">
+								<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;"></div>
+								<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">AGE</div>
+								<div class="FlexDisplay Divider-Right" style="min-width:70px; max-width:70px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">VISITS</span></div>
+								<div class="FlexDisplay Divider-Right" style="min-width:120px; max-width:120px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">ID</span></div>
+								<div class="FlexDisplay" style="width:100%; min-height: 30px; max-height: 30px; overflow:hidden; padding:7px 8px 0px 8px; font-size:9px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">NAME</span></div>				
+							</div>
+							<div class="AnimatedGrid ListView" style="width:100%;  height:100%;">
+								<div class="FlexDisplay FlexRow   AnimatedItem">
+									<div class="FlexRow Overflow-Hidden List  " style="width:100%; padding:0px;">
+										<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:2px 0px 0px 0px; color:gray;"><span style="text-align:center; display:inline-block; width:100%; font-size:16px;"><i class="mdi mdi-human-male"></i></div>
+										<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">AGE</div>
+										<div class="FlexDisplay Divider-Right" style="min-width:70px; max-width:70px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">VISITS</span></div>
+										<div class="FlexDisplay Divider-Right" style="min-width:120px; max-width:120px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">ID</span></div>
+										<div class="FlexDisplay" style="width:100%; min-height: 30px; max-height: 30px; overflow:hidden; padding:7px 8px 0px 8px; font-size:9px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">FREDRICK MWASEKAGA</span></div>				
+									</div>
+									<div class="FlexColumn Overflow-Hidden Grid Round Shadow  " style="width:100%; padding:2px;">
+										<div class="Round" style="background:black; display:block; position:relative; overflow:hidden; width:100%;  height:100%; box-sizing:border-box; padding:0px;  ">
+										</div>
+										<div class="FlexDisplay FlexColumn" style="overflow:hidden; width:100%;  min-height:48px; max-height:48px; box-sizing:border-box; padding:0px;  ">
+											<div class="FlexDisplay FlexRow Divider-Bottom" style="width:100%; min-height:24px; max-height:24px; overflow:hidden; font-size:9px;">
+												<div class="Divider-Right" style="margin:2px 0px 1px 2px; white-space: nowrap; min-width:24px; max-width:24px; overflow:hidden; color:gray; font-size:18px;"><i class="mdi mdi-human-male" style="margin:0px 0px 0px 3px;"></i></div>
+												<div style="margin:8px 2px 0px 8px; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; font-weight:bold;">FREDRICK MWASEKAGA</div>
+											</div>
+											<div class="FlexDisplay FlexRow Divider-Bottom" style="width:100%; min-height:24px; max-height:24px; overflow:hidden; font-size:9px;">
+												<div class="Divider-Right" style="margin:2px 0px 1px 2px; white-space: nowrap; min-width:24px; max-width:24px; overflow:hidden; color:gray; font-size:8px; font-weight:bold; text-align:center;"><span style="display:block; margin:6px 0px 0px 0px;">AGE</span></div>
+												<div style="margin:8px 0px 0px 8px; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; font-weight:bold;">ID</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="FlexDisplay FlexRow   AnimatedItem">
+									<div class="FlexRow Overflow-Hidden List  " style="width:100%; padding:0px;">
+										<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:2px 0px 0px 0px; color:gray;"><span style="text-align:center; display:inline-block; width:100%; font-size:16px;"><i class="mdi mdi-human-female"></i></div>
+										<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">AGE</div>
+										<div class="FlexDisplay Divider-Right" style="min-width:70px; max-width:70px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">VISITS</span></div>
+										<div class="FlexDisplay Divider-Right" style="min-width:120px; max-width:120px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">ID</span></div>
+										<div class="FlexDisplay" style="width:100%; min-height: 30px; max-height: 30px; overflow:hidden; padding:7px 8px 0px 8px; font-size:9px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">JANE SMITH</span></div>				
+									</div>
+									<div class="FlexColumn Overflow-Hidden Grid Round Shadow  " style="width:100%; padding:2px;">
+										<div class="Round" style="background:black; display:block; position:relative; overflow:hidden; width:100%;  height:100%; box-sizing:border-box; padding:0px;  ">
+										</div>
+										<div class="FlexDisplay FlexColumn" style="overflow:hidden; width:100%;  min-height:48px; max-height:48px; box-sizing:border-box; padding:0px;  ">
+											<div class="FlexDisplay FlexRow Divider-Bottom" style="width:100%; min-height:24px; max-height:24px; overflow:hidden; font-size:9px;">
+												<div class="Divider-Right" style="margin:2px 0px 1px 2px; white-space: nowrap; min-width:24px; max-width:24px; overflow:hidden; color:gray; font-size:18px;"><i class="mdi mdi-human-female" style="margin:0px 0px 0px 3px;"></i></div>
+												<div style="margin:8px 2px 0px 8px; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; font-weight:bold;">JANE SMITH</div>
+											</div>
+											<div class="FlexDisplay FlexRow Divider-Bottom" style="width:100%; min-height:24px; max-height:24px; overflow:hidden; font-size:9px;">
+												<div class="Divider-Right" style="margin:2px 0px 1px 2px; white-space: nowrap; min-width:24px; max-width:24px; overflow:hidden; color:gray; font-size:8px; font-weight:bold; text-align:center;"><span style="display:block; margin:6px 0px 0px 0px;">AGE</span></div>
+												<div style="margin:8px 0px 0px 8px; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; font-weight:bold;">ID</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="FlexDisplay FlexRow   AnimatedItem">
+									<div class="FlexRow Overflow-Hidden List  " style="width:100%; padding:0px;">
+										<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:2px 0px 0px 0px; color:gray;"><span style="text-align:center; display:inline-block; width:100%; font-size:16px;"><i class="mdi mdi-human-male-female"></i></div>
+										<div class="FlexDisplay Divider-Right" style="min-width:32px; max-width:32px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">AGE</div>
+										<div class="FlexDisplay Divider-Right" style="min-width:70px; max-width:70px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">VISITS</span></div>
+										<div class="FlexDisplay Divider-Right" style="min-width:120px; max-width:120px; min-height: 30px; max-height: 30px; padding:7px 0px 0px 0px;"><span style="text-align:center; display:inline-block; width:100%; font-size:9px;">ID</span></div>
+										<div class="FlexDisplay" style="width:100%; min-height: 30px; max-height: 30px; overflow:hidden; padding:7px 8px 0px 8px; font-size:9px;"><span style="white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">HILARY JOE</span></div>				
+									</div>
+									<div class="FlexColumn Overflow-Hidden Grid Round Shadow  " style="width:100%; padding:2px;">
+										<div class="Round" style="background:black; display:block; position:relative; overflow:hidden; width:100%;  height:100%; box-sizing:border-box; padding:0px;  ">
+										</div>
+										<div class="FlexDisplay FlexColumn" style="overflow:hidden; width:100%;  min-height:48px; max-height:48px; box-sizing:border-box; padding:0px;  ">
+											<div class="FlexDisplay FlexRow Divider-Bottom" style="width:100%; min-height:24px; max-height:24px; overflow:hidden; font-size:9px;">
+												<div class="Divider-Right" style="margin:2px 0px 1px 2px; white-space: nowrap; min-width:24px; max-width:24px; overflow:hidden; color:gray; font-size:18px;"><i class="mdi mdi-human-male-female" style="margin:0px 0px 0px 3px;"></i></div>
+												<div style="margin:8px 2px 0px 8px; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; font-weight:bold;">HILARY JOE</div>
+											</div>
+											<div class="FlexDisplay FlexRow Divider-Bottom" style="width:100%; min-height:24px; max-height:24px; overflow:hidden; font-size:9px;">
+												<div class="Divider-Right" style="margin:2px 0px 1px 2px; white-space: nowrap; min-width:24px; max-width:24px; overflow:hidden; color:gray; font-size:8px; font-weight:bold; text-align:center;"><span style="display:block; margin:6px 0px 0px 0px;">AGE</span></div>
+												<div style="margin:8px 0px 0px 8px; white-space: nowrap; width:100%; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; font-weight:bold;">ID</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>//Blue-Custom
+//<div class="AnimatedGrid" style=" height:100%;  margin: 0 auto;">
+//<div class="FlexDisplay FlexColumn Shadow White Round AnimatedItem" style="min-height:154px; max-height:154px; width:602px; padding:2px 2px 0px 2px; overflow:hidden;">
+
+if(currentInnerPage == "views/sub/patients.htm"){
+
+	$("#newPatient").off("click");
+	$("#newPatient").click(function(){
+		if($("#PatientNavigator").hasClass('Opened')){
+			$("#PatientNavigator").removeClass('Opened').delay(300).queue(function(){
+				$( this ).dequeue();
+				$("#patientListBox").find(".AnimatedGrid").masonry('layout');
+			});
+		}
+		else {
+			$("#PatientNavigator").addClass('Opened').delay(300).queue(function(){
+				$( this ).dequeue();
+				$("#patientListBox").find(".AnimatedGrid").masonry('layout');
+			});
+		}
+		
+	});
+	
+	$("#viewList").off("click");
+	$("#viewList").click(function(){
+		$("#viewGrid").removeClass('Selected');
+		$("#viewList").addClass('Selected');
+		
+		$("#patientListBox").find(".AnimatedGrid").removeClass("GridView");
+		$("#patientListBox").find(".ListHeader").addClass("FlexDisplay");
+		$("#patientListBox").find(".AnimatedGrid").masonry('layout');
+		
+		//$("#patientListBox").find(".AnimatedGrid .AnimatedItem").each(function() {
+		//	//$(this).removeClass("Blue-Custom");
+		//	//$(this).removeClass("GridView");
+		//});
+	});
+	
+	$("#viewGrid").off("click");
+	$("#viewGrid").click(function(){
+		$("#viewList").removeClass('Selected');
+		$("#viewGrid").addClass('Selected');
+		
+		$("#patientListBox").find(".AnimatedGrid").addClass("GridView");
+		$("#patientListBox").find(".ListHeader").removeClass("FlexDisplay");
+		
+		$("#patientListBox").find(".AnimatedGrid").masonry('layout');
+	});
+	
+	$("#patientListBox").find(".AnimatedGrid").masonry({ itemSelector: '.AnimatedItem'});
+	
+
+	if(innerPageAnimation != undefined || innerPageAnimation != null){
+		innerPageAnimation.close(function(){
+			innerPageAnimation.text("");
+		});
+	}
+}
+</script>

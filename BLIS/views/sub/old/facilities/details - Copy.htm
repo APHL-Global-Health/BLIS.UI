@@ -1,0 +1,337 @@
+<!--<div class="FlexDisplay White Shadow-Navigation FlexRow" style="width:100%; ">
+	<div class="FlexDisplay  FlexRow Shadow White" style="margin:0px 0px 1px 0px; width:100%; height:100%;">
+		<div class='Menu FlexDisplay Divider-Right ' style="z-index:3;">
+			<ul class='Selection select--generic filter_gender' >
+				<li data-selected='true' data-value='title'>Test Status</li>
+				<li data-value='specimenaccepted'  >Specimen Accepted</li>
+				<li data-value='specimenrejected'>Specimen Rejected</li>
+				<li data-value='teststarted' >Test Started</li>
+				<li data-value='resulted'  >Resulted</li>
+				<li data-value='authorized'>Authorized</li>
+				<li data-value='resultrejected' >Result Rejected</li>
+				<li data-value='testrequested'  >Test Requested</li>
+			</ul>
+		</div>		
+		<div class='FlexDisplay Divider-Right '>
+			<div style="cursor:default; color:gray; width:150px;">
+				<input type="text" id="searchMessage" maxlength="14"  style="height:30px; font-weight:normal; font-size:16px; background:transparent; margin: 11px 0px 8px 16px; width:130px;" placeholder="Search">
+			</div>
+			<div id="searchBtn" class="FlexDisplay NonStandard Button Directional"><i class="mdi mdi-magnify" style="margin-top:16px;"></i></div>
+		</div>
+		
+	</div>
+</div>-->
+
+<div class="FlexDisplay Flex FlexColumn FlexBoxSizing-BorderBox Padding" style="width:100%; height:100%; padding-bottom:16px;">	
+	<div id="boxer" class="FlexDisplay Flex FlexRow Shadow White Round" style="width:100%; height:100%;">				
+		<div id="innerBox" class="FlexDisplay FlexColumn Divider-Left" style="width:100%; height:100%; position:relative;">
+			
+			<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%; overflow:hidden; position:relative;">
+				<div id="mapid" style="width:100%; height:100%;"></div>
+			</div>
+			<div class="FlexDisplay Flex FlexColumn" style="min-width:240px; max-width:240px; height:100%; top:0px; left:0px; position:absolute; background:rgba(255, 255, 255, 0.9); z-index: 314159;">
+				<div class="FlexDisplay FlexRow  Divider-Bottom" style="width:100%;">
+					<div class="FlexDisplay Flex FlexRow Blue-Dark" style="margin:16px; padding:10px 10px 10px 24px; overflow:hidden;">
+						<canvas id="qr"></canvas>
+					</div>
+				</div>
+				<div class="FlexDisplay FlexRow  Divider-Bottom" style="width:100%; height:64px;">
+					<span style="width:100%; height:100%; overflow:hidden; margin:10px 0px 0px 0px; position:relative;"><svg id="client_1" style="position:absolute; left:16px; top:-18px;"></svg></span>
+				</div>
+				<div class="FlexDisplay Flex FlexColumn"  style="margin:0px 0px 12px 0px;">
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">NAME</div>
+							<div id="facilityNameField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">ID</div>
+							<div id="idField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">LOCATION</div>
+							<div id="facilityLocationField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">REGION</div>
+							<div id="facilityRegionField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">DISTRICT</div>
+							<div id="facilityDistrictField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">...</div>
+						</div>
+					</div>
+					<div class="FlexDisplay Flex FlexRow" style="width:100%; height:40px;">
+						<div class="FlexDisplay Flex FlexColumn" style="width:128px; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">COUNCIL</div>
+							<div id="facilityCouncilField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">Ilala MC</div>
+						</div>
+						<div class="FlexDisplay Flex FlexColumn" style="width:100%; height:100%;">
+							<div style="width:100%; min-height:10px; max-height:10px; font-weight:bolder; font-size:8px; margin:14px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1; color:grey; ">TYPE</div>
+							<div id="facilityTypeField" style="width:100%; min-height:36px; max-height:36px; font-weight:bolder; font-size:10px; margin:0px 0px 0px 10px; position:relative; white-space: nowrap; text-overflow:ellipsis; -webkit-line-clamp:1; line-height:1;">Health Labs</div>
+						</div>
+					</div>
+				</div>
+				<div class="FlexDisplay FlexRow Divider-Top" style="width:100%; max-height:40px; min-height:40px;">
+					<div id="editBtn" class="FlexDisplay Flex FlexGrow FlexRow  Divider-Right" style="width:100%; margin:0px 0px 0px 8px;">
+						<div class="FlexDisplay Button Options" style="font-size:16px; width:100%; height: 100%;"><i class="mdi mdi-pencil" style="margin:12px 0px 0px 0px;"></i></div>
+					</div>
+					<div id="printBtn" class="FlexDisplay Flex FlexGrow FlexRow  Divider-Right" style="width:100%; margin:0px 0px 0px 8px;">
+						<div class="FlexDisplay Button Options" style="font-size:16px; width:100%; height: 100%;"><i class="mdi mdi-printer" style="margin:12px 0px 0px 0px;"></i></div>
+					</div>
+					<div id="deleteBtn" class="FlexDisplay Flex FlexGrow FlexRow" style="width:100%; margin:0px 8px 0px 0px;">
+						<div class="FlexDisplay Button Options" style="font-size:16px; width:100%; height: 100%;"><i class="mdi mdi-delete-sweep" style="margin:12px 0px 0px 0px;"></i></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<link href="include/thirdparty/leaflet/leaflet.css" rel="stylesheet" type="text/css" />
+<link href="include/thirdparty/leaflet/leaflet-vector-markers.css" rel="stylesheet" type="text/css" />
+	
+<script type="text/javascript" src="scripts/JsBarcode.all.min.js"></script>	
+<script type="text/javascript" src="include/thirdparty/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="include/thirdparty/qrious/dist/qrious.js"></script>
+<!--<script type="text/javascript" src="include/thirdparty/leaflet/leaflet-routeboxer.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/Polyline.encoded.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/leaflet.polylineDecorator.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/leaflet-vector-markers.js"></script>
+<script type="text/javascript" src="include/thirdparty/leaflet/MovingMarker.js"></script>-->
+
+<script>
+function getLatLong(data){
+	if(data == undefined) return null;
+	var d = data.split(",");
+	return [d[1], d[0]];
+}
+
+function getLatLongArray(data){
+	var d = [];
+	for (var i = 0; i < data.length; i++) 
+	{ 
+		var l = getLatLong(data[i]);
+		if(l != null)d.push(l); 
+	}
+	return d;
+}
+
+function getLongLat(data){
+	if(data == undefined) return null;
+	var d = data.split(",");
+	return [d[0], d[1]];
+}
+
+function getLongLatArray(data){
+	var d = [];
+	for (var i = 0; i < data.length; i++) 
+	{ 
+		var l = getLongLat(data[i]);
+		if(l != null)d.push(l); 
+	}
+	return d;
+}
+
+function getDurationArray(data){
+	var duration = [];
+	for (var i = 0; i < data.length; i++) { duration.push(2000); }
+	return duration;
+}
+
+function rounting(map, latlong, zoom, callback){
+	var markers = [];
+	
+	var url = 'https://router.project-osrm.org/route/v1/driving/';	
+	var fp = getLatLong(latlong[0]);			
+	map.setView(fp,zoom);
+	var first_marker = L.marker(getLatLong(latlong[0]), {icon: L.VectorMarkers.icon({icon: 'car', prefix: 'mdi', markerColor: '#cc0000', iconColor: '#eee8d5'}) });
+	first_marker.addTo(map);
+	first_marker.bindPopup("Logitude: "+fp[1]+", Latitude: "+fp[0]);
+	markers.push(first_marker);
+	
+	var jqxhr = $.ajax({
+		url: url + latlong.join(';'),
+		dataType: 'json',
+		data: {
+		  overview: 'full',			//Add overview geometry either full, simplified according to highest zoom level it could be display on, or not at all.
+		  steps: true,				//Return route steps for each route leg
+		  //compression: false,
+		  //annotations: false,		//Returns additional metadata for each coordinate along the route geometry.
+		  alternatives: false 		//Search for alternative routes and return as well. *
+		}				
+	})
+	.done(function(data) {
+		console.log(data);
+		var points = L.PolylineUtil.decode(data.routes[0].geometry);
+		var route = new L.Polyline(points); // OSRM polyline decoding
+		var pattern = L.polylineDecorator(points, { patterns: [ {offset: 25, repeat: 50, symbol: L.Symbol.arrowHead({pixelSize: 15, pathOptions: {color: "#ffffff", fillColor: "#3388ff", fillOpacity: 0.9, opacity: 0.9, fill: true, stroke:true, weight: 1}})} ] });
+		
+		var distance = 10; // Distance in km
+		var boxes = L.RouteBoxer.box(route, distance);
+		var bounds = new L.LatLngBounds([]);
+		for (var i = 0; i < boxes.length; i++) { bounds.extend(boxes[i]); }
+
+		route.addTo(map);
+		pattern.addTo(map);				
+		map.fitBounds(bounds);
+		
+		if(latlong.length > 1)
+		{
+			var lp = getLatLong(latlong[latlong.length-1]);	
+			var last_marker = L.marker(lp, {icon: L.VectorMarkers.icon({icon: 'car', prefix: 'mdi', markerColor: '#00e600', iconColor: '#eee8d5'}) });
+			last_marker.addTo(map);
+			last_marker.bindPopup("Logitude: "+lp[1]+", Latitude: "+lp[0]);
+			markers.push(last_marker);
+		}
+		
+		if(callback != undefined)callback({markers:markers, route:route});
+
+	})
+	.fail(function(data) {
+		console.log("rounting error");
+		console.log(data);
+	});
+}
+
+function tracking(map, latlong, duration, zoom, popup, params = {}, followOnScreen = false){
+	map.setView(getLatLong(latlong[0]),zoom);
+	
+	var marker = L.Marker.movingMarker([getLatLong(latlong[0])],[],params);
+	marker.addTo(map);
+	marker.bindPopup(popup);
+	marker.setFollowOnScreen(followOnScreen);
+	marker.on('animating', function(e) {
+		if(marker.getFollowOnScreen()){ map.setView(e.latLng,zoom); }
+	});			
+	for (var i = 1; i < latlong.length; i++) { marker.addLatLngAndMoveTo(getLatLong(latlong[i]), duration); }			
+	return marker;
+}
+
+function Render(){
+	L.Icon.Default.imagePath = "include/thirdparty/leaflet/images/";
+	var maxZoom = 18;
+	var latlong = [ '39.297508,-6.812213', '39.272389,-6.752886', '39.278958,-6.740350', '39.284519,-6.739746' ];
+	var latlong2 = [ '39.284519,-6.739746', '39.278958,-6.740350', '39.272389,-6.752886', '39.297508,-6.812213' ];
+	
+	var map = L.map('mapid', { zoomControl:false });
+	var layer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: maxZoom,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery ɠ<a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.streets'
+	});
+	layer.addTo(map);
+	
+	var reCenter = getLatLong(latlong[0]);	
+	map.setView([reCenter[0],reCenter[1]-0.002],17);
+	
+	var marker = L.marker(getLatLong(latlong[0])).addTo(map);
+	marker.bindPopup("works");
+	
+	//// create custom icon
+	//var CrossHairIcon = L.icon({
+	//	iconUrl: 'images/iconmonstr-crosshair-9.svg',
+	//	iconSize: [32, 32], // size of the icon
+	//	});
+    //
+	//// create marker object, pass custom icon as option, add to map         
+	//var marker = L.marker(getLatLong(latlong[0]), {icon: CrossHairIcon}).addTo(map);
+	//marker.bindPopup("works");
+	////marker.setFollowOnScreen(followOnScreen);
+	////marker.on('animating', function(e) {
+	////	if(marker.getFollowOnScreen()){ map.setView(e.latLng,zoom); }
+	////});
+}
+		
+function onResize(){
+	var wpx = $("#boxer").css("width").replace(/px/g,'');
+	var hpx = $("#content").css("height").replace(/px/g,'')-125;
+	$('#innerBox').css({"width":wpx+"px","max-height":hpx+"px"});
+}
+
+function GoBackToRequestor(){
+	var requestor = getParameterByName('requestor', pageQuery);
+	if(requestor == "facilities")
+	{
+		$("#menuSlider").css({"top":"56px"});
+		LoadSubPage('facilities', 'FACILITIES');
+	}
+}
+
+$('#editBtn').off("click");
+$('#editBtn').click(function(){
+	GoBackToRequestor();
+});
+
+$('#printBtn').off("click");
+$('#printBtn').click(function(){
+	GoBackToRequestor();
+});
+
+$('#deleteBtn').off("click");
+$('#deleteBtn').click(function(){
+	GoBackToRequestor();
+});
+
+var id = getParameterByName('id', pageQuery);
+
+
+var query  = "SELECT `ID`, `OtherID`, `FacilityNumber`, `FacilityName`, `CommonName`, `Zone`, `Region`, `District`, `Council`, `Ward`, `VillageStreet`, `FacilityType`, `OperatingStatus`, `Ownership`, `RegistrationNumber`, `Latitude`, `Longitude`, `Location`, `Source` ";
+query += "FROM `view_facilities` ";
+query += "WHERE `ID`='"+id+"' ";
+
+var SQL = require('include/scripts/modules/sql.js');
+SQL.query(query,'BLISMYSQLConnectionString','json',function (data, index, total){	
+	if(index == total) 
+	{
+		SQL = null;
+		if (data != null && data.length>0)
+		{
+			var item = data[0];
+			
+			$('#idField').html(item.FacilityNumber);
+			$('#facilityNameField').html(item.FacilityName);
+			$('#facilityLocationField').html(item.Location);			
+			$('#facilityRegionField').html(item.Region);
+			$('#facilityDistrictField').html(item.District);			
+			$('#facilityCouncilField').html(item.Council);
+			$('#facilityTypeField').html(item.FacilityType);
+			
+			var qr = new QRious({
+			  element: document.getElementById('qr'),
+			  value: item.FacilityNumber,
+			  size: 160,
+			  backgroundAlpha: 0,
+			  foreground: 'white'
+			});
+
+			JsBarcode("#client_1", item.FacilityNumber, {
+			  background:"transparent",
+			  lineColor: "#000",
+			  width: 2,
+			  height: 64,
+			  displayValue: false,
+			  margin:0,
+			  marginTop:0					  
+			});
+
+			
+			Render();
+			CloseTransition();	
+		}		
+	}
+});	
+
+onResize();
+
+
+
+
+</script>
