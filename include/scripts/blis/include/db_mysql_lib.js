@@ -136,6 +136,9 @@ define(function(require) {
 	function query_num_rows(table_name){
 		var query_string = "SELECT COUNT(*) AS val FROM "+table_name;
 		var record = query_associative_one(query_string);
+		if(record != undefined && record != null){
+			return null;
+		}
 		if(LOG_QUERIES == true){
 			DebugLib.logQuery(query_string, db_get_current(), SESSION['username']);
 			DebugLib.logDBUpdates(query, db_get_current());

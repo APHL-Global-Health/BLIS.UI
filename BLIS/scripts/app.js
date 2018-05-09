@@ -271,6 +271,10 @@ define(function(require) {
 		};
 	}
 	
+	function fetchPatient(id){
+		return "Patient id: "+id;
+	}
+	
 	return {
 		version: '0.0.1',
 		inIframe: inIframe,
@@ -281,6 +285,7 @@ define(function(require) {
 		loader: loader,
 		showDialog:showDialog,
 		require:require,
-		pageAnimation:pageAnimation
+		pageAnimation:pageAnimation,
+		fetchPatient:fetchPatient
 	};
 });

@@ -90,7 +90,6 @@ function NaviageTo(page){
 				cancelStream = false;
 				app.loader.get(page, {'Content-Type': 'application/x-www-form-urlencoded'},
 					function(stream, bytesReceived, completed){
-						console.log({Stream:stream, BytesReceived:bytesReceived, Completed:completed});
 						if(cancelStream == true && stream != undefined && stream != null){
 							stream.cancel();
 						}					
@@ -117,6 +116,18 @@ function NaviageTo(page){
 $(document).ready(function(){ 
 	require(['scripts/app'], function(app) {
 		window.app = app;
+		
+		require(['include/scripts/blis/include/db_mysql_lib'], function(db_mysql_lib) {
+			//facscalibur.connect = function(){
+			//	return "connected";
+			//}getDatabaseName
+			//var con = db_mysql_lib.connect();
+			console.log(db_mysql_lib);
+			console.log(db_mysql_lib.getDatabaseName(db_mysql_lib.con));
+			db_mysql_lib.mysql_select_db("kagacotz_eqa_db", db_mysql_lib.con);
+			console.log(db_mysql_lib.getDatabaseName(db_mysql_lib.con));
+		});
+		
 				
 		NaviageTo("views/index.htm");
 		
